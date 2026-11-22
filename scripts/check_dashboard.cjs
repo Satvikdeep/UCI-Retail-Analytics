@@ -126,7 +126,7 @@ async function verify() {
         await page.screenshot({path: `.build/qa/${id}-${width}.png`, fullPage: width !== 320});
       }
       await page.getByRole("link", {name: "Executive report"}).click();
-      await page.getByRole("heading", {name: "Principal findings"}).waitFor();
+      await page.locator("#findings .brief-finding").first().waitFor();
       const findings = await page.locator("#findings").textContent();
       assert.ok(findings.includes(money.format(row("sales_totals", "All markets", "All dates").net)));
       assert.ok(findings.includes("£160,717.84") && findings.includes("38.8%") && findings.includes("£618,280.85"));
