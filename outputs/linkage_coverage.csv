@@ -1,0 +1,666 @@
+lookback,period,scope,evidence,completion,cancellation_lines,cancellation_value,matched_value,lines_with_pre_window_risk,value_with_pre_window_risk
+90,All dates,All markets,Candidate capacity exhausted,Unlinked,68,2003.530,0.000,5,636.950
+90,All dates,All markets,Missing customer ID,Unlinked,332,6646.690,0.000,60,914.370
+90,All dates,All markets,No earlier candidate,Unlinked,3651,90072.250,0.000,959,14716.320
+90,All dates,All markets,One candidate invoice,Full,10346,485281.970,485281.970,895,17826.450
+90,All dates,All markets,One candidate invoice,Partial,105,6988.420,4700.850,5,64.050
+90,All dates,All markets,Several candidate invoices,Full,3462,126343.830,126343.830,230,4971.660
+90,All dates,All markets,Several candidate invoices,Partial,9,2319.650,1954.200,2,481.500
+90,All dates,Australia,No earlier candidate,Unlinked,14,246.350,0.000,13,220.850
+90,All dates,Australia,One candidate invoice,Full,73,1075.900,1075.900,0,
+90,All dates,Australia,Several candidate invoices,Full,8,195.610,195.610,0,
+90,All dates,Austria,No earlier candidate,Unlinked,1,21.250,0.000,0,
+90,All dates,Austria,One candidate invoice,Full,12,204.160,204.160,0,
+90,All dates,Bahrain,Missing customer ID,Unlinked,2,248.240,0.000,0,
+90,All dates,Belgium,No earlier candidate,Unlinked,3,23.830,0.000,0,
+90,All dates,Belgium,One candidate invoice,Full,44,366.250,366.250,1,9.950
+90,All dates,Belgium,Several candidate invoices,Full,2,4.200,4.200,0,
+90,All dates,Channel Islands,No earlier candidate,Unlinked,8,50.200,0.000,3,25.700
+90,All dates,Channel Islands,One candidate invoice,Full,79,2057.070,2057.070,2,34.000
+90,All dates,Channel Islands,Several candidate invoices,Full,4,81.250,81.250,0,
+90,All dates,Cyprus,No earlier candidate,Unlinked,1,42.500,0.000,0,
+90,All dates,Cyprus,One candidate invoice,Full,18,257.850,257.850,5,131.900
+90,All dates,Cyprus,Several candidate invoices,Full,1,196.350,196.350,0,
+90,All dates,Czech Republic,No earlier candidate,Unlinked,2,57.510,0.000,0,
+90,All dates,Czech Republic,One candidate invoice,Full,2,57.510,57.510,0,
+90,All dates,Denmark,No earlier candidate,Unlinked,3,67.600,0.000,2,17.200
+90,All dates,Denmark,One candidate invoice,Full,12,3993.650,3993.650,1,3630.800
+90,All dates,Denmark,Several candidate invoices,Full,2,5.850,5.850,0,
+90,All dates,EIRE,Candidate capacity exhausted,Unlinked,1,61.200,0.000,0,
+90,All dates,EIRE,Missing customer ID,Unlinked,53,1278.620,0.000,1,9.950
+90,All dates,EIRE,No earlier candidate,Unlinked,32,437.380,0.000,15,124.500
+90,All dates,EIRE,One candidate invoice,Full,189,8915.690,8915.690,14,661.650
+90,All dates,EIRE,Several candidate invoices,Full,196,9695.860,9695.860,3,48.850
+90,All dates,European Community,One candidate invoice,Full,1,8.500,8.500,0,
+90,All dates,Finland,One candidate invoice,Full,11,90.440,90.440,0,
+90,All dates,France,Candidate capacity exhausted,Unlinked,2,63.600,0.000,1,29.700
+90,All dates,France,No earlier candidate,Unlinked,63,1756.000,0.000,44,817.150
+90,All dates,France,One candidate invoice,Full,252,15073.030,15073.030,15,146.220
+90,All dates,France,One candidate invoice,Partial,2,44.550,28.050,0,
+90,All dates,France,Several candidate invoices,Full,45,724.860,724.860,5,43.350
+90,All dates,Germany,Candidate capacity exhausted,Unlinked,1,8.500,0.000,0,
+90,All dates,Germany,No earlier candidate,Unlinked,99,948.510,0.000,17,170.820
+90,All dates,Germany,One candidate invoice,Full,533,5217.560,5217.560,76,687.580
+90,All dates,Germany,One candidate invoice,Partial,3,106.200,44.600,0,
+90,All dates,Germany,Several candidate invoices,Full,231,2434.720,2434.720,26,217.350
+90,All dates,Greece,One candidate invoice,Full,5,50.700,50.700,0,
+90,All dates,Hong Kong,Missing customer ID,Unlinked,1,10.950,0.000,0,
+90,All dates,Israel,One candidate invoice,Full,2,227.440,227.440,0,
+90,All dates,Italy,No earlier candidate,Unlinked,7,48.150,0.000,5,24.150
+90,All dates,Italy,One candidate invoice,Full,36,424.450,424.450,0,
+90,All dates,Italy,Several candidate invoices,Full,15,187.250,187.250,0,
+90,All dates,Italy,Several candidate invoices,Partial,1,50.850,33.900,0,
+90,All dates,Japan,No earlier candidate,Unlinked,12,1866.350,0.000,3,208.750
+90,All dates,Japan,One candidate invoice,Full,65,974.550,974.550,20,37.010
+90,All dates,Japan,Several candidate invoices,Full,16,436.240,436.240,0,
+90,All dates,Korea,One candidate invoice,Full,10,168.690,168.690,0,
+90,All dates,Malta,Candidate capacity exhausted,Unlinked,1,19.900,0.000,0,
+90,All dates,Malta,One candidate invoice,Full,13,70.220,70.220,0,
+90,All dates,Netherlands,No earlier candidate,Unlinked,2,382.500,0.000,0,
+90,All dates,Netherlands,One candidate invoice,Full,17,1266.430,1266.430,0,
+90,All dates,Netherlands,Several candidate invoices,Full,16,2029.050,2029.050,2,361.000
+90,All dates,Nigeria,Missing customer ID,Unlinked,2,147.050,0.000,2,147.050
+90,All dates,Norway,One candidate invoice,Full,10,141.880,141.880,0,
+90,All dates,Norway,Several candidate invoices,Full,1,19.800,19.800,0,
+90,All dates,Outside UK,Candidate capacity exhausted,Unlinked,5,153.200,0.000,1,29.700
+90,All dates,Outside UK,Missing customer ID,Unlinked,88,2210.760,0.000,32,671.100
+90,All dates,Outside UK,No earlier candidate,Unlinked,269,6384.560,0.000,105,1637.970
+90,All dates,Outside UK,One candidate invoice,Full,1690,58863.720,58863.720,136,5410.270
+90,All dates,Outside UK,One candidate invoice,Partial,7,221.050,117.550,0,
+90,All dates,Outside UK,Several candidate invoices,Full,557,16559.140,16559.140,36,670.550
+90,All dates,Outside UK,Several candidate invoices,Partial,1,50.850,33.900,0,
+90,All dates,Poland,One candidate invoice,Full,18,222.860,222.860,0,
+90,All dates,Poland,Several candidate invoices,Full,5,151.500,151.500,0,
+90,All dates,Portugal,No earlier candidate,Unlinked,3,22.990,0.000,0,
+90,All dates,Portugal,One candidate invoice,Full,41,474.190,474.190,0,
+90,All dates,Portugal,One candidate invoice,Partial,2,70.300,44.900,0,
+90,All dates,Portugal,Several candidate invoices,Full,4,62.800,62.800,0,
+90,All dates,Saudi Arabia,One candidate invoice,Full,1,14.750,14.750,0,
+90,All dates,Spain,No earlier candidate,Unlinked,5,72.800,0.000,2,3.350
+90,All dates,Spain,One candidate invoice,Full,74,12811.740,12811.740,1,33.000
+90,All dates,Spain,Several candidate invoices,Full,2,70.650,70.650,0,
+90,All dates,Sweden,No earlier candidate,Unlinked,3,146.700,0.000,1,25.500
+90,All dates,Sweden,One candidate invoice,Full,13,1647.270,1647.270,0,
+90,All dates,Sweden,Several candidate invoices,Full,1,180.000,180.000,0,
+90,All dates,Switzerland,No earlier candidate,Unlinked,10,170.090,0.000,0,
+90,All dates,Switzerland,One candidate invoice,Full,31,863.490,863.490,0,
+90,All dates,Switzerland,Several candidate invoices,Full,7,72.950,72.950,0,
+90,All dates,USA,No earlier candidate,Unlinked,1,23.850,0.000,0,
+90,All dates,USA,One candidate invoice,Full,125,2056.470,2056.470,0,
+90,All dates,United Arab Emirates,Missing customer ID,Unlinked,29,514.100,0.000,29,514.100
+90,All dates,United Arab Emirates,One candidate invoice,Full,3,130.980,130.980,1,38.160
+90,All dates,United Kingdom,Candidate capacity exhausted,Unlinked,63,1850.330,0.000,4,607.250
+90,All dates,United Kingdom,Missing customer ID,Unlinked,244,4435.930,0.000,28,243.270
+90,All dates,United Kingdom,No earlier candidate,Unlinked,3382,83687.690,0.000,854,13078.350
+90,All dates,United Kingdom,One candidate invoice,Full,8656,426418.250,426418.250,759,12416.180
+90,All dates,United Kingdom,One candidate invoice,Partial,98,6767.370,4583.300,5,64.050
+90,All dates,United Kingdom,Several candidate invoices,Full,2905,109784.690,109784.690,194,4301.110
+90,All dates,United Kingdom,Several candidate invoices,Partial,8,2268.800,1920.300,2,481.500
+90,All dates,Unspecified,Missing customer ID,Unlinked,1,11.800,0.000,0,
+90,All dates,Unspecified,Several candidate invoices,Full,1,10.200,10.200,0,
+90,Dec 2010,All markets,Candidate capacity exhausted,Unlinked,8,229.600,0.000,0,
+90,Dec 2010,All markets,Missing customer ID,Unlinked,23,242.220,0.000,0,
+90,Dec 2010,All markets,No earlier candidate,Unlinked,52,1351.930,0.000,0,
+90,Dec 2010,All markets,One candidate invoice,Full,365,9360.280,9360.280,0,
+90,Dec 2010,All markets,One candidate invoice,Partial,2,139.450,90.400,0,
+90,Dec 2010,All markets,Several candidate invoices,Full,248,6284.380,6284.380,0,
+90,Dec 2010,Australia,One candidate invoice,Full,3,27.750,27.750,0,
+90,Dec 2010,Austria,One candidate invoice,Full,1,20.160,20.160,0,
+90,Dec 2010,EIRE,Missing customer ID,Unlinked,1,15.000,0.000,0,
+90,Dec 2010,EIRE,No earlier candidate,Unlinked,1,49.900,0.000,0,
+90,Dec 2010,EIRE,One candidate invoice,Full,10,304.760,304.760,0,
+90,Dec 2010,EIRE,Several candidate invoices,Full,17,633.650,633.650,0,
+90,Dec 2010,France,No earlier candidate,Unlinked,1,4.950,0.000,0,
+90,Dec 2010,France,One candidate invoice,Full,3,27.150,27.150,0,
+90,Dec 2010,France,Several candidate invoices,Full,1,8.850,8.850,0,
+90,Dec 2010,Germany,No earlier candidate,Unlinked,2,32.650,0.000,0,
+90,Dec 2010,Germany,One candidate invoice,Full,29,256.450,256.450,0,
+90,Dec 2010,Germany,Several candidate invoices,Full,20,371.200,371.200,0,
+90,Dec 2010,Israel,One candidate invoice,Full,2,227.440,227.440,0,
+90,Dec 2010,Italy,One candidate invoice,Full,1,17.000,17.000,0,
+90,Dec 2010,Outside UK,Missing customer ID,Unlinked,1,15.000,0.000,0,
+90,Dec 2010,Outside UK,No earlier candidate,Unlinked,4,87.500,0.000,0,
+90,Dec 2010,Outside UK,One candidate invoice,Full,54,2128.560,2128.560,0,
+90,Dec 2010,Outside UK,Several candidate invoices,Full,38,1013.700,1013.700,0,
+90,Dec 2010,Portugal,One candidate invoice,Full,4,59.850,59.850,0,
+90,Dec 2010,Sweden,One candidate invoice,Full,1,1188.000,1188.000,0,
+90,Dec 2010,United Kingdom,Candidate capacity exhausted,Unlinked,8,229.600,0.000,0,
+90,Dec 2010,United Kingdom,Missing customer ID,Unlinked,22,227.220,0.000,0,
+90,Dec 2010,United Kingdom,No earlier candidate,Unlinked,48,1264.430,0.000,0,
+90,Dec 2010,United Kingdom,One candidate invoice,Full,311,7231.720,7231.720,0,
+90,Dec 2010,United Kingdom,One candidate invoice,Partial,2,139.450,90.400,0,
+90,Dec 2010,United Kingdom,Several candidate invoices,Full,210,5270.680,5270.680,0,
+90,Jan–Nov 2010,All markets,Candidate capacity exhausted,Unlinked,38,926.250,0.000,3,152.150
+90,Jan–Nov 2010,All markets,Missing customer ID,Unlinked,157,2102.170,0.000,50,690.700
+90,Jan–Nov 2010,All markets,No earlier candidate,Unlinked,1574,29882.540,0.000,298,3220.270
+90,Jan–Nov 2010,All markets,One candidate invoice,Full,4928,125913.430,125913.430,624,12303.000
+90,Jan–Nov 2010,All markets,One candidate invoice,Partial,56,5350.840,3901.930,4,54.150
+90,Jan–Nov 2010,All markets,Several candidate invoices,Full,1528,55484.000,55484.000,192,3614.450
+90,Jan–Nov 2010,All markets,Several candidate invoices,Partial,4,1711.650,1512.900,1,15.300
+90,Jan–Nov 2010,Australia,No earlier candidate,Unlinked,1,25.500,0.000,0,
+90,Jan–Nov 2010,Australia,One candidate invoice,Full,7,63.200,63.200,0,
+90,Jan–Nov 2010,Australia,Several candidate invoices,Full,1,27.000,27.000,0,
+90,Jan–Nov 2010,Austria,One candidate invoice,Full,10,181.050,181.050,0,
+90,Jan–Nov 2010,Bahrain,Missing customer ID,Unlinked,1,42.500,0.000,0,
+90,Jan–Nov 2010,Belgium,No earlier candidate,Unlinked,1,11.800,0.000,0,
+90,Jan–Nov 2010,Belgium,One candidate invoice,Full,11,116.400,116.400,1,9.950
+90,Jan–Nov 2010,Belgium,Several candidate invoices,Full,1,1.700,1.700,0,
+90,Jan–Nov 2010,Channel Islands,No earlier candidate,Unlinked,5,36.150,0.000,1,15.900
+90,Jan–Nov 2010,Channel Islands,One candidate invoice,Full,69,1956.170,1956.170,0,
+90,Jan–Nov 2010,Channel Islands,Several candidate invoices,Full,4,81.250,81.250,0,
+90,Jan–Nov 2010,Cyprus,One candidate invoice,Full,8,41.400,41.400,0,
+90,Jan–Nov 2010,Denmark,No earlier candidate,Unlinked,1,50.400,0.000,0,
+90,Jan–Nov 2010,Denmark,One candidate invoice,Full,5,3827.350,3827.350,1,3630.800
+90,Jan–Nov 2010,Denmark,Several candidate invoices,Full,1,2.950,2.950,0,
+90,Jan–Nov 2010,EIRE,Candidate capacity exhausted,Unlinked,1,61.200,0.000,0,
+90,Jan–Nov 2010,EIRE,Missing customer ID,Unlinked,3,58.430,0.000,1,9.950
+90,Jan–Nov 2010,EIRE,No earlier candidate,Unlinked,17,173.270,0.000,6,52.050
+90,Jan–Nov 2010,EIRE,One candidate invoice,Full,84,6243.800,6243.800,7,581.350
+90,Jan–Nov 2010,EIRE,Several candidate invoices,Full,57,2182.660,2182.660,2,33.050
+90,Jan–Nov 2010,Finland,One candidate invoice,Full,5,49.100,49.100,0,
+90,Jan–Nov 2010,France,No earlier candidate,Unlinked,8,564.270,0.000,1,59.400
+90,Jan–Nov 2010,France,One candidate invoice,Full,150,13525.920,13525.920,8,57.020
+90,Jan–Nov 2010,France,Several candidate invoices,Full,21,275.850,275.850,5,43.350
+90,Jan–Nov 2010,Germany,No earlier candidate,Unlinked,39,323.430,0.000,8,34.640
+90,Jan–Nov 2010,Germany,One candidate invoice,Full,243,2452.390,2452.390,60,587.630
+90,Jan–Nov 2010,Germany,One candidate invoice,Partial,1,29.700,14.850,0,
+90,Jan–Nov 2010,Germany,Several candidate invoices,Full,113,834.250,834.250,17,139.250
+90,Jan–Nov 2010,Greece,One candidate invoice,Full,5,50.700,50.700,0,
+90,Jan–Nov 2010,Italy,One candidate invoice,Full,12,142.650,142.650,0,
+90,Jan–Nov 2010,Japan,No earlier candidate,Unlinked,6,61.000,0.000,0,
+90,Jan–Nov 2010,Japan,One candidate invoice,Full,37,608.510,608.510,20,37.010
+90,Jan–Nov 2010,Japan,Several candidate invoices,Full,13,402.300,402.300,0,
+90,Jan–Nov 2010,Korea,One candidate invoice,Full,10,168.690,168.690,0,
+90,Jan–Nov 2010,Netherlands,No earlier candidate,Unlinked,2,382.500,0.000,0,
+90,Jan–Nov 2010,Netherlands,One candidate invoice,Full,14,950.230,950.230,0,
+90,Jan–Nov 2010,Netherlands,Several candidate invoices,Full,15,1935.450,1935.450,2,361.000
+90,Jan–Nov 2010,Outside UK,Candidate capacity exhausted,Unlinked,1,61.200,0.000,0,
+90,Jan–Nov 2010,Outside UK,Missing customer ID,Unlinked,34,626.830,0.000,30,524.050
+90,Jan–Nov 2010,Outside UK,No earlier candidate,Unlinked,87,1802.870,0.000,16,161.990
+90,Jan–Nov 2010,Outside UK,One candidate invoice,Full,777,40825.330,40825.330,98,4936.760
+90,Jan–Nov 2010,Outside UK,One candidate invoice,Partial,3,100.000,59.750,0,
+90,Jan–Nov 2010,Outside UK,Several candidate invoices,Full,234,5926.110,5926.110,26,576.650
+90,Jan–Nov 2010,Poland,One candidate invoice,Full,9,114.250,114.250,0,
+90,Jan–Nov 2010,Poland,Several candidate invoices,Full,3,138.600,138.600,0,
+90,Jan–Nov 2010,Portugal,No earlier candidate,Unlinked,2,16.750,0.000,0,
+90,Jan–Nov 2010,Portugal,One candidate invoice,Full,34,390.640,390.640,0,
+90,Jan–Nov 2010,Portugal,One candidate invoice,Partial,2,70.300,44.900,0,
+90,Jan–Nov 2010,Portugal,Several candidate invoices,Full,1,8.950,8.950,0,
+90,Jan–Nov 2010,Spain,One candidate invoice,Full,33,8986.980,8986.980,1,33.000
+90,Jan–Nov 2010,Spain,Several candidate invoices,Full,1,4.950,4.950,0,
+90,Jan–Nov 2010,Sweden,No earlier candidate,Unlinked,2,121.200,0.000,0,
+90,Jan–Nov 2010,Sweden,One candidate invoice,Full,5,164.850,164.850,0,
+90,Jan–Nov 2010,Switzerland,No earlier candidate,Unlinked,2,12.750,0.000,0,
+90,Jan–Nov 2010,Switzerland,One candidate invoice,Full,11,491.230,491.230,0,
+90,Jan–Nov 2010,Switzerland,Several candidate invoices,Full,2,20.000,20.000,0,
+90,Jan–Nov 2010,USA,No earlier candidate,Unlinked,1,23.850,0.000,0,
+90,Jan–Nov 2010,USA,One candidate invoice,Full,13,207.000,207.000,0,
+90,Jan–Nov 2010,United Arab Emirates,Missing customer ID,Unlinked,29,514.100,0.000,29,514.100
+90,Jan–Nov 2010,United Arab Emirates,One candidate invoice,Full,2,92.820,92.820,0,
+90,Jan–Nov 2010,United Kingdom,Candidate capacity exhausted,Unlinked,37,865.050,0.000,3,152.150
+90,Jan–Nov 2010,United Kingdom,Missing customer ID,Unlinked,123,1475.340,0.000,20,166.650
+90,Jan–Nov 2010,United Kingdom,No earlier candidate,Unlinked,1487,28079.670,0.000,282,3058.280
+90,Jan–Nov 2010,United Kingdom,One candidate invoice,Full,4151,85088.100,85088.100,526,7366.240
+90,Jan–Nov 2010,United Kingdom,One candidate invoice,Partial,53,5250.840,3842.180,4,54.150
+90,Jan–Nov 2010,United Kingdom,Several candidate invoices,Full,1294,49557.890,49557.890,166,3037.800
+90,Jan–Nov 2010,United Kingdom,Several candidate invoices,Partial,4,1711.650,1512.900,1,15.300
+90,Jan–Nov 2010,Unspecified,Missing customer ID,Unlinked,1,11.800,0.000,0,
+90,Jan–Nov 2010,Unspecified,Several candidate invoices,Full,1,10.200,10.200,0,
+90,Jan–Nov 2011,All markets,Candidate capacity exhausted,Unlinked,18,325.130,0.000,0,
+90,Jan–Nov 2011,All markets,Missing customer ID,Unlinked,141,4063.330,0.000,0,
+90,Jan–Nov 2011,All markets,No earlier candidate,Unlinked,1312,46155.780,0.000,0,
+90,Jan–Nov 2011,All markets,One candidate invoice,Full,4547,172343.660,172343.660,0,
+90,Jan–Nov 2011,All markets,One candidate invoice,Partial,44,1425.680,670.720,0,
+90,Jan–Nov 2011,All markets,Several candidate invoices,Full,1593,62549.180,62549.180,0,
+90,Jan–Nov 2011,All markets,Several candidate invoices,Partial,3,126.800,95.800,0,
+90,Jan–Nov 2011,Australia,One candidate invoice,Full,63,984.950,984.950,0,
+90,Jan–Nov 2011,Australia,Several candidate invoices,Full,7,168.610,168.610,0,
+90,Jan–Nov 2011,Austria,No earlier candidate,Unlinked,1,21.250,0.000,0,
+90,Jan–Nov 2011,Austria,One candidate invoice,Full,1,2.950,2.950,0,
+90,Jan–Nov 2011,Bahrain,Missing customer ID,Unlinked,1,205.740,0.000,0,
+90,Jan–Nov 2011,Belgium,No earlier candidate,Unlinked,2,12.030,0.000,0,
+90,Jan–Nov 2011,Belgium,One candidate invoice,Full,29,241.550,241.550,0,
+90,Jan–Nov 2011,Belgium,Several candidate invoices,Full,1,2.500,2.500,0,
+90,Jan–Nov 2011,Channel Islands,One candidate invoice,Full,8,66.900,66.900,0,
+90,Jan–Nov 2011,Cyprus,One candidate invoice,Full,2,35.800,35.800,0,
+90,Jan–Nov 2011,Cyprus,Several candidate invoices,Full,1,196.350,196.350,0,
+90,Jan–Nov 2011,Czech Republic,No earlier candidate,Unlinked,2,57.510,0.000,0,
+90,Jan–Nov 2011,Czech Republic,One candidate invoice,Full,2,57.510,57.510,0,
+90,Jan–Nov 2011,Denmark,One candidate invoice,Full,7,166.300,166.300,0,
+90,Jan–Nov 2011,Denmark,Several candidate invoices,Full,1,2.900,2.900,0,
+90,Jan–Nov 2011,EIRE,Missing customer ID,Unlinked,48,1189.890,0.000,0,
+90,Jan–Nov 2011,EIRE,No earlier candidate,Unlinked,5,141.760,0.000,0,
+90,Jan–Nov 2011,EIRE,One candidate invoice,Full,87,2284.280,2284.280,0,
+90,Jan–Nov 2011,EIRE,Several candidate invoices,Full,121,6863.750,6863.750,0,
+90,Jan–Nov 2011,European Community,One candidate invoice,Full,1,8.500,8.500,0,
+90,Jan–Nov 2011,Finland,One candidate invoice,Full,5,39.260,39.260,0,
+90,Jan–Nov 2011,France,Candidate capacity exhausted,Unlinked,1,33.900,0.000,0,
+90,Jan–Nov 2011,France,No earlier candidate,Unlinked,11,429.030,0.000,0,
+90,Jan–Nov 2011,France,One candidate invoice,Full,80,1283.110,1283.110,0,
+90,Jan–Nov 2011,France,One candidate invoice,Partial,2,44.550,28.050,0,
+90,Jan–Nov 2011,France,Several candidate invoices,Full,23,440.160,440.160,0,
+90,Jan–Nov 2011,Germany,Candidate capacity exhausted,Unlinked,1,8.500,0.000,0,
+90,Jan–Nov 2011,Germany,No earlier candidate,Unlinked,48,454.600,0.000,0,
+90,Jan–Nov 2011,Germany,One candidate invoice,Full,225,2243.550,2243.550,0,
+90,Jan–Nov 2011,Germany,One candidate invoice,Partial,2,76.500,29.750,0,
+90,Jan–Nov 2011,Germany,Several candidate invoices,Full,87,1138.570,1138.570,0,
+90,Jan–Nov 2011,Hong Kong,Missing customer ID,Unlinked,1,10.950,0.000,0,
+90,Jan–Nov 2011,Italy,No earlier candidate,Unlinked,2,24.000,0.000,0,
+90,Jan–Nov 2011,Italy,One candidate invoice,Full,23,264.800,264.800,0,
+90,Jan–Nov 2011,Italy,Several candidate invoices,Full,15,187.250,187.250,0,
+90,Jan–Nov 2011,Italy,Several candidate invoices,Partial,1,50.850,33.900,0,
+90,Jan–Nov 2011,Japan,No earlier candidate,Unlinked,3,1596.600,0.000,0,
+90,Jan–Nov 2011,Japan,One candidate invoice,Full,20,249.110,249.110,0,
+90,Jan–Nov 2011,Japan,Several candidate invoices,Full,3,33.940,33.940,0,
+90,Jan–Nov 2011,Malta,One candidate invoice,Full,9,59.310,59.310,0,
+90,Jan–Nov 2011,Netherlands,One candidate invoice,Full,3,316.200,316.200,0,
+90,Jan–Nov 2011,Netherlands,Several candidate invoices,Full,1,93.600,93.600,0,
+90,Jan–Nov 2011,Norway,One candidate invoice,Full,10,141.880,141.880,0,
+90,Jan–Nov 2011,Norway,Several candidate invoices,Full,1,19.800,19.800,0,
+90,Jan–Nov 2011,Outside UK,Candidate capacity exhausted,Unlinked,2,42.400,0.000,0,
+90,Jan–Nov 2011,Outside UK,Missing customer ID,Unlinked,50,1406.580,0.000,0,
+90,Jan–Nov 2011,Outside UK,No earlier candidate,Unlinked,85,2963.570,0.000,0,
+90,Jan–Nov 2011,Outside UK,One candidate invoice,Full,750,14381.190,14381.190,0,
+90,Jan–Nov 2011,Outside UK,One candidate invoice,Partial,4,121.050,57.800,0,
+90,Jan–Nov 2011,Outside UK,Several candidate invoices,Full,273,9512.830,9512.830,0,
+90,Jan–Nov 2011,Outside UK,Several candidate invoices,Partial,1,50.850,33.900,0,
+90,Jan–Nov 2011,Poland,One candidate invoice,Full,9,108.610,108.610,0,
+90,Jan–Nov 2011,Poland,Several candidate invoices,Full,2,12.900,12.900,0,
+90,Jan–Nov 2011,Portugal,One candidate invoice,Full,3,23.700,23.700,0,
+90,Jan–Nov 2011,Portugal,Several candidate invoices,Full,3,53.850,53.850,0,
+90,Jan–Nov 2011,Saudi Arabia,One candidate invoice,Full,1,14.750,14.750,0,
+90,Jan–Nov 2011,Spain,No earlier candidate,Unlinked,3,69.450,0.000,0,
+90,Jan–Nov 2011,Spain,One candidate invoice,Full,35,3779.980,3779.980,0,
+90,Jan–Nov 2011,Spain,Several candidate invoices,Full,1,65.700,65.700,0,
+90,Jan–Nov 2011,Sweden,One candidate invoice,Full,6,56.420,56.420,0,
+90,Jan–Nov 2011,Sweden,Several candidate invoices,Full,1,180.000,180.000,0,
+90,Jan–Nov 2011,Switzerland,No earlier candidate,Unlinked,8,157.340,0.000,0,
+90,Jan–Nov 2011,Switzerland,One candidate invoice,Full,20,372.260,372.260,0,
+90,Jan–Nov 2011,Switzerland,Several candidate invoices,Full,5,52.950,52.950,0,
+90,Jan–Nov 2011,USA,One candidate invoice,Full,101,1579.510,1579.510,0,
+90,Jan–Nov 2011,United Kingdom,Candidate capacity exhausted,Unlinked,16,282.730,0.000,0,
+90,Jan–Nov 2011,United Kingdom,Missing customer ID,Unlinked,91,2656.750,0.000,0,
+90,Jan–Nov 2011,United Kingdom,No earlier candidate,Unlinked,1227,43192.210,0.000,0,
+90,Jan–Nov 2011,United Kingdom,One candidate invoice,Full,3797,157962.470,157962.470,0,
+90,Jan–Nov 2011,United Kingdom,One candidate invoice,Partial,40,1304.630,612.920,0,
+90,Jan–Nov 2011,United Kingdom,Several candidate invoices,Full,1320,53036.350,53036.350,0,
+90,Jan–Nov 2011,United Kingdom,Several candidate invoices,Partial,2,75.950,61.900,0,
+90,Partial Dec 2011,All markets,Candidate capacity exhausted,Unlinked,2,37.750,0.000,0,
+90,Partial Dec 2011,All markets,Missing customer ID,Unlinked,1,15.300,0.000,0,
+90,Partial Dec 2011,All markets,No earlier candidate,Unlinked,52,1185.950,0.000,0,
+90,Partial Dec 2011,All markets,One candidate invoice,Full,235,172141.150,172141.150,0,
+90,Partial Dec 2011,All markets,One candidate invoice,Partial,2,62.550,32.850,0,
+90,Partial Dec 2011,All markets,Several candidate invoices,Full,55,669.060,669.060,0,
+90,Partial Dec 2011,All markets,Several candidate invoices,Partial,1,15.000,12.500,0,
+90,Partial Dec 2011,Belgium,One candidate invoice,Full,4,8.300,8.300,0,
+90,Partial Dec 2011,Channel Islands,No earlier candidate,Unlinked,1,4.250,0.000,0,
+90,Partial Dec 2011,Cyprus,No earlier candidate,Unlinked,1,42.500,0.000,0,
+90,Partial Dec 2011,Cyprus,One candidate invoice,Full,3,48.750,48.750,0,
+90,Partial Dec 2011,EIRE,Missing customer ID,Unlinked,1,15.300,0.000,0,
+90,Partial Dec 2011,EIRE,One candidate invoice,Full,1,2.550,2.550,0,
+90,Partial Dec 2011,Finland,One candidate invoice,Full,1,2.080,2.080,0,
+90,Partial Dec 2011,France,One candidate invoice,Full,12,147.650,147.650,0,
+90,Partial Dec 2011,Germany,No earlier candidate,Unlinked,1,1.650,0.000,0,
+90,Partial Dec 2011,Germany,One candidate invoice,Full,20,165.220,165.220,0,
+90,Partial Dec 2011,Germany,Several candidate invoices,Full,2,12.600,12.600,0,
+90,Partial Dec 2011,Japan,One candidate invoice,Full,8,116.930,116.930,0,
+90,Partial Dec 2011,Malta,Candidate capacity exhausted,Unlinked,1,19.900,0.000,0,
+90,Partial Dec 2011,Malta,One candidate invoice,Full,4,10.910,10.910,0,
+90,Partial Dec 2011,Outside UK,Candidate capacity exhausted,Unlinked,1,19.900,0.000,0,
+90,Partial Dec 2011,Outside UK,Missing customer ID,Unlinked,1,15.300,0.000,0,
+90,Partial Dec 2011,Outside UK,No earlier candidate,Unlinked,4,54.640,0.000,0,
+90,Partial Dec 2011,Outside UK,One candidate invoice,Full,71,1055.130,1055.130,0,
+90,Partial Dec 2011,Outside UK,Several candidate invoices,Full,2,12.600,12.600,0,
+90,Partial Dec 2011,Portugal,No earlier candidate,Unlinked,1,6.240,0.000,0,
+90,Partial Dec 2011,Spain,One candidate invoice,Full,6,44.780,44.780,0,
+90,Partial Dec 2011,Sweden,One candidate invoice,Full,1,238.000,238.000,0,
+90,Partial Dec 2011,USA,One candidate invoice,Full,11,269.960,269.960,0,
+90,Partial Dec 2011,United Kingdom,Candidate capacity exhausted,Unlinked,1,17.850,0.000,0,
+90,Partial Dec 2011,United Kingdom,No earlier candidate,Unlinked,48,1131.310,0.000,0,
+90,Partial Dec 2011,United Kingdom,One candidate invoice,Full,164,171086.020,171086.020,0,
+90,Partial Dec 2011,United Kingdom,One candidate invoice,Partial,2,62.550,32.850,0,
+90,Partial Dec 2011,United Kingdom,Several candidate invoices,Full,53,656.460,656.460,0,
+90,Partial Dec 2011,United Kingdom,Several candidate invoices,Partial,1,15.000,12.500,0,
+365,All dates,All markets,Candidate capacity exhausted,Unlinked,65,2074.690,0.000,40,1496.800
+365,All dates,All markets,Missing customer ID,Unlinked,332,6646.690,0.000,167,2325.840
+365,All dates,All markets,No earlier candidate,Unlinked,2338,46052.450,0.000,1762,31168.940
+365,All dates,All markets,One candidate invoice,Full,9468,495472.300,495472.300,4895,128529.750
+365,All dates,All markets,One candidate invoice,Partial,100,6719.020,4420.540,61,5059.890
+365,All dates,All markets,Several candidate invoices,Full,5654,161193.190,161193.190,2336,71056.590
+365,All dates,All markets,Several candidate invoices,Partial,16,1498.000,1207.000,8,1294.350
+365,All dates,Australia,No earlier candidate,Unlinked,14,246.350,0.000,14,246.350
+365,All dates,Australia,One candidate invoice,Full,72,1014.700,1014.700,7,63.200
+365,All dates,Australia,Several candidate invoices,Full,9,256.810,256.810,1,27.000
+365,All dates,Austria,No earlier candidate,Unlinked,1,21.250,0.000,0,
+365,All dates,Austria,One candidate invoice,Full,9,113.110,113.110,7,90.000
+365,All dates,Austria,Several candidate invoices,Full,3,91.050,91.050,3,91.050
+365,All dates,Bahrain,Missing customer ID,Unlinked,2,248.240,0.000,1,42.500
+365,All dates,Belgium,No earlier candidate,Unlinked,2,12.030,0.000,0,
+365,All dates,Belgium,One candidate invoice,Full,35,302.100,302.100,9,92.000
+365,All dates,Belgium,Several candidate invoices,Full,12,80.150,80.150,4,37.900
+365,All dates,Channel Islands,No earlier candidate,Unlinked,8,50.200,0.000,7,45.950
+365,All dates,Channel Islands,One candidate invoice,Full,74,2018.970,2018.970,71,1990.170
+365,All dates,Channel Islands,Several candidate invoices,Full,9,119.350,119.350,4,81.250
+365,All dates,Cyprus,No earlier candidate,Unlinked,1,42.500,0.000,0,
+365,All dates,Cyprus,One candidate invoice,Full,16,247.000,247.000,13,173.300
+365,All dates,Cyprus,Several candidate invoices,Full,3,207.200,207.200,0,
+365,All dates,Czech Republic,Candidate capacity exhausted,Unlinked,1,35.760,0.000,0,
+365,All dates,Czech Republic,One candidate invoice,Full,3,79.260,79.260,0,
+365,All dates,Denmark,No earlier candidate,Unlinked,3,67.600,0.000,3,67.600
+365,All dates,Denmark,One candidate invoice,Full,12,3993.650,3993.650,5,3827.350
+365,All dates,Denmark,Several candidate invoices,Full,2,5.850,5.850,1,2.950
+365,All dates,EIRE,Candidate capacity exhausted,Unlinked,1,61.200,0.000,1,61.200
+365,All dates,EIRE,Missing customer ID,Unlinked,53,1278.620,0.000,3,58.430
+365,All dates,EIRE,No earlier candidate,Unlinked,28,417.030,0.000,23,235.320
+365,All dates,EIRE,One candidate invoice,Full,160,8100.710,8100.710,82,5777.300
+365,All dates,EIRE,Several candidate invoices,Full,229,10531.190,10531.190,70,2755.660
+365,All dates,European Community,One candidate invoice,Full,1,8.500,8.500,0,
+365,All dates,Finland,One candidate invoice,Full,7,56.190,56.190,2,19.800
+365,All dates,Finland,Several candidate invoices,Full,4,34.250,34.250,3,29.300
+365,All dates,France,Candidate capacity exhausted,Unlinked,2,63.600,0.000,1,29.700
+365,All dates,France,No earlier candidate,Unlinked,53,962.060,0.000,48,932.170
+365,All dates,France,One candidate invoice,Full,235,15491.820,15491.820,155,13951.820
+365,All dates,France,One candidate invoice,Partial,2,44.550,28.050,0,
+365,All dates,France,Several candidate invoices,Full,72,1100.010,1100.010,26,329.000
+365,All dates,Germany,Candidate capacity exhausted,Unlinked,2,21.250,0.000,1,12.750
+365,All dates,Germany,No earlier candidate,Unlinked,52,546.000,0.000,32,265.660
+365,All dates,Germany,One candidate invoice,Full,436,4622.620,4622.620,223,2397.450
+365,All dates,Germany,One candidate invoice,Partial,3,106.200,44.600,1,29.700
+365,All dates,Germany,Several candidate invoices,Full,373,3393.920,3393.920,172,1222.940
+365,All dates,Germany,Several candidate invoices,Partial,1,25.500,12.750,1,25.500
+365,All dates,Greece,One candidate invoice,Full,5,50.700,50.700,5,50.700
+365,All dates,Hong Kong,Missing customer ID,Unlinked,1,10.950,0.000,0,
+365,All dates,Israel,One candidate invoice,Full,2,227.440,227.440,0,
+365,All dates,Italy,No earlier candidate,Unlinked,7,48.150,0.000,5,24.150
+365,All dates,Italy,One candidate invoice,Full,31,369.350,369.350,11,122.850
+365,All dates,Italy,Several candidate invoices,Full,20,242.350,242.350,1,19.800
+365,All dates,Italy,Several candidate invoices,Partial,1,50.850,33.900,0,
+365,All dates,Japan,No earlier candidate,Unlinked,10,273.500,0.000,9,269.750
+365,All dates,Japan,One candidate invoice,Full,62,2537.000,2537.000,37,608.510
+365,All dates,Japan,Several candidate invoices,Full,21,466.640,466.640,13,402.300
+365,All dates,Korea,One candidate invoice,Full,10,168.690,168.690,10,168.690
+365,All dates,Malta,One candidate invoice,Full,8,33.120,33.120,0,
+365,All dates,Malta,Several candidate invoices,Full,5,37.100,37.100,0,
+365,All dates,Malta,Several candidate invoices,Partial,1,19.900,9.950,0,
+365,All dates,Netherlands,No earlier candidate,Unlinked,1,300.000,0.000,1,300.000
+365,All dates,Netherlands,One candidate invoice,Full,16,1000.030,1000.030,14,950.230
+365,All dates,Netherlands,One candidate invoice,Partial,1,82.500,3.300,1,82.500
+365,All dates,Netherlands,Several candidate invoices,Full,17,2295.450,2295.450,15,1935.450
+365,All dates,Nigeria,Missing customer ID,Unlinked,2,147.050,0.000,2,147.050
+365,All dates,Norway,One candidate invoice,Full,10,141.880,141.880,0,
+365,All dates,Norway,Several candidate invoices,Full,1,19.800,19.800,0,
+365,All dates,Outside UK,Candidate capacity exhausted,Unlinked,6,181.810,0.000,3,103.650
+365,All dates,Outside UK,Missing customer ID,Unlinked,88,2210.760,0.000,36,773.880
+365,All dates,Outside UK,No earlier candidate,Unlinked,194,3266.760,0.000,151,2566.500
+365,All dates,Outside UK,One candidate invoice,Full,1495,57402.990,57402.990,753,40594.150
+365,All dates,Outside UK,One candidate invoice,Partial,7,245.050,81.850,3,124.000
+365,All dates,Outside UK,Several candidate invoices,Full,824,21039.660,21039.660,329,7374.800
+365,All dates,Outside UK,Several candidate invoices,Partial,3,96.250,56.600,1,25.500
+365,All dates,Poland,One candidate invoice,Full,15,202.060,202.060,9,114.250
+365,All dates,Poland,Several candidate invoices,Full,8,172.300,172.300,3,138.600
+365,All dates,Portugal,No earlier candidate,Unlinked,3,22.990,0.000,2,16.750
+365,All dates,Portugal,One candidate invoice,Full,39,447.040,447.040,33,367.240
+365,All dates,Portugal,One candidate invoice,Partial,1,11.800,5.900,1,11.800
+365,All dates,Portugal,Several candidate invoices,Full,7,148.450,148.450,3,90.850
+365,All dates,Saudi Arabia,One candidate invoice,Full,1,14.750,14.750,0,
+365,All dates,Spain,No earlier candidate,Unlinked,4,62.850,0.000,2,3.350
+365,All dates,Spain,One candidate invoice,Full,68,12745.850,12745.850,33,8986.980
+365,All dates,Spain,Several candidate invoices,Full,9,146.490,146.490,1,4.950
+365,All dates,Sweden,No earlier candidate,Unlinked,3,146.700,0.000,3,146.700
+365,All dates,Sweden,One candidate invoice,Full,9,374.770,374.770,4,97.350
+365,All dates,Sweden,Several candidate invoices,Full,5,1452.500,1452.500,1,67.500
+365,All dates,Switzerland,No earlier candidate,Unlinked,4,47.550,0.000,2,12.750
+365,All dates,Switzerland,One candidate invoice,Full,33,879.080,879.080,9,431.830
+365,All dates,Switzerland,Several candidate invoices,Full,11,179.900,179.900,4,79.400
+365,All dates,USA,One candidate invoice,Full,123,2031.620,2031.620,11,182.150
+365,All dates,USA,Several candidate invoices,Full,3,48.700,48.700,3,48.700
+365,All dates,United Arab Emirates,Missing customer ID,Unlinked,29,514.100,0.000,29,514.100
+365,All dates,United Arab Emirates,One candidate invoice,Full,3,130.980,130.980,3,130.980
+365,All dates,United Kingdom,Candidate capacity exhausted,Unlinked,59,1892.880,0.000,37,1393.150
+365,All dates,United Kingdom,Missing customer ID,Unlinked,244,4435.930,0.000,131,1551.960
+365,All dates,United Kingdom,No earlier candidate,Unlinked,2144,42785.690,0.000,1611,28602.440
+365,All dates,United Kingdom,One candidate invoice,Full,7973,438069.310,438069.310,4142,87935.600
+365,All dates,United Kingdom,One candidate invoice,Partial,93,6473.970,4338.690,58,4935.890
+365,All dates,United Kingdom,Several candidate invoices,Full,4830,140153.530,140153.530,2007,63681.790
+365,All dates,United Kingdom,Several candidate invoices,Partial,13,1401.750,1150.400,7,1268.850
+365,All dates,Unspecified,Missing customer ID,Unlinked,1,11.800,0.000,1,11.800
+365,All dates,Unspecified,Several candidate invoices,Full,1,10.200,10.200,1,10.200
+365,Dec 2010,All markets,Candidate capacity exhausted,Unlinked,6,204.100,0.000,0,
+365,Dec 2010,All markets,Missing customer ID,Unlinked,23,242.220,0.000,0,
+365,Dec 2010,All markets,No earlier candidate,Unlinked,33,1218.510,0.000,0,
+365,Dec 2010,All markets,One candidate invoice,Full,292,7439.590,7439.590,0,
+365,Dec 2010,All markets,One candidate invoice,Partial,1,39.950,0.850,0,
+365,Dec 2010,All markets,Several candidate invoices,Full,341,8437.990,8437.990,0,
+365,Dec 2010,All markets,Several candidate invoices,Partial,2,25.500,15.300,0,
+365,Dec 2010,Australia,One candidate invoice,Full,3,27.750,27.750,0,
+365,Dec 2010,Austria,One candidate invoice,Full,1,20.160,20.160,0,
+365,Dec 2010,EIRE,Missing customer ID,Unlinked,1,15.000,0.000,0,
+365,Dec 2010,EIRE,No earlier candidate,Unlinked,1,49.900,0.000,0,
+365,Dec 2010,EIRE,One candidate invoice,Full,9,279.760,279.760,0,
+365,Dec 2010,EIRE,Several candidate invoices,Full,18,658.650,658.650,0,
+365,Dec 2010,France,No earlier candidate,Unlinked,1,4.950,0.000,0,
+365,Dec 2010,France,One candidate invoice,Full,2,7.250,7.250,0,
+365,Dec 2010,France,Several candidate invoices,Full,2,28.750,28.750,0,
+365,Dec 2010,Germany,No earlier candidate,Unlinked,1,19.900,0.000,0,
+365,Dec 2010,Germany,One candidate invoice,Full,19,221.250,221.250,0,
+365,Dec 2010,Germany,Several candidate invoices,Full,31,419.150,419.150,0,
+365,Dec 2010,Israel,One candidate invoice,Full,2,227.440,227.440,0,
+365,Dec 2010,Italy,One candidate invoice,Full,1,17.000,17.000,0,
+365,Dec 2010,Outside UK,Missing customer ID,Unlinked,1,15.000,0.000,0,
+365,Dec 2010,Outside UK,No earlier candidate,Unlinked,3,74.750,0.000,0,
+365,Dec 2010,Outside UK,One candidate invoice,Full,41,860.460,860.460,0,
+365,Dec 2010,Outside UK,Several candidate invoices,Full,52,2294.550,2294.550,0,
+365,Dec 2010,Portugal,One candidate invoice,Full,4,59.850,59.850,0,
+365,Dec 2010,Sweden,Several candidate invoices,Full,1,1188.000,1188.000,0,
+365,Dec 2010,United Kingdom,Candidate capacity exhausted,Unlinked,6,204.100,0.000,0,
+365,Dec 2010,United Kingdom,Missing customer ID,Unlinked,22,227.220,0.000,0,
+365,Dec 2010,United Kingdom,No earlier candidate,Unlinked,30,1143.760,0.000,0,
+365,Dec 2010,United Kingdom,One candidate invoice,Full,251,6579.130,6579.130,0,
+365,Dec 2010,United Kingdom,One candidate invoice,Partial,1,39.950,0.850,0,
+365,Dec 2010,United Kingdom,Several candidate invoices,Full,289,6143.440,6143.440,0,
+365,Dec 2010,United Kingdom,Several candidate invoices,Partial,2,25.500,15.300,0,
+365,Jan–Nov 2010,All markets,Candidate capacity exhausted,Unlinked,38,1012.000,0.000,38,1012.000
+365,Jan–Nov 2010,All markets,Missing customer ID,Unlinked,157,2102.170,0.000,157,2102.170
+365,Jan–Nov 2010,All markets,No earlier candidate,Unlinked,1101,19672.890,0.000,1101,19672.890
+365,Jan–Nov 2010,All markets,One candidate invoice,Full,4624,123006.300,123006.300,4624,123006.300
+365,Jan–Nov 2010,All markets,One candidate invoice,Partial,60,5049.990,3787.130,60,5049.990
+365,Jan–Nov 2010,All markets,Several candidate invoices,Full,2298,69699.380,69699.380,2298,69699.380
+365,Jan–Nov 2010,All markets,Several candidate invoices,Partial,7,828.150,735.700,7,828.150
+365,Jan–Nov 2010,Australia,No earlier candidate,Unlinked,1,25.500,0.000,1,25.500
+365,Jan–Nov 2010,Australia,One candidate invoice,Full,7,63.200,63.200,7,63.200
+365,Jan–Nov 2010,Australia,Several candidate invoices,Full,1,27.000,27.000,1,27.000
+365,Jan–Nov 2010,Austria,One candidate invoice,Full,7,90.000,90.000,7,90.000
+365,Jan–Nov 2010,Austria,Several candidate invoices,Full,3,91.050,91.050,3,91.050
+365,Jan–Nov 2010,Bahrain,Missing customer ID,Unlinked,1,42.500,0.000,1,42.500
+365,Jan–Nov 2010,Belgium,One candidate invoice,Full,9,92.000,92.000,9,92.000
+365,Jan–Nov 2010,Belgium,Several candidate invoices,Full,4,37.900,37.900,4,37.900
+365,Jan–Nov 2010,Channel Islands,No earlier candidate,Unlinked,5,36.150,0.000,5,36.150
+365,Jan–Nov 2010,Channel Islands,One candidate invoice,Full,69,1956.170,1956.170,69,1956.170
+365,Jan–Nov 2010,Channel Islands,Several candidate invoices,Full,4,81.250,81.250,4,81.250
+365,Jan–Nov 2010,Cyprus,One candidate invoice,Full,8,41.400,41.400,8,41.400
+365,Jan–Nov 2010,Denmark,No earlier candidate,Unlinked,1,50.400,0.000,1,50.400
+365,Jan–Nov 2010,Denmark,One candidate invoice,Full,5,3827.350,3827.350,5,3827.350
+365,Jan–Nov 2010,Denmark,Several candidate invoices,Full,1,2.950,2.950,1,2.950
+365,Jan–Nov 2010,EIRE,Candidate capacity exhausted,Unlinked,1,61.200,0.000,1,61.200
+365,Jan–Nov 2010,EIRE,Missing customer ID,Unlinked,3,58.430,0.000,3,58.430
+365,Jan–Nov 2010,EIRE,No earlier candidate,Unlinked,14,162.870,0.000,14,162.870
+365,Jan–Nov 2010,EIRE,One candidate invoice,Full,75,5697.000,5697.000,75,5697.000
+365,Jan–Nov 2010,EIRE,Several candidate invoices,Full,69,2739.860,2739.860,69,2739.860
+365,Jan–Nov 2010,Finland,One candidate invoice,Full,2,19.800,19.800,2,19.800
+365,Jan–Nov 2010,Finland,Several candidate invoices,Full,3,29.300,29.300,3,29.300
+365,Jan–Nov 2010,France,No earlier candidate,Unlinked,5,174.420,0.000,5,174.420
+365,Jan–Nov 2010,France,One candidate invoice,Full,148,13862.620,13862.620,148,13862.620
+365,Jan–Nov 2010,France,Several candidate invoices,Full,26,329.000,329.000,26,329.000
+365,Jan–Nov 2010,Germany,Candidate capacity exhausted,Unlinked,1,12.750,0.000,1,12.750
+365,Jan–Nov 2010,Germany,No earlier candidate,Unlinked,23,129.480,0.000,23,129.480
+365,Jan–Nov 2010,Germany,One candidate invoice,Full,207,2297.500,2297.500,207,2297.500
+365,Jan–Nov 2010,Germany,One candidate invoice,Partial,1,29.700,14.850,1,29.700
+365,Jan–Nov 2010,Germany,Several candidate invoices,Full,163,1144.840,1144.840,163,1144.840
+365,Jan–Nov 2010,Germany,Several candidate invoices,Partial,1,25.500,12.750,1,25.500
+365,Jan–Nov 2010,Greece,One candidate invoice,Full,5,50.700,50.700,5,50.700
+365,Jan–Nov 2010,Italy,One candidate invoice,Full,11,122.850,122.850,11,122.850
+365,Jan–Nov 2010,Italy,Several candidate invoices,Full,1,19.800,19.800,1,19.800
+365,Jan–Nov 2010,Japan,No earlier candidate,Unlinked,6,61.000,0.000,6,61.000
+365,Jan–Nov 2010,Japan,One candidate invoice,Full,37,608.510,608.510,37,608.510
+365,Jan–Nov 2010,Japan,Several candidate invoices,Full,13,402.300,402.300,13,402.300
+365,Jan–Nov 2010,Korea,One candidate invoice,Full,10,168.690,168.690,10,168.690
+365,Jan–Nov 2010,Netherlands,No earlier candidate,Unlinked,1,300.000,0.000,1,300.000
+365,Jan–Nov 2010,Netherlands,One candidate invoice,Full,14,950.230,950.230,14,950.230
+365,Jan–Nov 2010,Netherlands,One candidate invoice,Partial,1,82.500,3.300,1,82.500
+365,Jan–Nov 2010,Netherlands,Several candidate invoices,Full,15,1935.450,1935.450,15,1935.450
+365,Jan–Nov 2010,Outside UK,Candidate capacity exhausted,Unlinked,2,73.950,0.000,2,73.950
+365,Jan–Nov 2010,Outside UK,Missing customer ID,Unlinked,34,626.830,0.000,34,626.830
+365,Jan–Nov 2010,Outside UK,No earlier candidate,Unlinked,62,1090.520,0.000,62,1090.520
+365,Jan–Nov 2010,Outside UK,One candidate invoice,Full,715,40120.640,40120.640,715,40120.640
+365,Jan–Nov 2010,Outside UK,One candidate invoice,Partial,3,124.000,24.050,3,124.000
+365,Jan–Nov 2010,Outside UK,Several candidate invoices,Full,319,7280.900,7280.900,319,7280.900
+365,Jan–Nov 2010,Outside UK,Several candidate invoices,Partial,1,25.500,12.750,1,25.500
+365,Jan–Nov 2010,Poland,One candidate invoice,Full,9,114.250,114.250,9,114.250
+365,Jan–Nov 2010,Poland,Several candidate invoices,Full,3,138.600,138.600,3,138.600
+365,Jan–Nov 2010,Portugal,No earlier candidate,Unlinked,2,16.750,0.000,2,16.750
+365,Jan–Nov 2010,Portugal,One candidate invoice,Full,33,367.240,367.240,33,367.240
+365,Jan–Nov 2010,Portugal,One candidate invoice,Partial,1,11.800,5.900,1,11.800
+365,Jan–Nov 2010,Portugal,Several candidate invoices,Full,3,90.850,90.850,3,90.850
+365,Jan–Nov 2010,Spain,One candidate invoice,Full,33,8986.980,8986.980,33,8986.980
+365,Jan–Nov 2010,Spain,Several candidate invoices,Full,1,4.950,4.950,1,4.950
+365,Jan–Nov 2010,Sweden,No earlier candidate,Unlinked,2,121.200,0.000,2,121.200
+365,Jan–Nov 2010,Sweden,One candidate invoice,Full,4,97.350,97.350,4,97.350
+365,Jan–Nov 2010,Sweden,Several candidate invoices,Full,1,67.500,67.500,1,67.500
+365,Jan–Nov 2010,Switzerland,No earlier candidate,Unlinked,2,12.750,0.000,2,12.750
+365,Jan–Nov 2010,Switzerland,One candidate invoice,Full,9,431.830,431.830,9,431.830
+365,Jan–Nov 2010,Switzerland,Several candidate invoices,Full,4,79.400,79.400,4,79.400
+365,Jan–Nov 2010,USA,One candidate invoice,Full,11,182.150,182.150,11,182.150
+365,Jan–Nov 2010,USA,Several candidate invoices,Full,3,48.700,48.700,3,48.700
+365,Jan–Nov 2010,United Arab Emirates,Missing customer ID,Unlinked,29,514.100,0.000,29,514.100
+365,Jan–Nov 2010,United Arab Emirates,One candidate invoice,Full,2,92.820,92.820,2,92.820
+365,Jan–Nov 2010,United Kingdom,Candidate capacity exhausted,Unlinked,36,938.050,0.000,36,938.050
+365,Jan–Nov 2010,United Kingdom,Missing customer ID,Unlinked,123,1475.340,0.000,123,1475.340
+365,Jan–Nov 2010,United Kingdom,No earlier candidate,Unlinked,1039,18582.370,0.000,1039,18582.370
+365,Jan–Nov 2010,United Kingdom,One candidate invoice,Full,3909,82885.660,82885.660,3909,82885.660
+365,Jan–Nov 2010,United Kingdom,One candidate invoice,Partial,57,4925.990,3763.080,57,4925.990
+365,Jan–Nov 2010,United Kingdom,Several candidate invoices,Full,1979,62418.480,62418.480,1979,62418.480
+365,Jan–Nov 2010,United Kingdom,Several candidate invoices,Partial,6,802.650,722.950,6,802.650
+365,Jan–Nov 2010,Unspecified,Missing customer ID,Unlinked,1,11.800,0.000,1,11.800
+365,Jan–Nov 2010,Unspecified,Several candidate invoices,Full,1,10.200,10.200,1,10.200
+365,Jan–Nov 2011,All markets,Candidate capacity exhausted,Unlinked,18,355.940,0.000,0,
+365,Jan–Nov 2011,All markets,Missing customer ID,Unlinked,141,4063.330,0.000,0,
+365,Jan–Nov 2011,All markets,No earlier candidate,Unlinked,511,12996.690,0.000,0,
+365,Jan–Nov 2011,All markets,One candidate invoice,Full,4076,187484.360,187484.360,0,
+365,Jan–Nov 2011,All markets,One candidate invoice,Partial,35,1394.630,513.760,0,
+365,Jan–Nov 2011,All markets,Several candidate invoices,Full,2872,80536.360,80536.360,0,
+365,Jan–Nov 2011,All markets,Several candidate invoices,Partial,5,158.250,113.050,0,
+365,Jan–Nov 2011,Australia,One candidate invoice,Full,62,923.750,923.750,0,
+365,Jan–Nov 2011,Australia,Several candidate invoices,Full,8,229.810,229.810,0,
+365,Jan–Nov 2011,Austria,No earlier candidate,Unlinked,1,21.250,0.000,0,
+365,Jan–Nov 2011,Austria,One candidate invoice,Full,1,2.950,2.950,0,
+365,Jan–Nov 2011,Bahrain,Missing customer ID,Unlinked,1,205.740,0.000,0,
+365,Jan–Nov 2011,Belgium,No earlier candidate,Unlinked,2,12.030,0.000,0,
+365,Jan–Nov 2011,Belgium,One candidate invoice,Full,22,201.800,201.800,0,
+365,Jan–Nov 2011,Belgium,Several candidate invoices,Full,8,42.250,42.250,0,
+365,Jan–Nov 2011,Channel Islands,One candidate invoice,Full,3,28.800,28.800,0,
+365,Jan–Nov 2011,Channel Islands,Several candidate invoices,Full,5,38.100,38.100,0,
+365,Jan–Nov 2011,Cyprus,One candidate invoice,Full,1,29.900,29.900,0,
+365,Jan–Nov 2011,Cyprus,Several candidate invoices,Full,2,202.250,202.250,0,
+365,Jan–Nov 2011,Czech Republic,Candidate capacity exhausted,Unlinked,1,35.760,0.000,0,
+365,Jan–Nov 2011,Czech Republic,One candidate invoice,Full,3,79.260,79.260,0,
+365,Jan–Nov 2011,Denmark,One candidate invoice,Full,7,166.300,166.300,0,
+365,Jan–Nov 2011,Denmark,Several candidate invoices,Full,1,2.900,2.900,0,
+365,Jan–Nov 2011,EIRE,Missing customer ID,Unlinked,48,1189.890,0.000,0,
+365,Jan–Nov 2011,EIRE,No earlier candidate,Unlinked,4,131.810,0.000,0,
+365,Jan–Nov 2011,EIRE,One candidate invoice,Full,68,2041.100,2041.100,0,
+365,Jan–Nov 2011,EIRE,Several candidate invoices,Full,141,7116.880,7116.880,0,
+365,Jan–Nov 2011,European Community,One candidate invoice,Full,1,8.500,8.500,0,
+365,Jan–Nov 2011,Finland,One candidate invoice,Full,4,34.310,34.310,0,
+365,Jan–Nov 2011,Finland,Several candidate invoices,Full,1,4.950,4.950,0,
+365,Jan–Nov 2011,France,Candidate capacity exhausted,Unlinked,1,33.900,0.000,0,
+365,Jan–Nov 2011,France,No earlier candidate,Unlinked,4,24.940,0.000,0,
+365,Jan–Nov 2011,France,One candidate invoice,Full,67,1387.650,1387.650,0,
+365,Jan–Nov 2011,France,One candidate invoice,Partial,2,44.550,28.050,0,
+365,Jan–Nov 2011,France,Several candidate invoices,Full,43,739.710,739.710,0,
+365,Jan–Nov 2011,Germany,Candidate capacity exhausted,Unlinked,1,8.500,0.000,0,
+365,Jan–Nov 2011,Germany,No earlier candidate,Unlinked,18,258.790,0.000,0,
+365,Jan–Nov 2011,Germany,One candidate invoice,Full,179,1867.870,1867.870,0,
+365,Jan–Nov 2011,Germany,One candidate invoice,Partial,2,76.500,29.750,0,
+365,Jan–Nov 2011,Germany,Several candidate invoices,Full,163,1710.060,1710.060,0,
+365,Jan–Nov 2011,Hong Kong,Missing customer ID,Unlinked,1,10.950,0.000,0,
+365,Jan–Nov 2011,Italy,No earlier candidate,Unlinked,2,24.000,0.000,0,
+365,Jan–Nov 2011,Italy,One candidate invoice,Full,19,229.500,229.500,0,
+365,Jan–Nov 2011,Italy,Several candidate invoices,Full,19,222.550,222.550,0,
+365,Jan–Nov 2011,Italy,Several candidate invoices,Partial,1,50.850,33.900,0,
+365,Jan–Nov 2011,Japan,No earlier candidate,Unlinked,1,3.750,0.000,0,
+365,Jan–Nov 2011,Japan,One candidate invoice,Full,20,1828.010,1828.010,0,
+365,Jan–Nov 2011,Japan,Several candidate invoices,Full,5,47.890,47.890,0,
+365,Jan–Nov 2011,Malta,One candidate invoice,Full,6,30.810,30.810,0,
+365,Jan–Nov 2011,Malta,Several candidate invoices,Full,3,28.500,28.500,0,
+365,Jan–Nov 2011,Netherlands,One candidate invoice,Full,2,49.800,49.800,0,
+365,Jan–Nov 2011,Netherlands,Several candidate invoices,Full,2,360.000,360.000,0,
+365,Jan–Nov 2011,Norway,One candidate invoice,Full,10,141.880,141.880,0,
+365,Jan–Nov 2011,Norway,Several candidate invoices,Full,1,19.800,19.800,0,
+365,Jan–Nov 2011,Outside UK,Candidate capacity exhausted,Unlinked,3,78.160,0.000,0,
+365,Jan–Nov 2011,Outside UK,Missing customer ID,Unlinked,50,1406.580,0.000,0,
+365,Jan–Nov 2011,Outside UK,No earlier candidate,Unlinked,36,570.870,0.000,0,
+365,Jan–Nov 2011,Outside UK,One candidate invoice,Full,645,14976.810,14976.810,0,
+365,Jan–Nov 2011,Outside UK,One candidate invoice,Partial,4,121.050,57.800,0,
+365,Jan–Nov 2011,Outside UK,Several candidate invoices,Full,426,11274.150,11274.150,0,
+365,Jan–Nov 2011,Outside UK,Several candidate invoices,Partial,1,50.850,33.900,0,
+365,Jan–Nov 2011,Poland,One candidate invoice,Full,6,87.810,87.810,0,
+365,Jan–Nov 2011,Poland,Several candidate invoices,Full,5,33.700,33.700,0,
+365,Jan–Nov 2011,Portugal,One candidate invoice,Full,2,19.950,19.950,0,
+365,Jan–Nov 2011,Portugal,Several candidate invoices,Full,4,57.600,57.600,0,
+365,Jan–Nov 2011,Saudi Arabia,One candidate invoice,Full,1,14.750,14.750,0,
+365,Jan–Nov 2011,Spain,No earlier candidate,Unlinked,2,59.500,0.000,0,
+365,Jan–Nov 2011,Spain,One candidate invoice,Full,32,3735.930,3735.930,0,
+365,Jan–Nov 2011,Spain,Several candidate invoices,Full,5,119.700,119.700,0,
+365,Jan–Nov 2011,Sweden,One candidate invoice,Full,4,39.420,39.420,0,
+365,Jan–Nov 2011,Sweden,Several candidate invoices,Full,3,197.000,197.000,0,
+365,Jan–Nov 2011,Switzerland,No earlier candidate,Unlinked,2,34.800,0.000,0,
+365,Jan–Nov 2011,Switzerland,One candidate invoice,Full,24,447.250,447.250,0,
+365,Jan–Nov 2011,Switzerland,Several candidate invoices,Full,7,100.500,100.500,0,
+365,Jan–Nov 2011,USA,One candidate invoice,Full,101,1579.510,1579.510,0,
+365,Jan–Nov 2011,United Kingdom,Candidate capacity exhausted,Unlinked,15,277.780,0.000,0,
+365,Jan–Nov 2011,United Kingdom,Missing customer ID,Unlinked,91,2656.750,0.000,0,
+365,Jan–Nov 2011,United Kingdom,No earlier candidate,Unlinked,475,12425.820,0.000,0,
+365,Jan–Nov 2011,United Kingdom,One candidate invoice,Full,3431,172507.550,172507.550,0,
+365,Jan–Nov 2011,United Kingdom,One candidate invoice,Partial,31,1273.580,455.960,0,
+365,Jan–Nov 2011,United Kingdom,Several candidate invoices,Full,2446,69262.210,69262.210,0,
+365,Jan–Nov 2011,United Kingdom,Several candidate invoices,Partial,4,107.400,79.150,0,
+365,Partial Dec 2011,All markets,Candidate capacity exhausted,Unlinked,1,17.850,0.000,0,
+365,Partial Dec 2011,All markets,Missing customer ID,Unlinked,1,15.300,0.000,0,
+365,Partial Dec 2011,All markets,No earlier candidate,Unlinked,32,668.310,0.000,0,
+365,Partial Dec 2011,All markets,One candidate invoice,Full,205,172018.600,172018.600,0,
+365,Partial Dec 2011,All markets,One candidate invoice,Partial,3,224.550,113.850,0,
+365,Partial Dec 2011,All markets,Several candidate invoices,Full,105,1162.250,1162.250,0,
+365,Partial Dec 2011,All markets,Several candidate invoices,Partial,1,19.900,9.950,0,
+365,Partial Dec 2011,Belgium,One candidate invoice,Full,4,8.300,8.300,0,
+365,Partial Dec 2011,Channel Islands,No earlier candidate,Unlinked,1,4.250,0.000,0,
+365,Partial Dec 2011,Cyprus,No earlier candidate,Unlinked,1,42.500,0.000,0,
+365,Partial Dec 2011,Cyprus,One candidate invoice,Full,2,43.800,43.800,0,
+365,Partial Dec 2011,Cyprus,Several candidate invoices,Full,1,4.950,4.950,0,
+365,Partial Dec 2011,EIRE,Missing customer ID,Unlinked,1,15.300,0.000,0,
+365,Partial Dec 2011,EIRE,One candidate invoice,Full,1,2.550,2.550,0,
+365,Partial Dec 2011,Finland,One candidate invoice,Full,1,2.080,2.080,0,
+365,Partial Dec 2011,France,One candidate invoice,Full,11,145.100,145.100,0,
+365,Partial Dec 2011,France,Several candidate invoices,Full,1,2.550,2.550,0,
+365,Partial Dec 2011,Germany,No earlier candidate,Unlinked,1,1.650,0.000,0,
+365,Partial Dec 2011,Germany,One candidate invoice,Full,15,136.050,136.050,0,
+365,Partial Dec 2011,Germany,Several candidate invoices,Full,7,41.770,41.770,0,
+365,Partial Dec 2011,Japan,One candidate invoice,Full,5,100.480,100.480,0,
+365,Partial Dec 2011,Japan,Several candidate invoices,Full,3,16.450,16.450,0,
+365,Partial Dec 2011,Malta,One candidate invoice,Full,2,2.310,2.310,0,
+365,Partial Dec 2011,Malta,Several candidate invoices,Full,2,8.600,8.600,0,
+365,Partial Dec 2011,Malta,Several candidate invoices,Partial,1,19.900,9.950,0,
+365,Partial Dec 2011,Outside UK,Missing customer ID,Unlinked,1,15.300,0.000,0,
+365,Partial Dec 2011,Outside UK,No earlier candidate,Unlinked,4,54.640,0.000,0,
+365,Partial Dec 2011,Outside UK,One candidate invoice,Full,56,971.570,971.570,0,
+365,Partial Dec 2011,Outside UK,Several candidate invoices,Full,17,96.160,96.160,0,
+365,Partial Dec 2011,Outside UK,Several candidate invoices,Partial,1,19.900,9.950,0,
+365,Partial Dec 2011,Portugal,No earlier candidate,Unlinked,1,6.240,0.000,0,
+365,Partial Dec 2011,Spain,One candidate invoice,Full,3,22.940,22.940,0,
+365,Partial Dec 2011,Spain,Several candidate invoices,Full,3,21.840,21.840,0,
+365,Partial Dec 2011,Sweden,One candidate invoice,Full,1,238.000,238.000,0,
+365,Partial Dec 2011,USA,One candidate invoice,Full,11,269.960,269.960,0,
+365,Partial Dec 2011,United Kingdom,Candidate capacity exhausted,Unlinked,1,17.850,0.000,0,
+365,Partial Dec 2011,United Kingdom,No earlier candidate,Unlinked,28,613.670,0.000,0,
+365,Partial Dec 2011,United Kingdom,One candidate invoice,Full,149,171047.030,171047.030,0,
+365,Partial Dec 2011,United Kingdom,One candidate invoice,Partial,3,224.550,113.850,0,
+365,Partial Dec 2011,United Kingdom,Several candidate invoices,Full,88,1066.090,1066.090,0,

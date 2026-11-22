@@ -1,0 +1,52 @@
+[
+  {
+    "sheet": "Year 2009-2010",
+    "headers": [
+      "Invoice",
+      "StockCode",
+      "Description",
+      "Quantity",
+      "InvoiceDate",
+      "Price",
+      "Customer ID",
+      "Country"
+    ],
+    "first": "2009-12-01 07:45:00",
+    "last": "2010-12-09 20:01:00",
+    "raw_exact_value": "9539484.633999999949298633",
+    "price_scale": {
+      "0": 5520,
+      "1": 35723,
+      "2": 484204,
+      "3": 14
+    },
+    "records": 525461,
+    "missing_customer": 107927,
+    "missing_description": 2928
+  },
+  {
+    "sheet": "Year 2010-2011",
+    "headers": [
+      "Invoice",
+      "StockCode",
+      "Description",
+      "Quantity",
+      "InvoiceDate",
+      "Price",
+      "Customer ID",
+      "Country"
+    ],
+    "first": "2010-12-01 08:26:00",
+    "last": "2011-12-09 12:50:00",
+    "raw_exact_value": "9747765.933999999975832209",
+    "price_scale": {
+      "0": 4504,
+      "1": 26770,
+      "2": 510632,
+      "3": 4
+    },
+    "records": 541910,
+    "missing_customer": 135080,
+    "missing_description": 1454
+  }
+]

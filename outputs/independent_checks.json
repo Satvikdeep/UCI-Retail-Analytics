@@ -1,0 +1,22 @@
+{
+  "worksheet_checks": [
+    "sheet coverage",
+    "record counts",
+    "date bounds",
+    "missing customer and description counts",
+    "exact source signed value"
+  ],
+  "mirrored_worksheet_rows_independently_matched": 22523,
+  "sales_period_market_keys_checked": 175,
+  "sales_fields": [
+    "gross",
+    "cancellation magnitude",
+    "other merchandise",
+    "net",
+    "identified gross",
+    "distinct sales invoices",
+    "distinct customers"
+  ],
+  "sql_validation_checks_passed": 17,
+  "status": "PASS"
+}

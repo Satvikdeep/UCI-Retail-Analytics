@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Findings register | Retail II</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../library.css">
+</head>
+<body class="library">
+  <a class="skip" href="#main">Skip to document</a>
+  <header class="masthead">
+    <div class="frame masthead-inner">
+      <a href="../index.html" class="wordmark" aria-label="Retail II home">Retail<span>II</span></a>
+      <nav class="utility-nav" aria-label="Project">
+        <a href="../index.html">Dashboard</a>
+        <a href="../report.html" aria-label="Executive report"><span class="full-label">Executive report</span><span class="short-label" aria-hidden="true">Report</span></a>
+        <a href="index.html" aria-label="Documentation" aria-current="page"><span class="full-label">Documentation</span><span class="short-label" aria-hidden="true">Docs</span></a>
+      </nav>
+    </div>
+  </header>
+  <div class="frame library-layout">
+    <aside class="library-index">
+      <nav aria-label="Documents">
+        <h2>Project documents</h2>
+        <div><a href="index.html">Project guide</a><a href="findings.html" aria-current="page">Findings register</a><a href="technical.html">Technical appendix</a><a href="source.html">Source and licence</a><a href="validation.html">Validation</a><a href="decisions.html">Decision log</a><a href="interview.html">Interview and learning</a><a href="progress.html">Progress and continuation</a><a href="raw.html">Raw workbook</a></div>
+      </nav>
+    </aside>
+    <main id="main" tabindex="-1">
+      <header class="doc-heading">
+        <a href="../../docs/FINDINGS.md">View Markdown</a>
+        <h1>Findings register</h1>
+      </header>
+      <nav class="doc-toc" aria-label="On this page"><h2>On this page</h2><div><a href="#f1-recorded-cancellation-exposure-is-concentrated">F1. Recorded cancellation exposure is concentrated</a><a href="#f2-outside-uk-growth-reflects-more-invoices-and-concentrated-accounts">F2. Outside-UK growth reflects more invoices and concentrated accounts</a><a href="#f3-the-repeat-purchase-decline-is-clearest-in-identified-uk-cohorts">F3. The repeat-purchase decline is clearest in identified UK cohorts</a><a href="#f4-a-longer-lookback-increases-inferred-coverage-and-candidate-ambiguity">F4. A longer lookback increases inferred coverage and candidate ambiguity</a><a href="#review-navigation">Review navigation</a></div></nav>
+      <article class="doc-content">
+<p>The executive report draws its values directly from the saved SQL exports. The scopes, denominators and checks below also apply to the corresponding claims in the handoff and interview guide. Exact values are in the CSVs and rounded figures are for presentation.</p>
+<h2 id="f1-recorded-cancellation-exposure-is-concentrated">F1. Recorded cancellation exposure is concentrated</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Claim or chart</th>
+<th>Query and output</th>
+<th>Filter and denominator</th>
+<th>Checks and limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>£19,699,784.97 positive; £719,656.34 cancellations; £18,980,128.63 net; £19,287,250.568 normalized raw</td>
+<td><a href="../../sql/04_sales.sql">04_sales.sql</a>, <code>sales_totals</code> and <code>reconciliation</code>. <a href="../../outputs/sales_totals.csv">Totals</a> · <a href="../../outputs/reconciliation.csv">Ledger</a></td>
+<td>All dates, All markets. One disposition per raw line. Cancellations are a positive magnitude. Net adds zero other catalogue adjustment.</td>
+<td>Exact raw/normalized bridge; invoice and line outputs tie; Python integer millipound check. Credits are recorded entries and require settlement evidence to establish cash outcomes.</td>
+</tr>
+<tr>
+<td>Two UK pairs contribute £245,653.20 or 34.1% of recorded cancellation value</td>
+<td><a href="../../sql/08_export.sql">08_export.sql</a>, <code>extreme_lines</code> and <a href="../../sql/06_linkage.sql">06_linkage.sql</a>, <code>allocation_detail</code>. <a href="../../outputs/extreme_lines.csv">Extreme line audit</a> · <a href="../../outputs/linkage_value_sensitivity.csv">Large-line coverage</a></td>
+<td>C581484 and C541433; cancellation value divided by £719,656.34. The earlier positive invoices are 581483 and 541431.</td>
+<td>Distinct source lines, equal units and price, same customer/product, 12 and 16 minutes apart. The corresponding cancellation lines are fully allocated under the stated inference. Their reason remains unknown.</td>
+</tr>
+<tr>
+<td>3.65% baseline; 3.65% at two decimals after exact repeats collapse; 2.44% after removing extreme lines; 7.14% when grouping all priced codes on standard/C invoices</td>
+<td><a href="../../sql/04_sales.sql">04_sales.sql</a>, <code>cancellation_sensitivity</code>. <a href="../../outputs/cancellation_sensitivity.csv">Sensitivity</a></td>
+<td>All dates, All markets. Divide cancellation value by positive sales separately for each treatment. The report shows one decimal place.</td>
+<td>Baseline agrees with all sales totals. Adding possible catalogue codes changes the values only slightly. The broad rule mixes merchandise and fee/adjustment categories. Removing extreme lines is an influence check.</td>
+</tr>
+<tr>
+<td>22,523 mirrored rows worth £377,488.45 signed</td>
+<td><a href="../../sql/03_quality.sql">03_quality.sql</a>, <code>overlap_fingerprint</code>; <a href="../../sql/02_model.sql">02_model.sql</a>, mirror disposition. <a href="../../outputs/overlap_fingerprint.csv">Overlap</a> · <a href="../../outputs/reconciliation.csv">Ledger</a></td>
+<td>December 1–9, 2010. Full source-field multiset; 22,202 distinct signatures, zero unpaired signatures.</td>
+<td>Cross-checked independently using Python counters, including repeated identical fields. Removing one sheet’s matched set preserves the other copy’s multiplicity.</td>
+</tr>
+<tr>
+<td>Month, country, product and customer exposure panels</td>
+<td><a href="../../sql/04_sales.sql">04_sales.sql</a>, <code>sales_totals</code>, <code>monthly_sales</code>, <code>cancellation_rank</code>. <a href="../../outputs/monthly_sales.csv">Monthly</a> · <a href="../../outputs/cancellation_rank.csv">Ranked detail</a></td>
+<td>Selected period and market. Ratio uses each bucket’s positive sales; share uses selected scope cancellation value. Anonymous is a bucket.</td>
+<td>December 2011 is partial and includes C581484. UK contributes £635,213.06 of full-window cancellation value against £16.86m gross. Outside UK contributes £84,443.28 against £2.84m gross. Magnitudes and ratios answer different questions.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="f2-outside-uk-growth-reflects-more-invoices-and-concentrated-accounts">F2. Outside-UK growth reflects more invoices and concentrated accounts</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Claim or chart</th>
+<th>Query and output</th>
+<th>Filter and denominator</th>
+<th>Checks and limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outside-UK positive sales +£160,717.84 (+12.9%), with 1,377 to 1,690 invoices; £272,586.17 volume effect and −£111,868.33 average-value effect</td>
+<td><a href="../../sql/04_sales.sql">04_sales.sql</a>, <code>market_growth</code>. <a href="../../outputs/market_growth.csv">Growth</a></td>
+<td>Outside UK, Jan–Nov 2010 vs Jan–Nov 2011. Change % uses £1,249,430.81 first-period gross. AIV uses positive sales invoice count.</td>
+<td>Effects add exactly to growth. Growth is 12.8% after exact-collapse and 12.5% counting all priced codes. Threshold exclusion leaves Outside UK unchanged. AIV does not isolate price.</td>
+</tr>
+<tr>
+<td>UK net +£2,668.07; UK gross +1.2% is sensitive</td>
+<td>Same <code>market_growth</code> and <code>growth_sensitivity</code>. <a href="../../outputs/growth_sensitivity.csv">Sensitivity</a></td>
+<td>United Kingdom, same calendar months. Net moves from £7,206,351.18 to £7,209,019.25; gross increases £89,150.62.</td>
+<td>UK gross becomes −£11,184.58 after dropping absolute lines of at least £10k and −£17,088.08 when broadening product rules. The near-flat UK comparison is a more defensible headline than a strong growth claim.</td>
+</tr>
+<tr>
+<td>Australia +£107,713.36; the pooled leading account contributes £105,095.69; ex-top-five sales fell</td>
+<td><code>market_growth</code> and <code>growth_mix</code>. <a href="../../outputs/growth_mix.csv">Mix</a></td>
+<td>Australia, same date windows; fixed top accounts ranked across pooled Jan–Nov sales. Ex-top-five sales £4,187.27 to £1,708.99.</td>
+<td>Full ID coverage. The small 2010 base inflates the percentage. Exact-repeat and extreme-line removal preserve the observed increase.</td>
+</tr>
+<tr>
+<td>Outside UK excluding its fixed top five still adds £85,068.45</td>
+<td><code>growth_mix</code>. <a href="../../outputs/growth_mix.csv">Mix</a></td>
+<td>Outside UK, same date windows; £760,675.19 − £675,606.74.</td>
+<td>Prior-observed customer sales rose from £734,619.89 to £1,187,346.95, while first-observed and anonymous sales moved lower. Identification was 97.4% and 98.1% by value. Residual growth shows activity outside the largest five accounts without proving equally broad growth across countries or customers.</td>
+</tr>
+<tr>
+<td>One account is 95.8% of Dutch gross and 85.8% of Australian gross</td>
+<td><code>concentration</code>. <a href="../../outputs/concentration.csv">Concentration</a></td>
+<td>All dates. Netherlands £526,751.52 ÷ £549,775.06; Australia £144,033.37 ÷ £167,867.51. Both 100% identified coverage.</td>
+<td>Distinct ID within country. Full-window customer counts 22 and 15. The pooled top-five check reveals contrasting concentration across countries. Account rollups and channel are unknown.</td>
+</tr>
+<tr>
+<td>The material-market chart includes EIRE, Netherlands, Germany, France and Australia, and November leads at the aggregate level both years</td>
+<td><code>material_markets</code>, <code>market_growth</code>, <code>monthly_sales</code>. <a href="../../outputs/material_markets.csv">Market eligibility</a> · <a href="../../outputs/monthly_sales.csv">Monthly</a></td>
+<td>Eligibility is £100k pooled, ≥30 sales invoices and ≥80% ID coverage in each Jan–Nov period. Aggregate November gross £1,435,532.81 and £1,457,742.24.</td>
+<td>Outside UK’s 2011 peak is October. December 2011 is partial. Two calendar cycles provide descriptive evidence.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="f3-the-repeat-purchase-decline-is-clearest-in-identified-uk-cohorts">F3. The repeat-purchase decline is clearest in identified UK cohorts</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Claim or chart</th>
+<th>Query and output</th>
+<th>Filter and denominator</th>
+<th>Checks and limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UK 90-day repeat 46.1% to 38.8%; 180-day 65.4% to 53.2%</td>
+<td><a href="../../sql/05_cohorts.sql">05_cohorts.sql</a>, <code>repeat_comparison</code>. <a href="../../outputs/repeat_comparison.csv">Cohorts</a></td>
+<td>First-observed country UK, Jan–May 2010 vs Jan–May 2011. 90-day counts 737/1,597 and 204/526. 180-day counts 1,045/1,597 and 280/526.</td>
+<td>Equal follow-up and sum-of-counts calculation. At 30 days, the change is smaller (18.7% to 17.5%). UK Jan–Nov identified sales coverage falls from 87.6% to 84.3%. Geography alone cannot control for buyer mix and left-truncated history.</td>
+</tr>
+<tr>
+<td>Outside UK 90-day repeat 41.9% to 43.3%</td>
+<td>Same query and export</td>
+<td>Outside UK first-observed country, same age and Jan–May windows. 57/136 and 29/67.</td>
+<td>Small populations and changing composition. 180-day repeat did fall (65.4% to 56.7%). Evidence does not support a uniform decline at every age and geography.</td>
+</tr>
+<tr>
+<td>Monthly repeat chart, eligibility and counts</td>
+<td><code>cohort_repeat</code>. <a href="../../outputs/cohort_repeat.csv">Monthly outputs</a></td>
+<td>Selected market and age; each customer appears in one first month per scope.</td>
+<td>All cohort members must mature for rate display. Scope and months can overlap; the dashboard does not average percentages across them.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="f4-a-longer-lookback-increases-inferred-coverage-and-candidate-ambiguity">F4. A longer lookback increases inferred coverage and candidate ambiguity</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Claim or chart</th>
+<th>Query and output</th>
+<th>Filter and denominator</th>
+<th>Checks and limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>90 days allocates £618,280.85 (85.9%) of £719,656.34, across 13,922 of 17,973 lines; £101,375.49 remains</td>
+<td><a href="../../sql/06_linkage.sql">06_linkage.sql</a>, <code>linkage_coverage</code>. <a href="../../outputs/linkage_coverage.csv">Coverage</a></td>
+<td>All dates, All markets, 90 days. The line numerator includes 13,808 full and 114 partial lines. The value numerator counts allocated units only.</td>
+<td>Reconcile complete cancellation base to baseline sales, check chronological eligibility and sale/cancellation capacity. Unallocated value includes £2,653.02 on partial matches.</td>
+</tr>
+<tr>
+<td>365 days allocates £662,293.03 (92.0%); multiple-candidate allocated value rises from £128,298.03 to £162,400.19</td>
+<td>Same coverage query</td>
+<td>Same universe, alternate independent lookback. Multiple-candidate values sum full and partial allocations in that evidence class.</td>
+<td>The longer horizon creates additional plausible invoices. Eligibility and capacity rules remain identical. The figure measures coverage, and accuracy requires known links.</td>
+</tr>
+<tr>
+<td>332 missing-ID cancellation lines represent £6,646.69; under-£10k events have 78.6% 90-day coverage</td>
+<td><code>linkage_coverage</code>, <code>linkage_value_sensitivity</code>. <a href="../../outputs/linkage_value_sensitivity.csv">Size sensitivity</a></td>
+<td>90 days. Missing-ID bucket has no allocation. For under-£10k lines, £372,627.65 allocated out of £474,003.14.</td>
+<td>Size sensitivity filters the already-computed allocations. It shows the influence of the two fully covered extremes on the full-window headline.</td>
+</tr>
+<tr>
+<td>Lag and mature sale-cohort charts</td>
+<td><code>linkage_lag</code>, <code>linked_sale_cohort</code>. <a href="../../outputs/linkage_lag.csv">Lag</a> · <a href="../../outputs/linked_sale_cohort.csv">Sale cohorts</a></td>
+<td>Lag uses matched value per slice by cancellation window and scope. Sale cohorts use fully mature sale months, sale market and all eligible identified positive sale value in the denominator.</td>
+<td>Different time anchors are named in the dashboard. Linkable history begins at the observed workbook boundary. No externally verified cancellation attribution.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="review-navigation">Review navigation</h2>
+<p>The <a href="technical.html">model</a> gives the definition of every dashboard denominator. The workbook population, time bounds and attribution are documented in <a href="source.html">source notes</a>. All quality-panel diagnostics trace to <a href="../../sql/03_quality.sql">03_quality.sql</a> and <a href="../../outputs/quality_checks.csv">quality_checks.csv</a>. The <a href="validation.html">validation results</a> describe technical and browser checks.</p>
+
+      </article>
+      <footer class="page-footer">
+        <span>Retail II · UCI Online Retail II</span>
+        <a href="source.html">Source and licence</a>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+source_sheet,source_row,invoice_key,invoice_at,market,product,code_type,disposition,quantity,unit_price,line_value,duplicate_rank
+Year 2010-2011,540423,581483,2011-12-09 09:15:00,United Kingdom,23843,Standard catalogue,Positive merchandise,80995,2.080,168469.600,1
+Year 2010-2011,540424,C581484,2011-12-09 09:27:00,United Kingdom,23843,Standard catalogue,Cancellation-coded merchandise,-80995,2.080,-168469.600,1
+Year 2010-2011,61621,541431,2011-01-18 10:01:00,United Kingdom,23166,Standard catalogue,Positive merchandise,74215,1.040,77183.600,1
+Year 2010-2011,61626,C541433,2011-01-18 10:17:00,United Kingdom,23166,Standard catalogue,Cancellation-coded merchandise,-74215,1.040,-77183.600,1
+Year 2009-2010,179405,A506401,2010-04-29 13:36:00,United Kingdom,B,Manual and accounting adjustments,Manual and accounting adjustments,1,-53594.360,-53594.360,1
+Year 2009-2010,276276,A516228,2010-07-19 11:24:00,United Kingdom,B,Manual and accounting adjustments,Manual and accounting adjustments,1,-44031.790,-44031.790,1
+Year 2010-2011,222673,556444,2011-06-10 15:28:00,United Kingdom,22502,Standard catalogue,Positive merchandise,60,649.500,38970.000,1
+Year 2010-2011,222683,C556445,2011-06-10 15:31:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,-1,38970.000,-38970.000,1
+Year 2009-2010,403474,A528059,2010-10-20 12:04:00,United Kingdom,B,Manual and accounting adjustments,Manual and accounting adjustments,1,-38925.870,-38925.870,1
+Year 2009-2010,241826,C512770,2010-06-17 16:52:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,-1,25111.090,-25111.090,1
+Year 2009-2010,241829,512771,2010-06-17 16:53:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,1,25111.090,25111.090,1
+Year 2009-2010,320583,C520667,2010-08-27 13:42:00,United Kingdom,BANK CHARGES,Fees and commission,Fees and commission,-1,18910.690,-18910.690,1
+Year 2010-2011,524604,C580605,2011-12-05 11:36:00,United Kingdom,AMAZONFEE,Fees and commission,Fees and commission,-1,17836.460,-17836.460,1
+Year 2010-2011,43704,C540117,2011-01-05 09:55:00,United Kingdom,AMAZONFEE,Fees and commission,Fees and commission,-1,16888.020,-16888.020,1
+Year 2010-2011,43705,C540118,2011-01-05 09:57:00,United Kingdom,AMAZONFEE,Fees and commission,Fees and commission,-1,16453.710,-16453.710,1
+Year 2009-2010,432178,530715,2010-11-04 11:36:00,United Kingdom,84347,Standard catalogue,Positive merchandise,9360,1.690,15818.400,1
+Year 2009-2010,517955,C537630,2010-12-07 15:04:00,United Kingdom,AMAZONFEE,Fees and commission,Mirrored worksheet overlap,-1,13541.330,-13541.330,2
+Year 2009-2010,517957,537632,2010-12-07 15:08:00,United Kingdom,AMAZONFEE,Fees and commission,Mirrored worksheet overlap,1,13541.330,13541.330,2
+Year 2009-2010,519296,C537651,2010-12-07 15:49:00,United Kingdom,AMAZONFEE,Fees and commission,Mirrored worksheet overlap,-1,13541.330,-13541.330,2
+Year 2010-2011,15018,C537630,2010-12-07 15:04:00,United Kingdom,AMAZONFEE,Fees and commission,Fees and commission,-1,13541.330,-13541.330,1
+Year 2010-2011,15019,537632,2010-12-07 15:08:00,United Kingdom,AMAZONFEE,Fees and commission,Fees and commission,1,13541.330,13541.330,1
+Year 2010-2011,16358,C537651,2010-12-07 15:49:00,United Kingdom,AMAZONFEE,Fees and commission,Fees and commission,-1,13541.330,-13541.330,1
+Year 2009-2010,519172,C537644,2010-12-07 15:34:00,United Kingdom,AMAZONFEE,Fees and commission,Mirrored worksheet overlap,-1,13474.790,-13474.790,2
+Year 2010-2011,16004,C537644,2010-12-07 15:34:00,United Kingdom,AMAZONFEE,Fees and commission,Fees and commission,-1,13474.790,-13474.790,1
+Year 2010-2011,524603,C580604,2011-12-05 11:35:00,United Kingdom,AMAZONFEE,Fees and commission,Fees and commission,-1,11586.500,-11586.500,1
+Year 2010-2011,299984,A563185,2011-08-12 14:50:00,United Kingdom,B,Manual and accounting adjustments,Manual and accounting adjustments,1,11062.060,11062.060,1
+Year 2010-2011,299985,A563186,2011-08-12 14:51:00,United Kingdom,B,Manual and accounting adjustments,Manual and accounting adjustments,1,-11062.060,-11062.060,1
+Year 2010-2011,299986,A563187,2011-08-12 14:52:00,United Kingdom,B,Manual and accounting adjustments,Manual and accounting adjustments,1,-11062.060,-11062.060,1
+Year 2009-2010,135014,C502262,2010-03-23 15:20:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,-1,10953.500,-10953.500,1
+Year 2009-2010,135015,502263,2010-03-23 15:22:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,1,10953.500,10953.500,1
+Year 2009-2010,135016,C502264,2010-03-23 15:24:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,-1,10953.500,-10953.500,1
+Year 2009-2010,135017,502265,2010-03-23 15:28:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,1,10953.500,10953.500,1
+Year 2009-2010,342137,C522793,2010-09-16 14:53:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,-1,10468.800,-10468.800,1
+Year 2009-2010,342149,522796,2010-09-16 15:12:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,1,10468.800,10468.800,1
+Year 2009-2010,358641,524159,2010-09-27 16:12:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,1,10468.800,10468.800,1
+Year 2009-2010,358671,C524161,2010-09-27 16:16:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,-1,10468.800,-10468.800,1
+Year 2009-2010,372835,C525398,2010-10-05 11:47:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,-1,10468.800,-10468.800,1
+Year 2009-2010,372836,525399,2010-10-05 11:49:00,United Kingdom,M,Manual and accounting adjustments,Manual and accounting adjustments,1,10468.800,10468.800,1

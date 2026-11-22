@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Source and licence | Retail II</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../library.css">
+</head>
+<body class="library">
+  <a class="skip" href="#main">Skip to document</a>
+  <header class="masthead">
+    <div class="frame masthead-inner">
+      <a href="../index.html" class="wordmark" aria-label="Retail II home">Retail<span>II</span></a>
+      <nav class="utility-nav" aria-label="Project">
+        <a href="../index.html">Dashboard</a>
+        <a href="../report.html" aria-label="Executive report"><span class="full-label">Executive report</span><span class="short-label" aria-hidden="true">Report</span></a>
+        <a href="index.html" aria-label="Documentation" aria-current="page"><span class="full-label">Documentation</span><span class="short-label" aria-hidden="true">Docs</span></a>
+      </nav>
+    </div>
+  </header>
+  <div class="frame library-layout">
+    <aside class="library-index">
+      <nav aria-label="Documents">
+        <h2>Project documents</h2>
+        <div><a href="index.html">Project guide</a><a href="findings.html">Findings register</a><a href="technical.html">Technical appendix</a><a href="source.html" aria-current="page">Source and licence</a><a href="validation.html">Validation</a><a href="decisions.html">Decision log</a><a href="interview.html">Interview and learning</a><a href="progress.html">Progress and continuation</a><a href="raw.html">Raw workbook</a></div>
+      </nav>
+    </aside>
+    <main id="main" tabindex="-1">
+      <header class="doc-heading">
+        <a href="../../docs/SOURCE.md">View Markdown</a>
+        <h1>Source and attribution</h1>
+      </header>
+      <article class="doc-content">
+<p>Daqing Chen (2012). <em>Online Retail II</em> [Dataset]. UCI Machine Learning Repository. DOI 10.24432/C5CG6D. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>. This project extracts and classifies source records, identifies mirrored worksheet rows, and publishes derived analyses and charts locally. <a href="https://archive.ics.uci.edu/dataset/502/online+retail+ii">UCI dataset and citation</a> · <a href="https://doi.org/10.24432/C5CG6D">Data DOI</a>.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acquired</td>
+<td>2026-11-22, Asia/Kolkata</td>
+</tr>
+<tr>
+<td>Download</td>
+<td><a href="https://archive.ics.uci.edu/static/public/502/online%2Bretail%2Bii.zip">Official UCI dataset 502 archive</a></td>
+</tr>
+<tr>
+<td>Archive SHA-256</td>
+<td><code>572e36277c2390fbfde10664750731e0a86f55e33470d91919085f0408e67bfb</code></td>
+</tr>
+<tr>
+<td>Original workbook</td>
+<td><code>data/raw/online_retail_II.xlsx</code> (45,622,278 bytes; extracted byte for byte)</td>
+</tr>
+<tr>
+<td>Workbook SHA-256</td>
+<td><code>bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980</code></td>
+</tr>
+<tr>
+<td>Documented population</td>
+<td>1,067,371 records</td>
+</tr>
+<tr>
+<td>Observed population</td>
+<td>1,067,371 non-header rows, across both sheets</td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Workbook sheet</th>
+<th style="text-align:right">Records</th>
+<th>Earliest invoice timestamp</th>
+<th>Latest invoice timestamp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Year 2009-2010</td>
+<td style="text-align:right">525,461</td>
+<td>2009-12-01 07:45</td>
+<td>2010-12-09 20:01</td>
+</tr>
+<tr>
+<td>Year 2010-2011</td>
+<td style="text-align:right">541,910</td>
+<td>2010-12-01 08:26</td>
+<td>2011-12-09 12:50</td>
+</tr>
+</tbody>
+</table></div>
+<p>The row count matches UCI exactly. The workbook includes 22,523 mirrored December 2010 rows in each sheet. The full-field multisets match, including repeat multiplicity. The baseline keeps one worksheet’s copy and reports all 1,067,371 raw rows in the reconciliation. A worksheet title alone is insufficient to assign rows to a year. The period comparisons use InvoiceDate.</p>
+<p>The workbook headers are <code>Invoice</code>, <code>StockCode</code>, <code>Description</code>, <code>Quantity</code>, <code>InvoiceDate</code>, <code>Price</code>, <code>Customer ID</code>, and <code>Country</code>. UCI uses some different display names in its documentation. UCI specifies per-unit prices in sterling and country of customer residence. The workbook confirms one line per product/invoice entry, including special product codes and adjustment entries. Invoice identifiers recur across lines. A prefix of <code>C</code> signals a cancellation in UCI’s convention. The workbook also has six <code>A</code> invoices, all using the bad-debt stock code. No field directly names an original sale on a cancellation.</p>
+<p>Dates are Excel serials with no supplied time zone. The extractor preserves the serial and recovers the displayed whole-second timestamp, allowing only a tiny serialization residual. Currency is sourced from UCI’s documentation and there is no separate currency field.</p>
+<p><a href="../../outputs/source_profile.csv">SQL source profile</a> · <a href="../../outputs/workbook_profile.json">Workbook extraction checks</a> · <a href="../../outputs/overlap_fingerprint.csv">Overlap fingerprint</a> · <a href="../../outputs/invoice_conventions.csv">Invoice conventions</a>.</p>
+
+      </article>
+      <footer class="page-footer">
+        <span>Retail II · UCI Online Retail II</span>
+        <a href="source.html">Source and licence</a>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

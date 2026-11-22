@@ -1,0 +1,5 @@
+.build/
+.uci-source.zip
+data/raw/*.xlsx
+__pycache__/
+.DS_Store

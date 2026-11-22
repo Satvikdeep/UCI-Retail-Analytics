@@ -1,0 +1,1051 @@
+variant,period,scope,retained_lines,gross,cancelled
+All priced codes on numeric/C invoices,All dates,All markets,1044848,20522679.858,1465677.230
+Baseline,All dates,All markets,1044848,19699784.970,719656.340
+Collapse exact repeats,All dates,All markets,1033036,19642692.150,716425.970
+"Exclude absolute lines ≥ £10,000",All dates,All markets,1044814,19399343.370,474003.140
+Include mirrored worksheet overlap,All dates,All markets,1067371,20108995.400,726519.390
+Include possible catalogue,All dates,All markets,1044848,19700954.457,719692.940
+All priced codes on numeric/C invoices,All dates,Australia,1891,169350.960,2839.040
+Baseline,All dates,Australia,1891,167867.510,1517.860
+Collapse exact repeats,All dates,Australia,1890,167800.010,1517.860
+"Exclude absolute lines ≥ £10,000",All dates,Australia,1891,167867.510,1517.860
+Include mirrored worksheet overlap,All dates,Australia,1913,168484.660,1517.860
+Include possible catalogue,All dates,Australia,1891,167867.510,1517.860
+All priced codes on numeric/C invoices,All dates,Austria,938,23613.010,435.410
+Baseline,All dates,Austria,938,20297.010,225.410
+Collapse exact repeats,All dates,Austria,938,20297.010,225.410
+"Exclude absolute lines ≥ £10,000",All dates,Austria,938,20297.010,225.410
+Include mirrored worksheet overlap,All dates,Austria,938,20297.010,225.410
+Include possible catalogue,All dates,Austria,938,20297.010,225.410
+All priced codes on numeric/C invoices,All dates,Bahrain,126,3109.790,248.240
+Baseline,All dates,Bahrain,126,3109.790,248.240
+Collapse exact repeats,All dates,Bahrain,126,3109.790,248.240
+"Exclude absolute lines ≥ £10,000",All dates,Bahrain,126,3109.790,248.240
+Include mirrored worksheet overlap,All dates,Bahrain,126,3109.790,248.240
+Include possible catalogue,All dates,Bahrain,126,3109.790,248.240
+All priced codes on numeric/C invoices,All dates,Belgium,3111,65407.320,2178.930
+Baseline,All dates,Belgium,3111,57012.670,394.280
+Collapse exact repeats,All dates,Belgium,3110,56993.170,394.280
+"Exclude absolute lines ≥ £10,000",All dates,Belgium,3111,57012.670,394.280
+Include mirrored worksheet overlap,All dates,Belgium,3123,57322.770,394.280
+Include possible catalogue,All dates,Belgium,3111,57012.670,394.280
+All priced codes on numeric/C invoices,All dates,Bermuda,34,1253.140,0
+Baseline,All dates,Bermuda,34,1253.140,0
+Collapse exact repeats,All dates,Bermuda,34,1253.140,0
+"Exclude absolute lines ≥ £10,000",All dates,Bermuda,34,1253.140,0
+Include mirrored worksheet overlap,All dates,Bermuda,34,1253.140,0
+Include possible catalogue,All dates,Bermuda,34,1253.140,0
+All priced codes on numeric/C invoices,All dates,Brazil,94,1411.870,0
+Baseline,All dates,Brazil,94,1411.870,0
+Collapse exact repeats,All dates,Brazil,94,1411.870,0
+"Exclude absolute lines ≥ £10,000",All dates,Brazil,94,1411.870,0
+Include mirrored worksheet overlap,All dates,Brazil,94,1411.870,0
+Include possible catalogue,All dates,Brazil,94,1411.870,0
+All priced codes on numeric/C invoices,All dates,Canada,228,4883.040,0
+Baseline,All dates,Canada,228,4332.100,0
+Collapse exact repeats,All dates,Canada,228,4332.100,0
+"Exclude absolute lines ≥ £10,000",All dates,Canada,228,4332.100,0
+Include mirrored worksheet overlap,All dates,Canada,228,4332.100,0
+Include possible catalogue,All dates,Canada,228,4332.100,0
+All priced codes on numeric/C invoices,All dates,Channel Islands,1647,44633.230,3543.150
+Baseline,All dates,Channel Islands,1647,44040.230,2188.520
+Collapse exact repeats,All dates,Channel Islands,1646,44030.330,2188.520
+"Exclude absolute lines ≥ £10,000",All dates,Channel Islands,1647,44040.230,2188.520
+Include mirrored worksheet overlap,All dates,Channel Islands,1664,44353.760,2188.520
+Include possible catalogue,All dates,Channel Islands,1647,44040.230,2188.520
+All priced codes on numeric/C invoices,All dates,Cyprus,1176,24980.130,817.390
+Baseline,All dates,Cyprus,1176,24614.440,496.700
+Collapse exact repeats,All dates,Cyprus,1157,24484.260,496.700
+"Exclude absolute lines ≥ £10,000",All dates,Cyprus,1176,24614.440,496.700
+Include mirrored worksheet overlap,All dates,Cyprus,1176,24614.440,496.700
+Include possible catalogue,All dates,Cyprus,1176,24614.440,496.700
+All priced codes on numeric/C invoices,All dates,Czech Republic,30,826.740,119.020
+Baseline,All dates,Czech Republic,30,786.740,115.020
+Collapse exact repeats,All dates,Czech Republic,30,786.740,115.020
+"Exclude absolute lines ≥ £10,000",All dates,Czech Republic,30,786.740,115.020
+Include mirrored worksheet overlap,All dates,Czech Republic,30,786.740,115.020
+Include possible catalogue,All dates,Czech Republic,30,786.740,115.020
+All priced codes on numeric/C invoices,All dates,Denmark,797,68580.690,4121.100
+Baseline,All dates,Denmark,797,67422.690,4067.100
+Collapse exact repeats,All dates,Denmark,797,67422.690,4067.100
+"Exclude absolute lines ≥ £10,000",All dates,Denmark,797,67422.690,4067.100
+Include mirrored worksheet overlap,All dates,Denmark,817,68560.190,4067.100
+Include possible catalogue,All dates,Denmark,797,67422.690,4067.100
+All priced codes on numeric/C invoices,All dates,EIRE,17689,659149.000,48904.730
+Baseline,All dates,EIRE,17689,623795.850,20388.750
+Collapse exact repeats,All dates,EIRE,17667,623414.160,20297.550
+"Exclude absolute lines ≥ £10,000",All dates,EIRE,17689,623795.850,20388.750
+Include mirrored worksheet overlap,All dates,EIRE,17866,628928.630,20396.250
+Include possible catalogue,All dates,EIRE,17689,623795.850,20388.750
+All priced codes on numeric/C invoices,All dates,European Community,61,1300.250,8.500
+Baseline,All dates,European Community,61,1159.250,8.500
+Collapse exact repeats,All dates,European Community,61,1159.250,8.500
+"Exclude absolute lines ≥ £10,000",All dates,European Community,61,1159.250,8.500
+Include mirrored worksheet overlap,All dates,European Community,61,1159.250,8.500
+Include possible catalogue,All dates,European Community,61,1159.250,8.500
+All priced codes on numeric/C invoices,All dates,Finland,1049,29925.540,411.090
+Baseline,All dates,Finland,1049,25180.100,90.440
+Collapse exact repeats,All dates,Finland,1049,25180.100,90.440
+"Exclude absolute lines ≥ £10,000",All dates,Finland,1049,25180.100,90.440
+Include mirrored worksheet overlap,All dates,Finland,1049,25180.100,90.440
+Include possible catalogue,All dates,Finland,1049,25180.100,90.440
+All priced codes on numeric/C invoices,All dates,France,14059,350654.180,28725.650
+Baseline,All dates,France,14059,311288.380,17662.040
+Collapse exact repeats,All dates,France,14025,311090.290,17659.090
+"Exclude absolute lines ≥ £10,000",All dates,France,14059,311288.380,17662.040
+Include mirrored worksheet overlap,All dates,France,14330,316948.800,17689.190
+Include possible catalogue,All dates,France,14059,311288.380,17662.040
+All priced codes on numeric/C invoices,All dates,Germany,17363,425578.381,13060.550
+Baseline,All dates,Germany,17363,383847.670,8715.490
+Collapse exact repeats,All dates,Germany,17339,383289.000,8715.490
+"Exclude absolute lines ≥ £10,000",All dates,Germany,17363,383847.670,8715.490
+Include mirrored worksheet overlap,All dates,Germany,17624,388829.750,8928.840
+Include possible catalogue,All dates,Germany,17363,383847.671,8715.490
+All priced codes on numeric/C invoices,All dates,Greece,663,19096.190,100.700
+Baseline,All dates,Greece,663,18711.190,50.700
+Collapse exact repeats,All dates,Greece,663,18711.190,50.700
+"Exclude absolute lines ≥ £10,000",All dates,Greece,663,18711.190,50.700
+Include mirrored worksheet overlap,All dates,Greece,663,18711.190,50.700
+Include possible catalogue,All dates,Greece,663,18711.190,50.700
+All priced codes on numeric/C invoices,All dates,Hong Kong,364,23894.320,9855.020
+Baseline,All dates,Hong Kong,364,13875.250,10.950
+Collapse exact repeats,All dates,Hong Kong,360,13666.450,10.950
+"Exclude absolute lines ≥ £10,000",All dates,Hong Kong,364,13875.250,10.950
+Include mirrored worksheet overlap,All dates,Hong Kong,364,13875.250,10.950
+Include possible catalogue,All dates,Hong Kong,364,13875.250,10.950
+All priced codes on numeric/C invoices,All dates,Iceland,222,4921.530,0
+Baseline,All dates,Iceland,222,4921.530,0
+Collapse exact repeats,All dates,Iceland,222,4921.530,0
+"Exclude absolute lines ≥ £10,000",All dates,Iceland,222,4921.530,0
+Include mirrored worksheet overlap,All dates,Iceland,253,5633.320,0
+Include possible catalogue,All dates,Iceland,222,4921.530,0
+All priced codes on numeric/C invoices,All dates,Israel,371,11334.660,227.440
+Baseline,All dates,Israel,371,11334.660,227.440
+Collapse exact repeats,All dates,Israel,368,11328.810,227.440
+"Exclude absolute lines ≥ £10,000",All dates,Israel,371,11334.660,227.440
+Include mirrored worksheet overlap,All dates,Israel,371,11334.660,227.440
+Include possible catalogue,All dates,Israel,371,11334.660,227.440
+All priced codes on numeric/C invoices,All dates,Italy,1509,32122.620,1854.070
+Baseline,All dates,Italy,1509,28951.950,710.700
+Collapse exact repeats,All dates,Italy,1507,28937.500,710.700
+"Exclude absolute lines ≥ £10,000",All dates,Italy,1509,28951.950,710.700
+Include mirrored worksheet overlap,All dates,Italy,1534,29323.750,727.700
+Include possible catalogue,All dates,Italy,1509,28951.950,710.700
+All priced codes on numeric/C invoices,All dates,Japan,565,43023.910,3361.810
+Baseline,All dates,Japan,565,43023.910,3277.140
+Collapse exact repeats,All dates,Japan,565,43023.910,3277.140
+"Exclude absolute lines ≥ £10,000",All dates,Japan,565,43023.910,3277.140
+Include mirrored worksheet overlap,All dates,Japan,582,47138.390,3277.140
+Include possible catalogue,All dates,Japan,565,43023.910,3277.140
+All priced codes on numeric/C invoices,All dates,Korea,63,1118.510,168.690
+Baseline,All dates,Korea,63,1118.510,168.690
+Collapse exact repeats,All dates,Korea,63,1118.510,168.690
+"Exclude absolute lines ≥ £10,000",All dates,Korea,63,1118.510,168.690
+Include mirrored worksheet overlap,All dates,Korea,63,1118.510,168.690
+Include possible catalogue,All dates,Korea,63,1118.510,168.690
+All priced codes on numeric/C invoices,All dates,Lebanon,58,1905.580,39.670
+Baseline,All dates,Lebanon,58,1905.580,0
+Collapse exact repeats,All dates,Lebanon,58,1905.580,0
+"Exclude absolute lines ≥ £10,000",All dates,Lebanon,58,1905.580,0
+Include mirrored worksheet overlap,All dates,Lebanon,58,1905.580,0
+Include possible catalogue,All dates,Lebanon,58,1905.580,0
+All priced codes on numeric/C invoices,All dates,Lithuania,154,4892.680,0
+Baseline,All dates,Lithuania,154,4892.680,0
+Collapse exact repeats,All dates,Lithuania,154,4892.680,0
+"Exclude absolute lines ≥ £10,000",All dates,Lithuania,154,4892.680,0
+Include mirrored worksheet overlap,All dates,Lithuania,189,6553.740,0
+Include possible catalogue,All dates,Lithuania,154,4892.680,0
+All priced codes on numeric/C invoices,All dates,Malta,299,8099.090,2906.870
+Baseline,All dates,Malta,299,4757.340,90.120
+Collapse exact repeats,All dates,Malta,299,4757.340,90.120
+"Exclude absolute lines ≥ £10,000",All dates,Malta,299,4757.340,90.120
+Include mirrored worksheet overlap,All dates,Malta,299,4757.340,90.120
+Include possible catalogue,All dates,Malta,299,4757.340,90.120
+All priced codes on numeric/C invoices,All dates,Netherlands,5138,554039.740,5707.390
+Baseline,All dates,Netherlands,5138,549775.060,3677.980
+Collapse exact repeats,All dates,Netherlands,5137,549773.410,3677.980
+"Exclude absolute lines ≥ £10,000",All dates,Netherlands,5138,549775.060,3677.980
+Include mirrored worksheet overlap,All dates,Netherlands,5140,549952.660,3677.980
+Include possible catalogue,All dates,Netherlands,5138,549775.060,3677.980
+All priced codes on numeric/C invoices,All dates,Nigeria,32,140.390,147.050
+Baseline,All dates,Nigeria,32,112.570,147.050
+Collapse exact repeats,All dates,Nigeria,32,112.570,147.050
+"Exclude absolute lines ≥ £10,000",All dates,Nigeria,32,112.570,147.050
+Include mirrored worksheet overlap,All dates,Nigeria,32,112.570,147.050
+Include possible catalogue,All dates,Nigeria,32,112.570,147.050
+All priced codes on numeric/C invoices,All dates,Norway,1308,56322.500,20866.590
+Baseline,All dates,Norway,1308,38575.360,161.680
+Collapse exact repeats,All dates,Norway,1308,38575.360,161.680
+"Exclude absolute lines ≥ £10,000",All dates,Norway,1308,38575.360,161.680
+Include mirrored worksheet overlap,All dates,Norway,1455,42362.480,161.680
+Include possible catalogue,All dates,Norway,1308,38575.360,161.680
+All priced codes on numeric/C invoices,All dates,Outside UK,84865,3067845.581,196685.120
+Baseline,All dates,Outside UK,84865,2844623.500,84443.280
+Collapse exact repeats,All dates,Outside UK,84715,2842842.250,84349.130
+"Exclude absolute lines ≥ £10,000",All dates,Outside UK,84865,2844623.500,84443.280
+Include mirrored worksheet overlap,All dates,Outside UK,86041,2876279.710,84708.280
+Include possible catalogue,All dates,Outside UK,84865,2844623.501,84443.280
+All priced codes on numeric/C invoices,All dates,Poland,527,10654.290,374.360
+Baseline,All dates,Poland,527,10214.290,374.360
+Collapse exact repeats,All dates,Poland,527,10214.290,374.360
+"Exclude absolute lines ≥ £10,000",All dates,Poland,527,10214.290,374.360
+Include mirrored worksheet overlap,All dates,Poland,535,10462.450,374.360
+Include possible catalogue,All dates,Poland,527,10214.290,374.360
+All priced codes on numeric/C invoices,All dates,Portugal,2540,56352.130,4879.850
+Baseline,All dates,Portugal,2540,47406.870,630.280
+Collapse exact repeats,All dates,Portugal,2528,47338.270,630.280
+"Exclude absolute lines ≥ £10,000",All dates,Portugal,2540,47406.870,630.280
+Include mirrored worksheet overlap,All dates,Portugal,2620,48819.390,630.280
+Include possible catalogue,All dates,Portugal,2540,47406.870,630.280
+All priced codes on numeric/C invoices,All dates,RSA,169,4804.320,1435.290
+Baseline,All dates,RSA,169,3369.030,0
+Collapse exact repeats,All dates,RSA,169,3369.030,0
+"Exclude absolute lines ≥ £10,000",All dates,RSA,169,3369.030,0
+Include mirrored worksheet overlap,All dates,RSA,169,3369.030,0
+Include possible catalogue,All dates,RSA,169,3369.030,0
+All priced codes on numeric/C invoices,All dates,Saudi Arabia,10,145.920,14.750
+Baseline,All dates,Saudi Arabia,10,145.920,14.750
+Collapse exact repeats,All dates,Saudi Arabia,10,145.920,14.750
+"Exclude absolute lines ≥ £10,000",All dates,Saudi Arabia,10,145.920,14.750
+Include mirrored worksheet overlap,All dates,Saudi Arabia,10,145.920,14.750
+Include possible catalogue,All dates,Saudi Arabia,10,145.920,14.750
+All priced codes on numeric/C invoices,All dates,Singapore,346,25317.060,12158.900
+Baseline,All dates,Singapore,346,13158.160,0
+Collapse exact repeats,All dates,Singapore,346,13158.160,0
+"Exclude absolute lines ≥ £10,000",All dates,Singapore,346,13158.160,0
+Include mirrored worksheet overlap,All dates,Singapore,346,13158.160,0
+Include possible catalogue,All dates,Singapore,346,13158.160,0
+All priced codes on numeric/C invoices,All dates,Spain,3766,108383.810,17319.050
+Baseline,All dates,Spain,3766,97818.070,12955.190
+Collapse exact repeats,All dates,Spain,3754,97766.750,12955.190
+"Exclude absolute lines ≥ £10,000",All dates,Spain,3766,97818.070,12955.190
+Include mirrored worksheet overlap,All dates,Spain,3811,98612.790,12955.190
+Include possible catalogue,All dates,Spain,3766,97818.070,12955.190
+All priced codes on numeric/C invoices,All dates,Sweden,1364,91903.720,4094.300
+Baseline,All dates,Sweden,1364,86353.040,1973.970
+Collapse exact repeats,All dates,Sweden,1362,86319.140,1973.970
+"Exclude absolute lines ≥ £10,000",All dates,Sweden,1364,86353.040,1973.970
+Include mirrored worksheet overlap,All dates,Sweden,1364,86353.040,1973.970
+Include possible catalogue,All dates,Sweden,1364,86353.040,1973.970
+All priced codes on numeric/C invoices,All dates,Switzerland,3183,100707.890,1282.530
+Baseline,All dates,Switzerland,3183,94046.890,1106.530
+Collapse exact repeats,All dates,Switzerland,3175,94024.590,1106.530
+"Exclude absolute lines ≥ £10,000",All dates,Switzerland,3183,94046.890,1106.530
+Include mirrored worksheet overlap,All dates,Switzerland,3189,94270.290,1106.530
+Include possible catalogue,All dates,Switzerland,3183,94046.890,1106.530
+All priced codes on numeric/C invoices,All dates,Thailand,76,3070.540,0
+Baseline,All dates,Thailand,76,3070.540,0
+Collapse exact repeats,All dates,Thailand,76,3070.540,0
+"Exclude absolute lines ≥ £10,000",All dates,Thailand,76,3070.540,0
+Include mirrored worksheet overlap,All dates,Thailand,76,3070.540,0
+Include possible catalogue,All dates,Thailand,76,3070.540,0
+All priced codes on numeric/C invoices,All dates,USA,535,8366.860,2080.320
+Baseline,All dates,USA,535,7920.010,2080.320
+Collapse exact repeats,All dates,USA,535,7920.010,2080.320
+"Exclude absolute lines ≥ £10,000",All dates,USA,535,7920.010,2080.320
+Include mirrored worksheet overlap,All dates,USA,535,7920.010,2080.320
+Include possible catalogue,All dates,USA,535,7920.010,2080.320
+All priced codes on numeric/C invoices,All dates,United Arab Emirates,500,11097.630,1148.980
+Baseline,All dates,United Arab Emirates,500,10273.230,645.080
+Collapse exact repeats,All dates,United Arab Emirates,500,10273.230,645.080
+"Exclude absolute lines ≥ £10,000",All dates,United Arab Emirates,500,10273.230,645.080
+Include mirrored worksheet overlap,All dates,United Arab Emirates,500,10273.230,645.080
+Include possible catalogue,All dates,United Arab Emirates,500,10273.230,645.080
+All priced codes on numeric/C invoices,All dates,United Kingdom,959983,17454834.277,1268992.110
+Baseline,All dates,United Kingdom,959983,16855161.470,635213.060
+Collapse exact repeats,All dates,United Kingdom,948321,16799849.900,632076.840
+"Exclude absolute lines ≥ £10,000",All dates,United Kingdom,959949,16554719.870,389559.860
+Include mirrored worksheet overlap,All dates,United Kingdom,981330,17232715.690,641811.110
+Include possible catalogue,All dates,United Kingdom,959983,16856330.956,635249.660
+All priced codes on numeric/C invoices,All dates,Unspecified,756,10936.010,1248.690
+Baseline,All dates,Unspecified,756,10936.010,22.000
+Collapse exact repeats,All dates,Unspecified,752,10927.160,22.000
+"Exclude absolute lines ≥ £10,000",All dates,Unspecified,756,10936.010,22.000
+Include mirrored worksheet overlap,All dates,Unspecified,756,10936.010,22.000
+Include possible catalogue,All dates,Unspecified,756,10936.010,22.000
+All priced codes on numeric/C invoices,All dates,West Indies,54,536.410,0
+Baseline,All dates,West Indies,54,536.410,0
+Collapse exact repeats,All dates,West Indies,54,536.410,0
+"Exclude absolute lines ≥ £10,000",All dates,West Indies,54,536.410,0
+Include mirrored worksheet overlap,All dates,West Indies,54,536.410,0
+Include possible catalogue,All dates,West Indies,54,536.410,0
+All priced codes on numeric/C invoices,Dec 2010,All markets,42481,823746.140,74789.120
+Baseline,Dec 2010,All markets,42481,777865.640,17607.860
+Collapse exact repeats,Dec 2010,All markets,41981,775572.230,17547.860
+"Exclude absolute lines ≥ £10,000",Dec 2010,All markets,42477,777865.640,17607.860
+Include mirrored worksheet overlap,Dec 2010,All markets,65004,1187076.070,24470.910
+Include possible catalogue,Dec 2010,All markets,42481,777931.770,17607.860
+All priced codes on numeric/C invoices,Dec 2010,Australia,35,1032.850,27.750
+Baseline,Dec 2010,Australia,35,1032.850,27.750
+Collapse exact repeats,Dec 2010,Australia,34,965.350,27.750
+"Exclude absolute lines ≥ £10,000",Dec 2010,Australia,35,1032.850,27.750
+Include mirrored worksheet overlap,Dec 2010,Australia,57,1650.000,27.750
+Include possible catalogue,Dec 2010,Australia,35,1032.850,27.750
+All priced codes on numeric/C invoices,Dec 2010,Austria,9,277.200,20.160
+Baseline,Dec 2010,Austria,9,157.200,20.160
+Collapse exact repeats,Dec 2010,Austria,9,157.200,20.160
+"Exclude absolute lines ≥ £10,000",Dec 2010,Austria,9,157.200,20.160
+Include mirrored worksheet overlap,Dec 2010,Austria,9,157.200,20.160
+Include possible catalogue,Dec 2010,Austria,9,157.200,20.160
+All priced codes on numeric/C invoices,Dec 2010,Bahrain,1,205.740,0
+Baseline,Dec 2010,Bahrain,1,205.740,0
+Collapse exact repeats,Dec 2010,Bahrain,1,205.740,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Bahrain,1,205.740,0
+Include mirrored worksheet overlap,Dec 2010,Bahrain,1,205.740,0
+Include possible catalogue,Dec 2010,Bahrain,1,205.740,0
+All priced codes on numeric/C invoices,Dec 2010,Belgium,95,1809.910,0
+Baseline,Dec 2010,Belgium,95,1599.910,0
+Collapse exact repeats,Dec 2010,Belgium,95,1599.910,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Belgium,95,1599.910,0
+Include mirrored worksheet overlap,Dec 2010,Belgium,107,1910.010,0
+Include possible catalogue,Dec 2010,Belgium,95,1599.910,0
+All priced codes on numeric/C invoices,Dec 2010,Channel Islands,17,363.530,0
+Baseline,Dec 2010,Channel Islands,17,313.530,0
+Collapse exact repeats,Dec 2010,Channel Islands,17,313.530,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Channel Islands,17,313.530,0
+Include mirrored worksheet overlap,Dec 2010,Channel Islands,34,627.060,0
+Include possible catalogue,Dec 2010,Channel Islands,17,313.530,0
+All priced codes on numeric/C invoices,Dec 2010,Cyprus,83,1590.820,0
+Baseline,Dec 2010,Cyprus,83,1590.820,0
+Collapse exact repeats,Dec 2010,Cyprus,82,1587.070,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Cyprus,83,1590.820,0
+Include mirrored worksheet overlap,Dec 2010,Cyprus,83,1590.820,0
+Include possible catalogue,Dec 2010,Cyprus,83,1590.820,0
+All priced codes on numeric/C invoices,Dec 2010,Denmark,20,1281.500,0
+Baseline,Dec 2010,Denmark,20,1137.500,0
+Collapse exact repeats,Dec 2010,Denmark,20,1137.500,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Denmark,20,1137.500,0
+Include mirrored worksheet overlap,Dec 2010,Denmark,40,2275.000,0
+Include possible catalogue,Dec 2010,Denmark,20,1137.500,0
+All priced codes on numeric/C invoices,Dec 2010,EIRE,403,10033.260,1003.310
+Baseline,Dec 2010,EIRE,403,9683.260,1003.310
+Collapse exact repeats,Dec 2010,EIRE,403,9683.260,1003.310
+"Exclude absolute lines ≥ £10,000",Dec 2010,EIRE,403,9683.260,1003.310
+Include mirrored worksheet overlap,Dec 2010,EIRE,580,14816.040,1010.810
+Include possible catalogue,Dec 2010,EIRE,403,9683.260,1003.310
+All priced codes on numeric/C invoices,Dec 2010,Finland,17,892.800,0
+Baseline,Dec 2010,Finland,17,652.800,0
+Collapse exact repeats,Dec 2010,Finland,17,652.800,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Finland,17,652.800,0
+Include mirrored worksheet overlap,Dec 2010,Finland,17,652.800,0
+Include possible catalogue,Dec 2010,Finland,17,652.800,0
+All priced codes on numeric/C invoices,Dec 2010,France,439,9616.310,40.950
+Baseline,Dec 2010,France,439,8530.310,40.950
+Collapse exact repeats,Dec 2010,France,439,8530.310,40.950
+"Exclude absolute lines ≥ £10,000",Dec 2010,France,439,8530.310,40.950
+Include mirrored worksheet overlap,Dec 2010,France,710,14190.730,68.100
+Include possible catalogue,Dec 2010,France,439,8530.310,40.950
+All priced codes on numeric/C invoices,Dec 2010,Germany,565,15241.140,678.300
+Baseline,Dec 2010,Germany,565,13279.140,660.300
+Collapse exact repeats,Dec 2010,Germany,564,13243.740,660.300
+"Exclude absolute lines ≥ £10,000",Dec 2010,Germany,565,13279.140,660.300
+Include mirrored worksheet overlap,Dec 2010,Germany,826,18261.220,873.650
+Include possible catalogue,Dec 2010,Germany,565,13279.140,660.300
+All priced codes on numeric/C invoices,Dec 2010,Iceland,31,711.790,0
+Baseline,Dec 2010,Iceland,31,711.790,0
+Collapse exact repeats,Dec 2010,Iceland,31,711.790,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Iceland,31,711.790,0
+Include mirrored worksheet overlap,Dec 2010,Iceland,62,1423.580,0
+Include possible catalogue,Dec 2010,Iceland,31,711.790,0
+All priced codes on numeric/C invoices,Dec 2010,Israel,2,0,227.440
+Baseline,Dec 2010,Israel,2,0,227.440
+Collapse exact repeats,Dec 2010,Israel,2,0,227.440
+"Exclude absolute lines ≥ £10,000",Dec 2010,Israel,2,0,227.440
+Include mirrored worksheet overlap,Dec 2010,Israel,2,0,227.440
+Include possible catalogue,Dec 2010,Israel,2,0,227.440
+All priced codes on numeric/C invoices,Dec 2010,Italy,41,811.500,17.000
+Baseline,Dec 2010,Italy,41,650.500,17.000
+Collapse exact repeats,Dec 2010,Italy,41,650.500,17.000
+"Exclude absolute lines ≥ £10,000",Dec 2010,Italy,41,650.500,17.000
+Include mirrored worksheet overlap,Dec 2010,Italy,66,1022.300,34.000
+Include possible catalogue,Dec 2010,Italy,41,650.500,17.000
+All priced codes on numeric/C invoices,Dec 2010,Japan,65,7705.070,0
+Baseline,Dec 2010,Japan,65,7705.070,0
+Collapse exact repeats,Dec 2010,Japan,65,7705.070,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Japan,65,7705.070,0
+Include mirrored worksheet overlap,Dec 2010,Japan,82,11819.550,0
+Include possible catalogue,Dec 2010,Japan,65,7705.070,0
+All priced codes on numeric/C invoices,Dec 2010,Lithuania,35,1661.060,0
+Baseline,Dec 2010,Lithuania,35,1661.060,0
+Collapse exact repeats,Dec 2010,Lithuania,35,1661.060,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Lithuania,35,1661.060,0
+Include mirrored worksheet overlap,Dec 2010,Lithuania,70,3322.120,0
+Include possible catalogue,Dec 2010,Lithuania,35,1661.060,0
+All priced codes on numeric/C invoices,Dec 2010,Netherlands,72,8784.480,0
+Baseline,Dec 2010,Netherlands,72,8754.480,0
+Collapse exact repeats,Dec 2010,Netherlands,72,8754.480,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Netherlands,72,8754.480,0
+Include mirrored worksheet overlap,Dec 2010,Netherlands,74,8932.080,0
+Include possible catalogue,Dec 2010,Netherlands,72,8754.480,0
+All priced codes on numeric/C invoices,Dec 2010,Norway,147,3787.120,0
+Baseline,Dec 2010,Norway,147,3787.120,0
+Collapse exact repeats,Dec 2010,Norway,147,3787.120,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Norway,147,3787.120,0
+Include mirrored worksheet overlap,Dec 2010,Norway,294,7574.240,0
+Include possible catalogue,Dec 2010,Norway,147,3787.120,0
+All priced codes on numeric/C invoices,Dec 2010,Outside UK,2356,75477.160,3262.760
+Baseline,Dec 2010,Outside UK,2356,70512.160,3244.760
+Collapse exact repeats,Dec 2010,Outside UK,2353,70405.510,3244.760
+"Exclude absolute lines ≥ £10,000",Dec 2010,Outside UK,2356,70512.160,3244.760
+Include mirrored worksheet overlap,Dec 2010,Outside UK,3532,102168.370,3509.760
+Include possible catalogue,Dec 2010,Outside UK,2356,70512.160,3244.760
+All priced codes on numeric/C invoices,Dec 2010,Poland,8,248.160,0
+Baseline,Dec 2010,Poland,8,248.160,0
+Collapse exact repeats,Dec 2010,Poland,8,248.160,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Poland,8,248.160,0
+Include mirrored worksheet overlap,Dec 2010,Poland,16,496.320,0
+Include possible catalogue,Dec 2010,Poland,8,248.160,0
+All priced codes on numeric/C invoices,Dec 2010,Portugal,120,2439.970,59.850
+Baseline,Dec 2010,Portugal,120,2047.970,59.850
+Collapse exact repeats,Dec 2010,Portugal,120,2047.970,59.850
+"Exclude absolute lines ≥ £10,000",Dec 2010,Portugal,120,2047.970,59.850
+Include mirrored worksheet overlap,Dec 2010,Portugal,200,3460.490,59.850
+Include possible catalogue,Dec 2010,Portugal,120,2047.970,59.850
+All priced codes on numeric/C invoices,Dec 2010,Spain,75,1843.730,0
+Baseline,Dec 2010,Spain,75,1703.730,0
+Collapse exact repeats,Dec 2010,Spain,75,1703.730,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Spain,75,1703.730,0
+Include mirrored worksheet overlap,Dec 2010,Spain,120,2498.450,0
+Include possible catalogue,Dec 2010,Spain,75,1703.730,0
+All priced codes on numeric/C invoices,Dec 2010,Sweden,27,3834.300,1188.000
+Baseline,Dec 2010,Sweden,27,3834.300,1188.000
+Collapse exact repeats,Dec 2010,Sweden,27,3834.300,1188.000
+"Exclude absolute lines ≥ £10,000",Dec 2010,Sweden,27,3834.300,1188.000
+Include mirrored worksheet overlap,Dec 2010,Sweden,27,3834.300,1188.000
+Include possible catalogue,Dec 2010,Sweden,27,3834.300,1188.000
+All priced codes on numeric/C invoices,Dec 2010,Switzerland,49,1304.920,0
+Baseline,Dec 2010,Switzerland,49,1224.920,0
+Collapse exact repeats,Dec 2010,Switzerland,49,1224.920,0
+"Exclude absolute lines ≥ £10,000",Dec 2010,Switzerland,49,1224.920,0
+Include mirrored worksheet overlap,Dec 2010,Switzerland,55,1448.320,0
+Include possible catalogue,Dec 2010,Switzerland,49,1224.920,0
+All priced codes on numeric/C invoices,Dec 2010,United Kingdom,40125,748268.980,71526.360
+Baseline,Dec 2010,United Kingdom,40125,707353.480,14363.100
+Collapse exact repeats,Dec 2010,United Kingdom,39628,705166.720,14303.100
+"Exclude absolute lines ≥ £10,000",Dec 2010,United Kingdom,40121,707353.480,14363.100
+Include mirrored worksheet overlap,Dec 2010,United Kingdom,61472,1084907.700,20961.150
+Include possible catalogue,Dec 2010,United Kingdom,40125,707419.610,14363.100
+All priced codes on numeric/C invoices,Jan–Nov 2010,All markets,457710,9041353.614,543026.090
+Baseline,Jan–Nov 2010,All markets,457710,8627810.530,221370.880
+Collapse exact repeats,Jan–Nov 2010,All markets,451672,8598133.260,220966.730
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,All markets,457693,8611992.130,221370.880
+Include mirrored worksheet overlap,Jan–Nov 2010,All markets,457710,8627810.530,221370.880
+Include possible catalogue,Jan–Nov 2010,All markets,457710,8628418.424,221407.480
+All priced codes on numeric/C invoices,Jan–Nov 2010,Australia,605,30558.550,1174.150
+Baseline,Jan–Nov 2010,Australia,605,29425.100,115.700
+Collapse exact repeats,Jan–Nov 2010,Australia,605,29425.100,115.700
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Australia,605,29425.100,115.700
+Include mirrored worksheet overlap,Jan–Nov 2010,Australia,605,29425.100,115.700
+Include possible catalogue,Jan–Nov 2010,Australia,605,29425.100,115.700
+All priced codes on numeric/C invoices,Jan–Nov 2010,Austria,499,11415.990,391.050
+Baseline,Jan–Nov 2010,Austria,499,9635.990,181.050
+Collapse exact repeats,Jan–Nov 2010,Austria,499,9635.990,181.050
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Austria,499,9635.990,181.050
+Include mirrored worksheet overlap,Jan–Nov 2010,Austria,499,9635.990,181.050
+Include possible catalogue,Jan–Nov 2010,Austria,499,9635.990,181.050
+All priced codes on numeric/C invoices,Jan–Nov 2010,Bahrain,107,2355.650,42.500
+Baseline,Jan–Nov 2010,Bahrain,107,2355.650,42.500
+Collapse exact repeats,Jan–Nov 2010,Bahrain,107,2355.650,42.500
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Bahrain,107,2355.650,42.500
+Include mirrored worksheet overlap,Jan–Nov 2010,Bahrain,107,2355.650,42.500
+Include possible catalogue,Jan–Nov 2010,Bahrain,107,2355.650,42.500
+All priced codes on numeric/C invoices,Jan–Nov 2010,Belgium,1022,23763.380,1893.550
+Baseline,Jan–Nov 2010,Belgium,1022,19797.730,129.900
+Collapse exact repeats,Jan–Nov 2010,Belgium,1021,19778.230,129.900
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Belgium,1022,19797.730,129.900
+Include mirrored worksheet overlap,Jan–Nov 2010,Belgium,1022,19797.730,129.900
+Include possible catalogue,Jan–Nov 2010,Belgium,1022,19797.730,129.900
+All priced codes on numeric/C invoices,Jan–Nov 2010,Bermuda,34,1253.140,0
+Baseline,Jan–Nov 2010,Bermuda,34,1253.140,0
+Collapse exact repeats,Jan–Nov 2010,Bermuda,34,1253.140,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Bermuda,34,1253.140,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Bermuda,34,1253.140,0
+Include possible catalogue,Jan–Nov 2010,Bermuda,34,1253.140,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Brazil,62,268.270,0
+Baseline,Jan–Nov 2010,Brazil,62,268.270,0
+Collapse exact repeats,Jan–Nov 2010,Brazil,62,268.270,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Brazil,62,268.270,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Brazil,62,268.270,0
+Include possible catalogue,Jan–Nov 2010,Brazil,62,268.270,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Canada,77,1216.660,0
+Baseline,Jan–Nov 2010,Canada,77,1216.660,0
+Collapse exact repeats,Jan–Nov 2010,Canada,77,1216.660,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Canada,77,1216.660,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Canada,77,1216.660,0
+Include possible catalogue,Jan–Nov 2010,Canada,77,1216.660,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Channel Islands,846,23193.610,3135.200
+Baseline,Jan–Nov 2010,Channel Islands,846,23043.610,2073.570
+Collapse exact repeats,Jan–Nov 2010,Channel Islands,846,23043.610,2073.570
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Channel Islands,846,23043.610,2073.570
+Include mirrored worksheet overlap,Jan–Nov 2010,Channel Islands,846,23043.610,2073.570
+Include possible catalogue,Jan–Nov 2010,Channel Islands,846,23043.610,2073.570
+All priced codes on numeric/C invoices,Jan–Nov 2010,Cyprus,358,7832.770,41.400
+Baseline,Jan–Nov 2010,Cyprus,358,7802.770,41.400
+Collapse exact repeats,Jan–Nov 2010,Cyprus,351,7775.420,41.400
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Cyprus,358,7802.770,41.400
+Include mirrored worksheet overlap,Jan–Nov 2010,Cyprus,358,7802.770,41.400
+Include possible catalogue,Jan–Nov 2010,Cyprus,358,7802.770,41.400
+All priced codes on numeric/C invoices,Jan–Nov 2010,Denmark,397,48187.690,3880.700
+Baseline,Jan–Nov 2010,Denmark,397,47845.690,3880.700
+Collapse exact repeats,Jan–Nov 2010,Denmark,397,47845.690,3880.700
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Denmark,397,47845.690,3880.700
+Include mirrored worksheet overlap,Jan–Nov 2010,Denmark,397,47845.690,3880.700
+Include possible catalogue,Jan–Nov 2010,Denmark,397,47845.690,3880.700
+All priced codes on numeric/C invoices,Jan–Nov 2010,EIRE,8897,355595.300,27755.790
+Baseline,Jan–Nov 2010,EIRE,8897,333685.060,8719.360
+Collapse exact repeats,Jan–Nov 2010,EIRE,8887,333616.810,8658.160
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,EIRE,8897,333685.060,8719.360
+Include mirrored worksheet overlap,Jan–Nov 2010,EIRE,8897,333685.060,8719.360
+Include possible catalogue,Jan–Nov 2010,EIRE,8897,333685.060,8719.360
+All priced codes on numeric/C invoices,Jan–Nov 2010,Finland,350,6830.380,191.750
+Baseline,Jan–Nov 2010,Finland,350,6366.140,49.100
+Collapse exact repeats,Jan–Nov 2010,Finland,350,6366.140,49.100
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Finland,350,6366.140,49.100
+Include mirrored worksheet overlap,Jan–Nov 2010,Finland,350,6366.140,49.100
+Include possible catalogue,Jan–Nov 2010,Finland,350,6366.140,49.100
+All priced codes on numeric/C invoices,Jan–Nov 2010,France,5164,134399.380,15447.790
+Baseline,Jan–Nov 2010,France,5164,120831.950,14366.040
+Collapse exact repeats,Jan–Nov 2010,France,5146,120723.600,14366.040
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,France,5164,120831.950,14366.040
+Include mirrored worksheet overlap,Jan–Nov 2010,France,5164,120831.950,14366.040
+Include possible catalogue,Jan–Nov 2010,France,5164,120831.950,14366.040
+All priced codes on numeric/C invoices,Jan–Nov 2010,Germany,7448,186614.391,5577.390
+Baseline,Jan–Nov 2010,Germany,7448,169242.930,3639.770
+Collapse exact repeats,Jan–Nov 2010,Germany,7442,169139.580,3639.770
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Germany,7448,169242.930,3639.770
+Include mirrored worksheet overlap,Jan–Nov 2010,Germany,7448,169242.930,3639.770
+Include possible catalogue,Jan–Nov 2010,Germany,7448,169242.931,3639.770
+All priced codes on numeric/C invoices,Jan–Nov 2010,Greece,476,13724.720,50.700
+Baseline,Jan–Nov 2010,Greece,476,13674.720,50.700
+Collapse exact repeats,Jan–Nov 2010,Greece,476,13674.720,50.700
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Greece,476,13674.720,50.700
+Include mirrored worksheet overlap,Jan–Nov 2010,Greece,476,13674.720,50.700
+Include possible catalogue,Jan–Nov 2010,Greece,476,13674.720,50.700
+All priced codes on numeric/C invoices,Jan–Nov 2010,Hong Kong,76,8202.520,4280.260
+Baseline,Jan–Nov 2010,Hong Kong,76,3922.260,0
+Collapse exact repeats,Jan–Nov 2010,Hong Kong,76,3922.260,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Hong Kong,76,3922.260,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Hong Kong,76,3922.260,0
+Include possible catalogue,Jan–Nov 2010,Hong Kong,76,3922.260,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Iceland,40,611.530,0
+Baseline,Jan–Nov 2010,Iceland,40,611.530,0
+Collapse exact repeats,Jan–Nov 2010,Iceland,40,611.530,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Iceland,40,611.530,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Iceland,40,611.530,0
+Include possible catalogue,Jan–Nov 2010,Iceland,40,611.530,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Israel,74,3199.400,0
+Baseline,Jan–Nov 2010,Israel,74,3199.400,0
+Collapse exact repeats,Jan–Nov 2010,Israel,74,3199.400,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Israel,74,3199.400,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Israel,74,3199.400,0
+Include possible catalogue,Jan–Nov 2010,Israel,74,3199.400,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Italy,682,14217.030,1237.190
+Baseline,Jan–Nov 2010,Italy,682,12709.360,142.650
+Collapse exact repeats,Jan–Nov 2010,Italy,680,12694.910,142.650
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Italy,682,12709.360,142.650
+Include mirrored worksheet overlap,Jan–Nov 2010,Italy,682,12709.360,142.650
+Include possible catalogue,Jan–Nov 2010,Italy,682,12709.360,142.650
+All priced codes on numeric/C invoices,Jan–Nov 2010,Japan,204,5607.540,1077.310
+Baseline,Jan–Nov 2010,Japan,204,5607.540,1071.810
+Collapse exact repeats,Jan–Nov 2010,Japan,204,5607.540,1071.810
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Japan,204,5607.540,1071.810
+Include mirrored worksheet overlap,Jan–Nov 2010,Japan,204,5607.540,1071.810
+Include possible catalogue,Jan–Nov 2010,Japan,204,5607.540,1071.810
+All priced codes on numeric/C invoices,Jan–Nov 2010,Korea,63,1118.510,168.690
+Baseline,Jan–Nov 2010,Korea,63,1118.510,168.690
+Collapse exact repeats,Jan–Nov 2010,Korea,63,1118.510,168.690
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Korea,63,1118.510,168.690
+Include mirrored worksheet overlap,Jan–Nov 2010,Korea,63,1118.510,168.690
+Include possible catalogue,Jan–Nov 2010,Korea,63,1118.510,168.690
+All priced codes on numeric/C invoices,Jan–Nov 2010,Lebanon,13,211.700,39.670
+Baseline,Jan–Nov 2010,Lebanon,13,211.700,0
+Collapse exact repeats,Jan–Nov 2010,Lebanon,13,211.700,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Lebanon,13,211.700,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Lebanon,13,211.700,0
+Include possible catalogue,Jan–Nov 2010,Lebanon,13,211.700,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Lithuania,119,3231.620,0
+Baseline,Jan–Nov 2010,Lithuania,119,3231.620,0
+Collapse exact repeats,Jan–Nov 2010,Lithuania,119,3231.620,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Lithuania,119,3231.620,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Lithuania,119,3231.620,0
+Include possible catalogue,Jan–Nov 2010,Lithuania,119,3231.620,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Malta,172,5373.500,2686.750
+Baseline,Jan–Nov 2010,Malta,172,2686.750,0
+Collapse exact repeats,Jan–Nov 2010,Malta,172,2686.750,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Malta,172,2686.750,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Malta,172,2686.750,0
+Include possible catalogue,Jan–Nov 2010,Malta,172,2686.750,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Netherlands,2612,253388.670,4922.590
+Baseline,Jan–Nov 2010,Netherlands,2612,250839.990,3268.180
+Collapse exact repeats,Jan–Nov 2010,Netherlands,2611,250838.340,3268.180
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Netherlands,2612,250839.990,3268.180
+Include mirrored worksheet overlap,Jan–Nov 2010,Netherlands,2612,250839.990,3268.180
+Include possible catalogue,Jan–Nov 2010,Netherlands,2612,250839.990,3268.180
+All priced codes on numeric/C invoices,Jan–Nov 2010,Nigeria,30,140.390,0
+Baseline,Jan–Nov 2010,Nigeria,30,112.570,0
+Collapse exact repeats,Jan–Nov 2010,Nigeria,30,112.570,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Nigeria,30,112.570,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Nigeria,30,112.570,0
+Include possible catalogue,Jan–Nov 2010,Nigeria,30,112.570,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Norway,201,19671.750,19864.610
+Baseline,Jan–Nov 2010,Norway,201,5755.410,0
+Collapse exact repeats,Jan–Nov 2010,Norway,201,5755.410,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Norway,201,5755.410,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Norway,201,5755.410,0
+Include possible catalogue,Jan–Nov 2010,Norway,201,5755.410,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Outside UK,36062,1350996.581,111986.840
+Baseline,Jan–Nov 2010,Outside UK,36062,1249430.810,49342.340
+Collapse exact repeats,Jan–Nov 2010,Outside UK,36006,1249027.190,49281.140
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Outside UK,36062,1249430.810,49342.340
+Include mirrored worksheet overlap,Jan–Nov 2010,Outside UK,36062,1249430.810,49342.340
+Include possible catalogue,Jan–Nov 2010,Outside UK,36062,1249430.811,49342.340
+All priced codes on numeric/C invoices,Jan–Nov 2010,Poland,164,2947.820,252.850
+Baseline,Jan–Nov 2010,Poland,164,2867.820,252.850
+Collapse exact repeats,Jan–Nov 2010,Poland,164,2867.820,252.850
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Poland,164,2867.820,252.850
+Include mirrored worksheet overlap,Jan–Nov 2010,Poland,164,2867.820,252.850
+Include possible catalogue,Jan–Nov 2010,Poland,164,2867.820,252.850
+All priced codes on numeric/C invoices,Jan–Nov 2010,Portugal,923,19783.450,499.770
+Baseline,Jan–Nov 2010,Portugal,923,17626.130,486.640
+Collapse exact repeats,Jan–Nov 2010,Portugal,920,17621.580,486.640
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Portugal,923,17626.130,486.640
+Include mirrored worksheet overlap,Jan–Nov 2010,Portugal,923,17626.130,486.640
+Include possible catalogue,Jan–Nov 2010,Portugal,923,17626.130,486.640
+All priced codes on numeric/C invoices,Jan–Nov 2010,RSA,111,3802.010,1435.290
+Baseline,Jan–Nov 2010,RSA,111,2366.720,0
+Collapse exact repeats,Jan–Nov 2010,RSA,111,2366.720,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,RSA,111,2366.720,0
+Include mirrored worksheet overlap,Jan–Nov 2010,RSA,111,2366.720,0
+Include possible catalogue,Jan–Nov 2010,RSA,111,2366.720,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Singapore,117,4037.770,0
+Baseline,Jan–Nov 2010,Singapore,117,4037.770,0
+Collapse exact repeats,Jan–Nov 2010,Singapore,117,4037.770,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Singapore,117,4037.770,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Singapore,117,4037.770,0
+Include possible catalogue,Jan–Nov 2010,Singapore,117,4037.770,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,Spain,996,38856.520,10485.170
+Baseline,Jan–Nov 2010,Spain,996,34338.780,8991.930
+Collapse exact repeats,Jan–Nov 2010,Spain,989,34306.010,8991.930
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Spain,996,34338.780,8991.930
+Include mirrored worksheet overlap,Jan–Nov 2010,Spain,996,34338.780,8991.930
+Include possible catalogue,Jan–Nov 2010,Spain,996,34338.780,8991.930
+All priced codes on numeric/C invoices,Jan–Nov 2010,Sweden,899,53240.090,2286.380
+Baseline,Jan–Nov 2010,Sweden,899,49228.410,286.050
+Collapse exact repeats,Jan–Nov 2010,Sweden,898,49205.010,286.050
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Sweden,899,49228.410,286.050
+Include mirrored worksheet overlap,Jan–Nov 2010,Sweden,899,49228.410,286.050
+Include possible catalogue,Jan–Nov 2010,Sweden,899,49228.410,286.050
+All priced codes on numeric/C invoices,Jan–Nov 2010,Switzerland,1166,43028.590,577.980
+Baseline,Jan–Nov 2010,Switzerland,1166,40489.590,523.980
+Collapse exact repeats,Jan–Nov 2010,Switzerland,1166,40489.590,523.980
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Switzerland,1166,40489.590,523.980
+Include mirrored worksheet overlap,Jan–Nov 2010,Switzerland,1166,40489.590,523.980
+Include possible catalogue,Jan–Nov 2010,Switzerland,1166,40489.590,523.980
+All priced codes on numeric/C invoices,Jan–Nov 2010,Thailand,76,3070.540,0
+Baseline,Jan–Nov 2010,Thailand,76,3070.540,0
+Collapse exact repeats,Jan–Nov 2010,Thailand,76,3070.540,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Thailand,76,3070.540,0
+Include mirrored worksheet overlap,Jan–Nov 2010,Thailand,76,3070.540,0
+Include possible catalogue,Jan–Nov 2010,Thailand,76,3070.540,0
+All priced codes on numeric/C invoices,Jan–Nov 2010,USA,243,4645.470,230.850
+Baseline,Jan–Nov 2010,USA,243,4339.620,230.850
+Collapse exact repeats,Jan–Nov 2010,USA,243,4339.620,230.850
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,USA,243,4339.620,230.850
+Include mirrored worksheet overlap,Jan–Nov 2010,USA,243,4339.620,230.850
+Include possible catalogue,Jan–Nov 2010,USA,243,4339.620,230.850
+All priced codes on numeric/C invoices,Jan–Nov 2010,United Arab Emirates,375,8677.650,1110.820
+Baseline,Jan–Nov 2010,United Arab Emirates,375,7890.750,606.920
+Collapse exact repeats,Jan–Nov 2010,United Arab Emirates,375,7890.750,606.920
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,United Arab Emirates,375,7890.750,606.920
+Include mirrored worksheet overlap,Jan–Nov 2010,United Arab Emirates,375,7890.750,606.920
+Include possible catalogue,Jan–Nov 2010,United Arab Emirates,375,7890.750,606.920
+All priced codes on numeric/C invoices,Jan–Nov 2010,United Kingdom,421648,7690357.033,431039.250
+Baseline,Jan–Nov 2010,United Kingdom,421648,7378379.720,172028.540
+Collapse exact repeats,Jan–Nov 2010,United Kingdom,415666,7349106.070,171685.590
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,United Kingdom,421631,7362561.320,172028.540
+Include mirrored worksheet overlap,Jan–Nov 2010,United Kingdom,421648,7378379.720,172028.540
+Include possible catalogue,Jan–Nov 2010,United Kingdom,421648,7378987.613,172065.140
+All priced codes on numeric/C invoices,Jan–Nov 2010,Unspecified,310,6186.220,1248.690
+Baseline,Jan–Nov 2010,Unspecified,310,6186.220,22.000
+Collapse exact repeats,Jan–Nov 2010,Unspecified,310,6186.220,22.000
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,Unspecified,310,6186.220,22.000
+Include mirrored worksheet overlap,Jan–Nov 2010,Unspecified,310,6186.220,22.000
+Include possible catalogue,Jan–Nov 2010,Unspecified,310,6186.220,22.000
+All priced codes on numeric/C invoices,Jan–Nov 2010,West Indies,54,536.410,0
+Baseline,Jan–Nov 2010,West Indies,54,536.410,0
+Collapse exact repeats,Jan–Nov 2010,West Indies,54,536.410,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2010,West Indies,54,536.410,0
+Include mirrored worksheet overlap,Jan–Nov 2010,West Indies,54,536.410,0
+Include possible catalogue,Jan–Nov 2010,West Indies,54,536.410,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,All markets,473903,9193083.664,616898.700
+Baseline,Jan–Nov 2011,All markets,473903,8877678.990,286989.560
+Collapse exact repeats,Jan–Nov 2011,All markets,469414,8856761.010,284261.940
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,All markets,473894,8761525.390,209805.960
+Include mirrored worksheet overlap,Jan–Nov 2011,All markets,473903,8877678.990,286989.560
+Include possible catalogue,Jan–Nov 2011,All markets,473903,8878008.023,286989.560
+All priced codes on numeric/C invoices,Jan–Nov 2011,Australia,1224,137488.460,1416.290
+Baseline,Jan–Nov 2011,Australia,1224,137138.460,1153.560
+Collapse exact repeats,Jan–Nov 2011,Australia,1224,137138.460,1153.560
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Australia,1224,137138.460,1153.560
+Include mirrored worksheet overlap,Jan–Nov 2011,Australia,1224,137138.460,1153.560
+Include possible catalogue,Jan–Nov 2011,Australia,1224,137138.460,1153.560
+All priced codes on numeric/C invoices,Jan–Nov 2011,Austria,385,9238.280,24.200
+Baseline,Jan–Nov 2011,Austria,385,8062.280,24.200
+Collapse exact repeats,Jan–Nov 2011,Austria,385,8062.280,24.200
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Austria,385,8062.280,24.200
+Include mirrored worksheet overlap,Jan–Nov 2011,Austria,385,8062.280,24.200
+Include possible catalogue,Jan–Nov 2011,Austria,385,8062.280,24.200
+All priced codes on numeric/C invoices,Jan–Nov 2011,Bahrain,18,548.400,205.740
+Baseline,Jan–Nov 2011,Bahrain,18,548.400,205.740
+Collapse exact repeats,Jan–Nov 2011,Bahrain,18,548.400,205.740
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Bahrain,18,548.400,205.740
+Include mirrored worksheet overlap,Jan–Nov 2011,Bahrain,18,548.400,205.740
+Include possible catalogue,Jan–Nov 2011,Bahrain,18,548.400,205.740
+All priced codes on numeric/C invoices,Jan–Nov 2011,Belgium,1876,37968.700,277.080
+Baseline,Jan–Nov 2011,Belgium,1876,34038.700,256.080
+Collapse exact repeats,Jan–Nov 2011,Belgium,1876,34038.700,256.080
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Belgium,1876,34038.700,256.080
+Include mirrored worksheet overlap,Jan–Nov 2011,Belgium,1876,34038.700,256.080
+Include possible catalogue,Jan–Nov 2011,Belgium,1876,34038.700,256.080
+All priced codes on numeric/C invoices,Jan–Nov 2011,Brazil,32,1143.600,0
+Baseline,Jan–Nov 2011,Brazil,32,1143.600,0
+Collapse exact repeats,Jan–Nov 2011,Brazil,32,1143.600,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Brazil,32,1143.600,0
+Include mirrored worksheet overlap,Jan–Nov 2011,Brazil,32,1143.600,0
+Include possible catalogue,Jan–Nov 2011,Brazil,32,1143.600,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,Canada,151,3666.380,0
+Baseline,Jan–Nov 2011,Canada,151,3115.440,0
+Collapse exact repeats,Jan–Nov 2011,Canada,151,3115.440,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Canada,151,3115.440,0
+Include mirrored worksheet overlap,Jan–Nov 2011,Canada,151,3115.440,0
+Include possible catalogue,Jan–Nov 2011,Canada,151,3115.440,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,Channel Islands,735,19888.510,359.900
+Baseline,Jan–Nov 2011,Channel Islands,735,19495.510,66.900
+Collapse exact repeats,Jan–Nov 2011,Channel Islands,734,19485.610,66.900
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Channel Islands,735,19495.510,66.900
+Include mirrored worksheet overlap,Jan–Nov 2011,Channel Islands,735,19495.510,66.900
+Include possible catalogue,Jan–Nov 2011,Channel Islands,735,19495.510,66.900
+All priced codes on numeric/C invoices,Jan–Nov 2011,Cyprus,535,11999.560,552.840
+Baseline,Jan–Nov 2011,Cyprus,535,11663.870,232.150
+Collapse exact repeats,Jan–Nov 2011,Cyprus,525,11580.090,232.150
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Cyprus,535,11663.870,232.150
+Include mirrored worksheet overlap,Jan–Nov 2011,Cyprus,535,11663.870,232.150
+Include possible catalogue,Jan–Nov 2011,Cyprus,535,11663.870,232.150
+All priced codes on numeric/C invoices,Jan–Nov 2011,Czech Republic,30,826.740,119.020
+Baseline,Jan–Nov 2011,Czech Republic,30,786.740,115.020
+Collapse exact repeats,Jan–Nov 2011,Czech Republic,30,786.740,115.020
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Czech Republic,30,786.740,115.020
+Include mirrored worksheet overlap,Jan–Nov 2011,Czech Republic,30,786.740,115.020
+Include possible catalogue,Jan–Nov 2011,Czech Republic,30,786.740,115.020
+All priced codes on numeric/C invoices,Jan–Nov 2011,Denmark,358,17504.940,187.200
+Baseline,Jan–Nov 2011,Denmark,358,16922.940,169.200
+Collapse exact repeats,Jan–Nov 2011,Denmark,358,16922.940,169.200
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Denmark,358,16922.940,169.200
+Include mirrored worksheet overlap,Jan–Nov 2011,Denmark,358,16922.940,169.200
+Include possible catalogue,Jan–Nov 2011,Denmark,358,16922.940,169.200
+All priced codes on numeric/C invoices,Jan–Nov 2011,EIRE,7458,266079.810,19155.980
+Baseline,Jan–Nov 2011,EIRE,7458,254340.150,10479.680
+Collapse exact repeats,Jan–Nov 2011,EIRE,7446,254026.710,10449.680
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,EIRE,7458,254340.150,10479.680
+Include mirrored worksheet overlap,Jan–Nov 2011,EIRE,7458,254340.150,10479.680
+Include possible catalogue,Jan–Nov 2011,EIRE,7458,254340.150,10479.680
+All priced codes on numeric/C invoices,Jan–Nov 2011,European Community,61,1300.250,8.500
+Baseline,Jan–Nov 2011,European Community,61,1159.250,8.500
+Collapse exact repeats,Jan–Nov 2011,European Community,61,1159.250,8.500
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,European Community,61,1159.250,8.500
+Include mirrored worksheet overlap,Jan–Nov 2011,European Community,61,1159.250,8.500
+Include possible catalogue,Jan–Nov 2011,European Community,61,1159.250,8.500
+All priced codes on numeric/C invoices,Jan–Nov 2011,Finland,664,20420.520,217.260
+Baseline,Jan–Nov 2011,Finland,664,16619.320,39.260
+Collapse exact repeats,Jan–Nov 2011,Finland,664,16619.320,39.260
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Finland,664,16619.320,39.260
+Include mirrored worksheet overlap,Jan–Nov 2011,Finland,664,16619.320,39.260
+Include possible catalogue,Jan–Nov 2011,Finland,664,16619.320,39.260
+All priced codes on numeric/C invoices,Jan–Nov 2011,France,7779,192821.880,12042.170
+Baseline,Jan–Nov 2011,France,7779,169513.510,2230.750
+Collapse exact repeats,Jan–Nov 2011,France,7763,169423.770,2227.800
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,France,7779,169513.510,2230.750
+Include mirrored worksheet overlap,Jan–Nov 2011,France,7779,169513.510,2230.750
+Include possible catalogue,Jan–Nov 2011,France,7779,169513.510,2230.750
+All priced codes on numeric/C invoices,Jan–Nov 2011,Germany,8590,205641.830,6311.160
+Baseline,Jan–Nov 2011,Germany,8590,185266.580,3921.720
+Collapse exact repeats,Jan–Nov 2011,Germany,8576,185113.240,3921.720
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Germany,8590,185266.580,3921.720
+Include mirrored worksheet overlap,Jan–Nov 2011,Germany,8590,185266.580,3921.720
+Include possible catalogue,Jan–Nov 2011,Germany,8590,185266.580,3921.720
+All priced codes on numeric/C invoices,Jan–Nov 2011,Greece,110,4079.530,50.000
+Baseline,Jan–Nov 2011,Greece,110,3879.530,0
+Collapse exact repeats,Jan–Nov 2011,Greece,110,3879.530,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Greece,110,3879.530,0
+Include mirrored worksheet overlap,Jan–Nov 2011,Greece,110,3879.530,0
+Include possible catalogue,Jan–Nov 2011,Greece,110,3879.530,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,Hong Kong,288,15691.800,5574.760
+Baseline,Jan–Nov 2011,Hong Kong,288,9952.990,10.950
+Collapse exact repeats,Jan–Nov 2011,Hong Kong,284,9744.190,10.950
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Hong Kong,288,9952.990,10.950
+Include mirrored worksheet overlap,Jan–Nov 2011,Hong Kong,288,9952.990,10.950
+Include possible catalogue,Jan–Nov 2011,Hong Kong,288,9952.990,10.950
+All priced codes on numeric/C invoices,Jan–Nov 2011,Iceland,140,3373.390,0
+Baseline,Jan–Nov 2011,Iceland,140,3373.390,0
+Collapse exact repeats,Jan–Nov 2011,Iceland,140,3373.390,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Iceland,140,3373.390,0
+Include mirrored worksheet overlap,Jan–Nov 2011,Iceland,140,3373.390,0
+Include possible catalogue,Jan–Nov 2011,Iceland,140,3373.390,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,Israel,295,8135.260,0
+Baseline,Jan–Nov 2011,Israel,295,8135.260,0
+Collapse exact repeats,Jan–Nov 2011,Israel,292,8129.410,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Israel,295,8135.260,0
+Include mirrored worksheet overlap,Jan–Nov 2011,Israel,295,8135.260,0
+Include possible catalogue,Jan–Nov 2011,Israel,295,8135.260,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,Italy,754,16471.290,575.730
+Baseline,Jan–Nov 2011,Italy,754,14969.290,526.900
+Collapse exact repeats,Jan–Nov 2011,Italy,754,14969.290,526.900
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Italy,754,14969.290,526.900
+Include mirrored worksheet overlap,Jan–Nov 2011,Italy,754,14969.290,526.900
+Include possible catalogue,Jan–Nov 2011,Italy,754,14969.290,526.900
+All priced codes on numeric/C invoices,Jan–Nov 2011,Japan,285,29711.300,1958.820
+Baseline,Jan–Nov 2011,Japan,285,29711.300,1879.650
+Collapse exact repeats,Jan–Nov 2011,Japan,285,29711.300,1879.650
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Japan,285,29711.300,1879.650
+Include mirrored worksheet overlap,Jan–Nov 2011,Japan,285,29711.300,1879.650
+Include possible catalogue,Jan–Nov 2011,Japan,285,29711.300,1879.650
+All priced codes on numeric/C invoices,Jan–Nov 2011,Lebanon,45,1693.880,0
+Baseline,Jan–Nov 2011,Lebanon,45,1693.880,0
+Collapse exact repeats,Jan–Nov 2011,Lebanon,45,1693.880,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Lebanon,45,1693.880,0
+Include mirrored worksheet overlap,Jan–Nov 2011,Lebanon,45,1693.880,0
+Include possible catalogue,Jan–Nov 2011,Lebanon,45,1693.880,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,Malta,122,2725.590,189.310
+Baseline,Jan–Nov 2011,Malta,122,2070.590,59.310
+Collapse exact repeats,Jan–Nov 2011,Malta,122,2070.590,59.310
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Malta,122,2070.590,59.310
+Include mirrored worksheet overlap,Jan–Nov 2011,Malta,122,2070.590,59.310
+Include possible catalogue,Jan–Nov 2011,Malta,122,2070.590,59.310
+All priced codes on numeric/C invoices,Jan–Nov 2011,Netherlands,2213,264933.840,784.800
+Baseline,Jan–Nov 2011,Netherlands,2213,263406.840,409.800
+Collapse exact repeats,Jan–Nov 2011,Netherlands,2213,263406.840,409.800
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Netherlands,2213,263406.840,409.800
+Include mirrored worksheet overlap,Jan–Nov 2011,Netherlands,2213,263406.840,409.800
+Include possible catalogue,Jan–Nov 2011,Netherlands,2213,263406.840,409.800
+All priced codes on numeric/C invoices,Jan–Nov 2011,Norway,866,29592.620,1001.980
+Baseline,Jan–Nov 2011,Norway,866,25921.820,161.680
+Collapse exact repeats,Jan–Nov 2011,Norway,866,25921.820,161.680
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Norway,866,25921.820,161.680
+Include mirrored worksheet overlap,Jan–Nov 2011,Norway,866,25921.820,161.680
+Include possible catalogue,Jan–Nov 2011,Norway,866,25921.820,161.680
+All priced codes on numeric/C invoices,Jan–Nov 2011,Outside UK,42476,1519814.710,77020.120
+Baseline,Jan–Nov 2011,Outside UK,42476,1410148.650,28478.470
+Collapse exact repeats,Jan–Nov 2011,Outside UK,42389,1409159.550,28445.520
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Outside UK,42476,1410148.650,28478.470
+Include mirrored worksheet overlap,Jan–Nov 2011,Outside UK,42476,1410148.650,28478.470
+Include possible catalogue,Jan–Nov 2011,Outside UK,42476,1410148.650,28478.470
+All priced codes on numeric/C invoices,Jan–Nov 2011,Poland,333,7086.490,121.510
+Baseline,Jan–Nov 2011,Poland,333,6726.490,121.510
+Collapse exact repeats,Jan–Nov 2011,Poland,333,6726.490,121.510
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Poland,333,6726.490,121.510
+Include mirrored worksheet overlap,Jan–Nov 2011,Poland,333,6726.490,121.510
+Include possible catalogue,Jan–Nov 2011,Poland,333,6726.490,121.510
+All priced codes on numeric/C invoices,Jan–Nov 2011,Portugal,1297,28498.940,4313.990
+Baseline,Jan–Nov 2011,Portugal,1297,22551.000,77.550
+Collapse exact repeats,Jan–Nov 2011,Portugal,1288,22486.950,77.550
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Portugal,1297,22551.000,77.550
+Include mirrored worksheet overlap,Jan–Nov 2011,Portugal,1297,22551.000,77.550
+Include possible catalogue,Jan–Nov 2011,Portugal,1297,22551.000,77.550
+All priced codes on numeric/C invoices,Jan–Nov 2011,RSA,58,1002.310,0
+Baseline,Jan–Nov 2011,RSA,58,1002.310,0
+Collapse exact repeats,Jan–Nov 2011,RSA,58,1002.310,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,RSA,58,1002.310,0
+Include mirrored worksheet overlap,Jan–Nov 2011,RSA,58,1002.310,0
+Include possible catalogue,Jan–Nov 2011,RSA,58,1002.310,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,Saudi Arabia,10,145.920,14.750
+Baseline,Jan–Nov 2011,Saudi Arabia,10,145.920,14.750
+Collapse exact repeats,Jan–Nov 2011,Saudi Arabia,10,145.920,14.750
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Saudi Arabia,10,145.920,14.750
+Include mirrored worksheet overlap,Jan–Nov 2011,Saudi Arabia,10,145.920,14.750
+Include possible catalogue,Jan–Nov 2011,Saudi Arabia,10,145.920,14.750
+All priced codes on numeric/C invoices,Jan–Nov 2011,Singapore,229,21279.290,12158.900
+Baseline,Jan–Nov 2011,Singapore,229,9120.390,0
+Collapse exact repeats,Jan–Nov 2011,Singapore,229,9120.390,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Singapore,229,9120.390,0
+Include mirrored worksheet overlap,Jan–Nov 2011,Singapore,229,9120.390,0
+Include possible catalogue,Jan–Nov 2011,Singapore,229,9120.390,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,Spain,2387,59417.170,6757.750
+Baseline,Jan–Nov 2011,Spain,2387,53733.170,3915.130
+Collapse exact repeats,Jan–Nov 2011,Spain,2382,53714.620,3915.130
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Spain,2387,53733.170,3915.130
+Include mirrored worksheet overlap,Jan–Nov 2011,Spain,2387,53733.170,3915.130
+Include possible catalogue,Jan–Nov 2011,Spain,2387,53733.170,3915.130
+All priced codes on numeric/C invoices,Jan–Nov 2011,Sweden,433,34306.030,356.420
+Baseline,Jan–Nov 2011,Sweden,433,32767.030,236.420
+Collapse exact repeats,Jan–Nov 2011,Sweden,432,32756.530,236.420
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Sweden,433,32767.030,236.420
+Include mirrored worksheet overlap,Jan–Nov 2011,Sweden,433,32767.030,236.420
+Include possible catalogue,Jan–Nov 2011,Sweden,433,32767.030,236.420
+All priced codes on numeric/C invoices,Jan–Nov 2011,Switzerland,1953,55784.980,704.550
+Baseline,Jan–Nov 2011,Switzerland,1953,51862.980,582.550
+Collapse exact repeats,Jan–Nov 2011,Switzerland,1945,51840.680,582.550
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Switzerland,1953,51862.980,582.550
+Include mirrored worksheet overlap,Jan–Nov 2011,Switzerland,1953,51862.980,582.550
+Include possible catalogue,Jan–Nov 2011,Switzerland,1953,51862.980,582.550
+All priced codes on numeric/C invoices,Jan–Nov 2011,USA,248,2695.150,1579.510
+Baseline,Jan–Nov 2011,USA,248,2695.150,1579.510
+Collapse exact repeats,Jan–Nov 2011,USA,248,2695.150,1579.510
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,USA,248,2695.150,1579.510
+Include mirrored worksheet overlap,Jan–Nov 2011,USA,248,2695.150,1579.510
+Include possible catalogue,Jan–Nov 2011,USA,248,2695.150,1579.510
+All priced codes on numeric/C invoices,Jan–Nov 2011,United Arab Emirates,68,1902.280,0
+Baseline,Jan–Nov 2011,United Arab Emirates,68,1864.780,0
+Collapse exact repeats,Jan–Nov 2011,United Arab Emirates,68,1864.780,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,United Arab Emirates,68,1864.780,0
+Include mirrored worksheet overlap,Jan–Nov 2011,United Arab Emirates,68,1864.780,0
+Include possible catalogue,Jan–Nov 2011,United Arab Emirates,68,1864.780,0
+All priced codes on numeric/C invoices,Jan–Nov 2011,United Kingdom,431427,7673268.954,539878.580
+Baseline,Jan–Nov 2011,United Kingdom,431427,7467530.340,258511.090
+Collapse exact repeats,Jan–Nov 2011,United Kingdom,427025,7447601.460,255816.420
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,United Kingdom,431418,7351376.740,181327.490
+Include mirrored worksheet overlap,Jan–Nov 2011,United Kingdom,431427,7467530.340,258511.090
+Include possible catalogue,Jan–Nov 2011,United Kingdom,431427,7467859.373,258511.090
+All priced codes on numeric/C invoices,Jan–Nov 2011,Unspecified,446,4749.790,0
+Baseline,Jan–Nov 2011,Unspecified,446,4749.790,0
+Collapse exact repeats,Jan–Nov 2011,Unspecified,442,4740.940,0
+"Exclude absolute lines ≥ £10,000",Jan–Nov 2011,Unspecified,446,4749.790,0
+Include mirrored worksheet overlap,Jan–Nov 2011,Unspecified,446,4749.790,0
+Include possible catalogue,Jan–Nov 2011,Unspecified,446,4749.790,0
+All priced codes on numeric/C invoices,Partial Dec 2011,All markets,25526,638810.680,205124.670
+Baseline,Partial Dec 2011,All markets,25526,615489.980,174126.760
+Collapse exact repeats,Partial Dec 2011,All markets,25247,614487.630,174091.360
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,All markets,25522,447020.380,5657.160
+Include mirrored worksheet overlap,Partial Dec 2011,All markets,25526,615489.980,174126.760
+Include possible catalogue,Partial Dec 2011,All markets,25526,615493.270,174126.760
+All priced codes on numeric/C invoices,Partial Dec 2011,Austria,7,683.200,0
+Baseline,Partial Dec 2011,Austria,7,523.200,0
+Collapse exact repeats,Partial Dec 2011,Austria,7,523.200,0
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Austria,7,523.200,0
+Include mirrored worksheet overlap,Partial Dec 2011,Austria,7,523.200,0
+Include possible catalogue,Partial Dec 2011,Austria,7,523.200,0
+All priced codes on numeric/C invoices,Partial Dec 2011,Belgium,98,1417.730,8.300
+Baseline,Partial Dec 2011,Belgium,98,1288.730,8.300
+Collapse exact repeats,Partial Dec 2011,Belgium,98,1288.730,8.300
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Belgium,98,1288.730,8.300
+Include mirrored worksheet overlap,Partial Dec 2011,Belgium,98,1288.730,8.300
+Include possible catalogue,Partial Dec 2011,Belgium,98,1288.730,8.300
+All priced codes on numeric/C invoices,Partial Dec 2011,Channel Islands,6,198.400,4.250
+Baseline,Partial Dec 2011,Channel Islands,6,198.400,4.250
+Collapse exact repeats,Partial Dec 2011,Channel Islands,6,198.400,4.250
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Channel Islands,6,198.400,4.250
+Include mirrored worksheet overlap,Partial Dec 2011,Channel Islands,6,198.400,4.250
+Include possible catalogue,Partial Dec 2011,Channel Islands,6,198.400,4.250
+All priced codes on numeric/C invoices,Partial Dec 2011,Cyprus,4,0,91.250
+Baseline,Partial Dec 2011,Cyprus,4,0,91.250
+Collapse exact repeats,Partial Dec 2011,Cyprus,4,0,91.250
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Cyprus,4,0,91.250
+Include mirrored worksheet overlap,Partial Dec 2011,Cyprus,4,0,91.250
+Include possible catalogue,Partial Dec 2011,Cyprus,4,0,91.250
+All priced codes on numeric/C invoices,Partial Dec 2011,Denmark,11,168.900,0
+Baseline,Partial Dec 2011,Denmark,11,150.900,0
+Collapse exact repeats,Partial Dec 2011,Denmark,11,150.900,0
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Denmark,11,150.900,0
+Include mirrored worksheet overlap,Partial Dec 2011,Denmark,11,150.900,0
+Include possible catalogue,Partial Dec 2011,Denmark,11,150.900,0
+All priced codes on numeric/C invoices,Partial Dec 2011,EIRE,335,7340.890,17.850
+Baseline,Partial Dec 2011,EIRE,335,7140.890,17.850
+Collapse exact repeats,Partial Dec 2011,EIRE,335,7140.890,17.850
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,EIRE,335,7140.890,17.850
+Include mirrored worksheet overlap,Partial Dec 2011,EIRE,335,7140.890,17.850
+Include possible catalogue,Partial Dec 2011,EIRE,335,7140.890,17.850
+All priced codes on numeric/C invoices,Partial Dec 2011,Finland,14,1232.760,2.080
+Baseline,Partial Dec 2011,Finland,14,1072.760,2.080
+Collapse exact repeats,Partial Dec 2011,Finland,14,1072.760,2.080
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Finland,14,1072.760,2.080
+Include mirrored worksheet overlap,Partial Dec 2011,Finland,14,1072.760,2.080
+Include possible catalogue,Partial Dec 2011,Finland,14,1072.760,2.080
+All priced codes on numeric/C invoices,Partial Dec 2011,France,340,7294.920,228.090
+Baseline,Partial Dec 2011,France,340,6538.920,147.650
+Collapse exact repeats,Partial Dec 2011,France,340,6538.920,147.650
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,France,340,6538.920,147.650
+Include mirrored worksheet overlap,Partial Dec 2011,France,340,6538.920,147.650
+Include possible catalogue,Partial Dec 2011,France,340,6538.920,147.650
+All priced codes on numeric/C invoices,Partial Dec 2011,Germany,340,7984.170,179.470
+Baseline,Partial Dec 2011,Germany,340,7024.170,179.470
+Collapse exact repeats,Partial Dec 2011,Germany,340,7024.170,179.470
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Germany,340,7024.170,179.470
+Include mirrored worksheet overlap,Partial Dec 2011,Germany,340,7024.170,179.470
+Include possible catalogue,Partial Dec 2011,Germany,340,7024.170,179.470
+All priced codes on numeric/C invoices,Partial Dec 2011,Greece,36,680.990,0
+Baseline,Partial Dec 2011,Greece,36,545.990,0
+Collapse exact repeats,Partial Dec 2011,Greece,36,545.990,0
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Greece,36,545.990,0
+Include mirrored worksheet overlap,Partial Dec 2011,Greece,36,545.990,0
+Include possible catalogue,Partial Dec 2011,Greece,36,545.990,0
+All priced codes on numeric/C invoices,Partial Dec 2011,Iceland,11,224.820,0
+Baseline,Partial Dec 2011,Iceland,11,224.820,0
+Collapse exact repeats,Partial Dec 2011,Iceland,11,224.820,0
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Iceland,11,224.820,0
+Include mirrored worksheet overlap,Partial Dec 2011,Iceland,11,224.820,0
+Include possible catalogue,Partial Dec 2011,Iceland,11,224.820,0
+All priced codes on numeric/C invoices,Partial Dec 2011,Italy,8,200.450,0
+Baseline,Partial Dec 2011,Italy,8,200.450,0
+Collapse exact repeats,Partial Dec 2011,Italy,8,200.450,0
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Italy,8,200.450,0
+Include mirrored worksheet overlap,Partial Dec 2011,Italy,8,200.450,0
+Include possible catalogue,Partial Dec 2011,Italy,8,200.450,0
+All priced codes on numeric/C invoices,Partial Dec 2011,Japan,8,0,116.930
+Baseline,Partial Dec 2011,Japan,8,0,116.930
+Collapse exact repeats,Partial Dec 2011,Japan,8,0,116.930
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Japan,8,0,116.930
+Include mirrored worksheet overlap,Partial Dec 2011,Japan,8,0,116.930
+Include possible catalogue,Partial Dec 2011,Japan,8,0,116.930
+All priced codes on numeric/C invoices,Partial Dec 2011,Malta,5,0,30.810
+Baseline,Partial Dec 2011,Malta,5,0,30.810
+Collapse exact repeats,Partial Dec 2011,Malta,5,0,30.810
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Malta,5,0,30.810
+Include mirrored worksheet overlap,Partial Dec 2011,Malta,5,0,30.810
+Include possible catalogue,Partial Dec 2011,Malta,5,0,30.810
+All priced codes on numeric/C invoices,Partial Dec 2011,Netherlands,86,11728.020,0
+Baseline,Partial Dec 2011,Netherlands,86,11728.020,0
+Collapse exact repeats,Partial Dec 2011,Netherlands,86,11728.020,0
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Netherlands,86,11728.020,0
+Include mirrored worksheet overlap,Partial Dec 2011,Netherlands,86,11728.020,0
+Include possible catalogue,Partial Dec 2011,Netherlands,86,11728.020,0
+All priced codes on numeric/C invoices,Partial Dec 2011,Norway,73,2785.700,0
+Baseline,Partial Dec 2011,Norway,73,2745.700,0
+Collapse exact repeats,Partial Dec 2011,Norway,73,2745.700,0
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Norway,73,2745.700,0
+Include mirrored worksheet overlap,Partial Dec 2011,Norway,73,2745.700,0
+Include possible catalogue,Partial Dec 2011,Norway,73,2745.700,0
+All priced codes on numeric/C invoices,Partial Dec 2011,Outside UK,1600,46188.590,1238.010
+Baseline,Partial Dec 2011,Outside UK,1600,43210.590,1157.570
+Collapse exact repeats,Partial Dec 2011,Outside UK,1600,43210.590,1157.570
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Outside UK,1600,43210.590,1157.570
+Include mirrored worksheet overlap,Partial Dec 2011,Outside UK,1600,43210.590,1157.570
+Include possible catalogue,Partial Dec 2011,Outside UK,1600,43210.590,1157.570
+All priced codes on numeric/C invoices,Partial Dec 2011,Portugal,102,2808.190,6.240
+Baseline,Partial Dec 2011,Portugal,102,2416.190,6.240
+Collapse exact repeats,Partial Dec 2011,Portugal,102,2416.190,6.240
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Portugal,102,2416.190,6.240
+Include mirrored worksheet overlap,Partial Dec 2011,Portugal,102,2416.190,6.240
+Include possible catalogue,Partial Dec 2011,Portugal,102,2416.190,6.240
+All priced codes on numeric/C invoices,Partial Dec 2011,Spain,71,316.210,44.780
+Baseline,Partial Dec 2011,Spain,71,288.210,44.780
+Collapse exact repeats,Partial Dec 2011,Spain,71,288.210,44.780
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Spain,71,288.210,44.780
+Include mirrored worksheet overlap,Partial Dec 2011,Spain,71,288.210,44.780
+Include possible catalogue,Partial Dec 2011,Spain,71,288.210,44.780
+All priced codes on numeric/C invoices,Partial Dec 2011,Sweden,2,238.000,238.000
+Baseline,Partial Dec 2011,Sweden,2,238.000,238.000
+Collapse exact repeats,Partial Dec 2011,Sweden,2,238.000,238.000
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,Sweden,2,238.000,238.000
+Include mirrored worksheet overlap,Partial Dec 2011,Sweden,2,238.000,238.000
+Include possible catalogue,Partial Dec 2011,Sweden,2,238.000,238.000
+All priced codes on numeric/C invoices,Partial Dec 2011,USA,43,885.240,269.960
+Baseline,Partial Dec 2011,USA,43,885.240,269.960
+Collapse exact repeats,Partial Dec 2011,USA,43,885.240,269.960
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,USA,43,885.240,269.960
+Include mirrored worksheet overlap,Partial Dec 2011,USA,43,885.240,269.960
+Include possible catalogue,Partial Dec 2011,USA,43,885.240,269.960
+All priced codes on numeric/C invoices,Partial Dec 2011,United Kingdom,23926,592622.090,203886.660
+Baseline,Partial Dec 2011,United Kingdom,23926,572279.390,172969.190
+Collapse exact repeats,Partial Dec 2011,United Kingdom,23647,571277.040,172933.790
+"Exclude absolute lines ≥ £10,000",Partial Dec 2011,United Kingdom,23922,403809.790,4499.590
+Include mirrored worksheet overlap,Partial Dec 2011,United Kingdom,23926,572279.390,172969.190
+Include possible catalogue,Partial Dec 2011,United Kingdom,23926,572282.680,172969.190

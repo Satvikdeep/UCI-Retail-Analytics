@@ -1,0 +1,14 @@
+disposition,distinct_rows,excess_rows,excess_identified_rows,excess_signed_value
+Cancellation-coded merchandise,17914,59,55,-3230.370
+Discount,173,0,0,0
+Fees and commission,152,0,0,0
+Manual and accounting adjustments,1468,11,11,375.710
+Mirrored worksheet overlap,0,22523,14803,377488.450
+Positive merchandise,1003214,11731,11610,57092.820
+Possible catalogue,179,0,0,0
+Postage and carriage,3788,0,0,0
+Samples,101,1,0,-9.740
+Test items,17,0,0,0
+Unclassified code,1,0,0,0
+Vouchers,101,0,0,0
+Zero-priced catalogue,5928,10,0,0.000

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Validation | Retail II</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../library.css">
+</head>
+<body class="library">
+  <a class="skip" href="#main">Skip to document</a>
+  <header class="masthead">
+    <div class="frame masthead-inner">
+      <a href="../index.html" class="wordmark" aria-label="Retail II home">Retail<span>II</span></a>
+      <nav class="utility-nav" aria-label="Project">
+        <a href="../index.html">Dashboard</a>
+        <a href="../report.html" aria-label="Executive report"><span class="full-label">Executive report</span><span class="short-label" aria-hidden="true">Report</span></a>
+        <a href="index.html" aria-label="Documentation" aria-current="page"><span class="full-label">Documentation</span><span class="short-label" aria-hidden="true">Docs</span></a>
+      </nav>
+    </div>
+  </header>
+  <div class="frame library-layout">
+    <aside class="library-index">
+      <nav aria-label="Documents">
+        <h2>Project documents</h2>
+        <div><a href="index.html">Project guide</a><a href="findings.html">Findings register</a><a href="technical.html">Technical appendix</a><a href="source.html">Source and licence</a><a href="validation.html" aria-current="page">Validation</a><a href="decisions.html">Decision log</a><a href="interview.html">Interview and learning</a><a href="progress.html">Progress and continuation</a><a href="raw.html">Raw workbook</a></div>
+      </nav>
+    </aside>
+    <main id="main" tabindex="-1">
+      <header class="doc-heading">
+        <a href="../../docs/VALIDATION.md">View Markdown</a>
+        <h1>Validation and reproducibility</h1>
+      </header>
+      <nav class="doc-toc" aria-label="On this page"><h2>On this page</h2><div><a href="#recorded-checks">Recorded checks</a><a href="#presentation-refresh">Presentation refresh</a><a href="#repeat-the-checks">Repeat the checks</a></div></nav>
+      <article class="doc-content">
+<h2 id="recorded-checks">Recorded checks</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Scope</th>
+<th>Check</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Original</td>
+<td>Official archive and a clean-path scripted download produced the same pinned workbook SHA-256</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Source population</td>
+<td>Python extractor and PostgreSQL matched both sheets, record counts, dates, missing-ID and missing-description counts, and exact signed values</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Mirrored overlap</td>
+<td>SQL full-field grouped fingerprints and independent Python tuple multisets matched 22,523 rows on both sheets</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Main analytical totals</td>
+<td>Independent Python integer-millipound sums and set counts matched 175 SQL period/market keys for gross, cancellations, other merchandise adjustments, net, identified gross, sales invoices and customers</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>SQL controls</td>
+<td>17 zero-failure checks for raw lineage, keys, disposition and exact money bridge, invoice consistency, customer-mix/driver additivity, cohorts, linkage population, chronology and both capacity bounds</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Reproducibility</td>
+<td>Two complete invocations of <code>scripts/rebuild.sh</code> re-extracted the preserved workbook. All 28 checksummed CSV, JSON and dashboard-data files were byte-identical. Second run exercised starting and stopping the project-only server.</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Browser behaviour</td>
+<td>Installed Chrome driven by Playwright verified all four views. Tested exact all-market and filtered sales, UK cohort rates and denominators, Outside UK reconciliation and linkage, 90/365-day linkage, Dec 2010 overlap, tab state, details and empty states. Also tested the report and local file mode.</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Layout</td>
+<td>Rendered four views and report at 1440, 390 and 320 CSS pixels. Checked page and chart geometry. Visual inspection identified a clipped chart tick and overly wide report table, then verified the corrected renders.</td>
+<td>Pass</td>
+</tr>
+</tbody>
+</table></div>
+<p><a href="../../outputs/validation.csv">SQL validation results</a> · <a href="../../outputs/independent_checks.json">Independent checks</a> · <a href="../../outputs/sha256.txt">SHA-256 manifest</a></p>
+<p>The SQL bridge uses exact signed decimals and fails the rebuild if any test fails. The Python check reads raw extracted source cells, accumulates signed amounts as integer millipounds and independently counts distinct invoice and customer keys. It also compares source control sums calculated during workbook extraction against SQL. These checks share the pinned source and extract. Testing a workbook from a different version would require explicit source verification.</p>
+<p>The link audit validates candidate keys, strict chronology, lookback, event completion, and capacity per sale line and lookback. It can verify consistency with the stated rule. Original-order mappings, posting reasons, realized refunds and cash outcomes are unavailable in the workbook. Cross-browser and native spreadsheet app rendering were outside the verified environment. The dashboards use aggregated public-retail data locally.</p>
+<h2 id="presentation-refresh">Presentation refresh</h2>
+<p>The executive layout refresh was checked in Chrome at 1,440, 390 and 320 CSS pixels. The browser test exercises the four analysis views, report, nine rendered Markdown pages, internal section navigation and local file mode. The analytics output manifest still verifies. The reader is generated from the editable Markdown and can be checked with <code>.build/docs-venv/bin/python scripts/build_docs.py --check</code>.</p>
+<h2 id="repeat-the-checks">Repeat the checks</h2>
+<pre><code class="language-sh">./scripts/rebuild.sh
+cp outputs/sha256.txt .build/previous.sha256
+./scripts/rebuild.sh
+cmp .build/previous.sha256 outputs/sha256.txt
+shasum -a 256 -c outputs/sha256.txt
+</code></pre>
+<p>For optional browser verification, use installed Google Chrome and Node.js 20+. The dependency stays inside ignored project state. Start the local preview server in one terminal and run QA from the project root in another.</p>
+<pre><code class="language-sh">python3 -m http.server 8765 --bind 127.0.0.1
+</code></pre>
+<pre><code class="language-sh">npm install --prefix .build/qa --no-audit --no-fund --save-exact playwright-core@1.60.0
+node scripts/check_dashboard.cjs
+</code></pre>
+<p>On a system with Chrome installed elsewhere, set <code>RETAIL_CHROME</code> to its executable path. The script saves screenshots under <code>.build/qa</code>. Stop the preview with Ctrl-C.</p>
+
+      </article>
+      <footer class="page-footer">
+        <span>Retail II · UCI Online Retail II</span>
+        <a href="source.html">Source and licence</a>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

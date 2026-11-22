@@ -1,0 +1,18 @@
+test,failures
+"Allocation violates chronology, window, product, customer or price",0
+Baseline sensitivity totals differ,0
+Cancellation completion differs from allocated units or exceeds demand,0
+Cancellation event lacks exactly one result per lookback,0
+Country conflicts with reserved dashboard scope,0
+Customer-mix components fail to tie to gross sales,0
+Identified sales and customer mart mismatch,0
+"Invoice crosses country, date or customer key",0
+Linkage population fails to match baseline cancellation value,0
+Market growth driver bridge fails to tie,0
+Mirrored worksheet exclusion differs from paired full-field multiset,0
+Price normalization exceeds Excel precision tolerance,0
+Raw-to-final bridge or line/invoice mart mismatch,0
+Raw/classified population or original values differ,0
+Sale quantity overallocated,0
+Sales cohorts have invalid repeat denominators,0
+UCI record-count difference,0

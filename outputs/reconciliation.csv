@@ -1,0 +1,629 @@
+period,scope,disposition,lines,raw_exact_value,normalized_signed_value,precision_bridge
+All dates,All markets,Cancellation-coded merchandise,17973,-719656.339999999996498954,-719656.340,-0.000000000003501046
+All dates,All markets,Discount,173,-12879.62999999999992020,-12879.630,-0.00000000000007980
+All dates,All markets,Fees and commission,152,-264936.17899999999829,-264936.179,-0.00000000000171
+All dates,All markets,Manual and accounting adjustments,1479,-222983.36000000000329780,-222983.360,0.00000000000329780
+All dates,All markets,Mirrored worksheet overlap,22523,377488.449999999998427680,377488.450,0.000000000001572320
+All dates,All markets,Positive merchandise,1014945,19699784.969999999924412016,19699784.970,0.000000000075587984
+All dates,All markets,Possible catalogue,179,1132.8869999999999990,1132.887,0.0000000000000010
+All dates,All markets,Postage and carriage,3788,433410.51000000000019410,433410.510,-0.00000000000019410
+All dates,All markets,Samples,102,-6000.849999999999913,-6000.850,-0.000000000000087
+All dates,All markets,Test items,17,203.5,203.500,0.000
+All dates,All markets,Unclassified code,1,0,0.000,0.000
+All dates,All markets,Vouchers,101,1686.610000000000018,1686.610,-0.000000000000018
+All dates,All markets,Zero-priced catalogue,5938,0,0.000,0.000
+All dates,Australia,Cancellation-coded merchandise,95,-1517.85999999999999594,-1517.860,-0.00000000000000406
+All dates,Australia,Manual and accounting adjustments,7,75.00,75.000,0.000
+All dates,Australia,Mirrored worksheet overlap,22,617.15,617.150,0.000
+All dates,Australia,Positive merchandise,1784,167867.50999999999983122,167867.510,0.00000000000016878
+All dates,Australia,Postage and carriage,2,87.27,87.270,0.000
+All dates,Australia,Zero-priced catalogue,3,0,0.000,0.000
+All dates,Austria,Cancellation-coded merchandise,13,-225.40999999999999856,-225.410,-0.00000000000000144
+All dates,Austria,Manual and accounting adjustments,3,130,130.000,0.000
+All dates,Austria,Positive merchandise,888,20297.00999999999998260,20297.010,0.00000000000001740
+All dates,Austria,Postage and carriage,34,2976,2976.000,0.000
+All dates,Bahrain,Cancellation-coded merchandise,2,-248.24,-248.240,0.000
+All dates,Bahrain,Positive merchandise,124,3109.7899999999999842,3109.790,0.0000000000000158
+All dates,Belgium,Cancellation-coded merchandise,49,-394.2799999999999970,-394.280,-0.0000000000000030
+All dates,Belgium,Manual and accounting adjustments,2,0.00,0.000,0.000
+All dates,Belgium,Mirrored worksheet overlap,12,346.10000000000000340,346.100,-0.00000000000000340
+All dates,Belgium,Positive merchandise,2912,57012.66999999999997112,57012.670,0.00000000000002888
+All dates,Belgium,Postage and carriage,147,6610,6610.000,0.000
+All dates,Belgium,Zero-priced catalogue,1,0,0.000,0.000
+All dates,Bermuda,Positive merchandise,34,1253.1399999999999938,1253.140,0.0000000000000062
+All dates,Brazil,Positive merchandise,94,1411.86999999999998340,1411.870,0.00000000000001660
+All dates,Canada,Positive merchandise,227,4332.09999999999998646,4332.100,0.00000000000001354
+All dates,Canada,Postage and carriage,1,550.94000000000005,550.940,-0.00000000000005
+All dates,Channel Islands,Cancellation-coded merchandise,91,-2188.52000000000000498,-2188.520,0.00000000000000498
+All dates,Channel Islands,Manual and accounting adjustments,4,-1011.63,-1011.630,0.000
+All dates,Channel Islands,Mirrored worksheet overlap,17,363.5299999999999962,363.530,0.0000000000000038
+All dates,Channel Islands,Positive merchandise,1545,44040.22999999999985324,44040.230,0.00000000000014676
+All dates,Channel Islands,Postage and carriage,7,250,250.000,0.000
+All dates,Cyprus,Cancellation-coded merchandise,20,-496.6999999999999988,-496.700,-0.0000000000000012
+All dates,Cyprus,Manual and accounting adjustments,2,0.00,0.000,0.000
+All dates,Cyprus,Positive merchandise,1151,24614.43999999999986576,24614.440,0.00000000000013424
+All dates,Cyprus,Postage and carriage,3,45,45.000,0.000
+All dates,Czech Republic,Cancellation-coded merchandise,4,-115.02,-115.020,0.000
+All dates,Czech Republic,Positive merchandise,24,786.73999999999998872,786.740,0.00000000000001128
+All dates,Czech Republic,Postage and carriage,2,36,36.000,0.000
+All dates,Denmark,Cancellation-coded merchandise,17,-4067.10,-4067.100,0.000
+All dates,Denmark,Mirrored worksheet overlap,20,1281.50,1281.500,0.000
+All dates,Denmark,Positive merchandise,756,67422.69000000000004192,67422.690,-0.00000000000004192
+All dates,Denmark,Postage and carriage,24,1104,1104.000,0.000
+All dates,EIRE,Cancellation-coded merchandise,471,-20388.74999999999976746,-20388.750,-0.00000000000023254
+All dates,EIRE,Discount,3,-529.68,-529.680,0.000
+All dates,EIRE,Fees and commission,1,15,15.000,0.000
+All dates,EIRE,Manual and accounting adjustments,74,-2413.150000000000003,-2413.150,0.000000000000003
+All dates,EIRE,Mirrored worksheet overlap,177,5275.27999999999999668,5275.280,0.00000000000000332
+All dates,EIRE,Positive merchandise,16933,623795.84999999999706984,623795.850,0.00000000000293016
+All dates,EIRE,Postage and carriage,202,9765,9765.000,0.000
+All dates,EIRE,Zero-priced catalogue,5,0,0.000,0.000
+All dates,European Community,Cancellation-coded merchandise,1,-8.50,-8.500,0.000
+All dates,European Community,Positive merchandise,57,1159.25000000000000432,1159.250,-0.00000000000000432
+All dates,European Community,Postage and carriage,3,141,141.000,0.000
+All dates,Finland,Cancellation-coded merchandise,11,-90.44,-90.440,0.000
+All dates,Finland,Manual and accounting adjustments,4,471.79000000000004,471.790,-0.00000000000004
+All dates,Finland,Positive merchandise,985,25180.10000000000009484,25180.100,-0.00000000000009484
+All dates,Finland,Postage and carriage,49,3953,3953.000,0.000
+All dates,France,Cancellation-coded merchandise,364,-17662.040000000000007588,-17662.040,0.000000000000007588
+All dates,France,Manual and accounting adjustments,15,4011.19000000000000312,4011.190,-0.00000000000000312
+All dates,France,Mirrored worksheet overlap,271,6263.26999999999996788,6263.270,0.00000000000003212
+All dates,France,Positive merchandise,13193,311288.379999999999108888,311288.380,0.000000000000891112
+All dates,France,Postage and carriage,487,24291,24291.000,0.000
+All dates,Germany,Cancellation-coded merchandise,867,-8715.48999999999996704,-8715.490,-0.00000000000003296
+All dates,Germany,Manual and accounting adjustments,29,-536.35,-536.350,0.000
+All dates,Germany,Mirrored worksheet overlap,261,5470.72999999999999438,5470.730,0.00000000000000562
+All dates,Germany,Positive merchandise,15811,383847.66999999999893212,383847.670,0.00000000000106788
+All dates,Germany,Possible catalogue,1,0.001,0.001,0.000
+All dates,Germany,Postage and carriage,648,37922.00,37922.000,0.000
+All dates,Germany,Zero-priced catalogue,7,0,0.000,0.000
+All dates,Greece,Cancellation-coded merchandise,5,-50.6999999999999993,-50.700,-0.0000000000000007
+All dates,Greece,Positive merchandise,653,18711.18999999999993360,18711.190,0.00000000000006640
+All dates,Greece,Postage and carriage,5,335,335.000,0.000
+All dates,Hong Kong,Cancellation-coded merchandise,1,-10.95,-10.950,0.000
+All dates,Hong Kong,Manual and accounting adjustments,10,0.00000000000000,0.000,0.00000000000000
+All dates,Hong Kong,Positive merchandise,351,13875.25000000000003786,13875.250,-0.00000000000003786
+All dates,Hong Kong,Postage and carriage,2,175,175.000,0.000
+All dates,Iceland,Mirrored worksheet overlap,31,711.7900000000000048,711.790,-0.0000000000000048
+All dates,Iceland,Positive merchandise,222,4921.53000000000001752,4921.530,-0.00000000000001752
+All dates,Israel,Cancellation-coded merchandise,2,-227.44,-227.440,0.000
+All dates,Israel,Positive merchandise,369,11334.65999999999996602,11334.660,0.00000000000003398
+All dates,Italy,Cancellation-coded merchandise,59,-710.6999999999999907,-710.700,-0.0000000000000093
+All dates,Italy,Discount,3,-460.01,-460.010,0.000
+All dates,Italy,Manual and accounting adjustments,3,-625.69,-625.690,0.000
+All dates,Italy,Mirrored worksheet overlap,25,410.8000000000000012,410.800,-0.0000000000000012
+All dates,Italy,Positive merchandise,1413,28951.94999999999991062,28951.950,0.00000000000008938
+All dates,Italy,Postage and carriage,31,3113,3113.000,0.000
+All dates,Japan,Cancellation-coded merchandise,93,-3277.1399999999998612,-3277.140,-0.0000000000001388
+All dates,Japan,Manual and accounting adjustments,4,-84.67,-84.670,0.000
+All dates,Japan,Mirrored worksheet overlap,17,4114.4799999999997000,4114.480,0.0000000000003000
+All dates,Japan,Positive merchandise,468,43023.90999999999949930,43023.910,0.00000000000050070
+All dates,Korea,Cancellation-coded merchandise,10,-168.6900000000000016,-168.690,0.0000000000000016
+All dates,Korea,Positive merchandise,53,1118.5099999999999968,1118.510,0.0000000000000032
+All dates,Lebanon,Positive merchandise,57,1905.57999999999999836,1905.580,0.00000000000000164
+All dates,Lebanon,Postage and carriage,1,-39.67,-39.670,0.000
+All dates,Lithuania,Mirrored worksheet overlap,35,1661.0599999999999832,1661.060,0.0000000000000168
+All dates,Lithuania,Positive merchandise,154,4892.67999999999998056,4892.680,0.00000000000001944
+All dates,Malta,Cancellation-coded merchandise,14,-90.1199999999999965,-90.120,-0.0000000000000035
+All dates,Malta,Manual and accounting adjustments,4,0.00,0.000,0.000
+All dates,Malta,Positive merchandise,277,4757.33999999999995916,4757.340,0.00000000000004084
+All dates,Malta,Postage and carriage,4,525,525.000,0.000
+All dates,Netherlands,Cancellation-coded merchandise,35,-3677.9799999999999742,-3677.980,-0.0000000000000258
+All dates,Netherlands,Discount,4,-1381.07,-1381.070,0.000
+All dates,Netherlands,Manual and accounting adjustments,9,-205.66,-205.660,0.000
+All dates,Netherlands,Mirrored worksheet overlap,2,192.60,192.600,0.000
+All dates,Netherlands,Positive merchandise,4982,549775.05999999999628916,549775.060,0.00000000000371084
+All dates,Netherlands,Postage and carriage,103,3822,3822.000,0.000
+All dates,Netherlands,Zero-priced catalogue,5,0,0.000,0.000
+All dates,Nigeria,Cancellation-coded merchandise,2,-147.0499999999999938,-147.050,-0.0000000000000062
+All dates,Nigeria,Manual and accounting adjustments,1,27.82,27.820,0.000
+All dates,Nigeria,Positive merchandise,29,112.56999999999999926,112.570,0.00000000000000074
+All dates,Norway,Cancellation-coded merchandise,11,-161.68,-161.680,0.000
+All dates,Norway,Manual and accounting adjustments,12,-5948.27,-5948.270,0.000
+All dates,Norway,Mirrored worksheet overlap,147,3787.11999999999998944,3787.120,0.00000000000001056
+All dates,Norway,Positive merchandise,1263,38575.35999999999993056,38575.360,0.00000000000006944
+All dates,Norway,Postage and carriage,21,2990.5,2990.500,0.000
+All dates,Norway,Zero-priced catalogue,1,0,0.000,0.000
+All dates,Outside UK,Cancellation-coded merchandise,2617,-84443.279999999999356568,-84443.280,-0.000000000000643432
+All dates,Outside UK,Discount,10,-2370.76,-2370.760,0.000
+All dates,Outside UK,Fees and commission,1,15,15.000,0.000
+All dates,Outside UK,Manual and accounting adjustments,239,-9313.67999999999996988,-9313.680,-0.00000000000003012
+All dates,Outside UK,Mirrored worksheet overlap,1176,33506.20999999999961628,33506.210,0.00000000000038372
+All dates,Outside UK,Positive merchandise,79918,2844623.499999999989260448,2844623.500,0.000000000010739552
+All dates,Outside UK,Possible catalogue,1,0.001,0.001,0.000
+All dates,Outside UK,Postage and carriage,2055,122649.68000000000005,122649.680,-0.00000000000005
+All dates,Outside UK,Zero-priced catalogue,24,0,0.000,0.000
+All dates,Poland,Cancellation-coded merchandise,23,-374.3599999999999958,-374.360,-0.0000000000000042
+All dates,Poland,Mirrored worksheet overlap,8,248.1599999999999936,248.160,0.0000000000000064
+All dates,Poland,Positive merchandise,498,10214.28999999999997452,10214.290,0.00000000000002548
+All dates,Poland,Postage and carriage,6,440,440.000,0.000
+All dates,Portugal,Cancellation-coded merchandise,50,-630.27999999999999652,-630.280,-0.00000000000000348
+All dates,Portugal,Manual and accounting adjustments,16,92.09,92.090,0.000
+All dates,Portugal,Mirrored worksheet overlap,80,1664.5199999999999878,1664.520,0.0000000000000122
+All dates,Portugal,Positive merchandise,2421,47406.86999999999985922,47406.870,0.00000000000014078
+All dates,Portugal,Postage and carriage,53,4603.6,4603.600,0.000
+All dates,RSA,Manual and accounting adjustments,3,0.00,0.000,0.000
+All dates,RSA,Positive merchandise,166,3369.03000000000000444,3369.030,-0.00000000000000444
+All dates,Saudi Arabia,Cancellation-coded merchandise,1,-14.75,-14.750,0.000
+All dates,Saudi Arabia,Positive merchandise,9,145.92,145.920,0.000
+All dates,Singapore,Manual and accounting adjustments,14,0.0000000000000,0.000,0.0000000000000
+All dates,Singapore,Positive merchandise,332,13158.15999999999999432,13158.160,0.00000000000000568
+All dates,Spain,Cancellation-coded merchandise,81,-12955.1899999999998163,-12955.190,-0.0000000000001837
+All dates,Spain,Manual and accounting adjustments,11,-2305.12000000000001,-2305.120,0.00000000000001
+All dates,Spain,Mirrored worksheet overlap,45,794.7199999999999977,794.720,0.0000000000000023
+All dates,Spain,Positive merchandise,3572,97818.06999999999946206,97818.070,0.00000000000053794
+All dates,Spain,Postage and carriage,101,8507.00,8507.000,0.000
+All dates,Spain,Zero-priced catalogue,1,0,0.000,0.000
+All dates,Sweden,Cancellation-coded merchandise,17,-1973.970000000000003,-1973.970,0.000000000000003
+All dates,Sweden,Manual and accounting adjustments,6,-18.19,-18.190,0.000
+All dates,Sweden,Positive merchandise,1287,86353.04000000000003502,86353.040,-0.00000000000003502
+All dates,Sweden,Postage and carriage,54,3448.54,3448.540,0.000
+All dates,Switzerland,Cancellation-coded merchandise,48,-1106.5299999999999830,-1106.530,-0.0000000000000170
+All dates,Switzerland,Mirrored worksheet overlap,6,303.40,303.400,0.000
+All dates,Switzerland,Positive merchandise,3076,94046.88999999999977188,94046.890,0.00000000000022812
+All dates,Switzerland,Postage and carriage,58,6485,6485.000,0.000
+All dates,Switzerland,Zero-priced catalogue,1,0,0.000,0.000
+All dates,Thailand,Positive merchandise,76,3070.5399999999999734,3070.540,0.0000000000000266
+All dates,USA,Cancellation-coded merchandise,126,-2080.32000000000000936,-2080.320,0.00000000000000936
+All dates,USA,Manual and accounting adjustments,1,0.85,0.850,0.000
+All dates,USA,Positive merchandise,404,7920.01000000000000376,7920.010,-0.00000000000000376
+All dates,USA,Postage and carriage,4,446,446.000,0.000
+All dates,United Arab Emirates,Cancellation-coded merchandise,32,-645.07999999999999792,-645.080,-0.00000000000000208
+All dates,United Arab Emirates,Manual and accounting adjustments,3,253.0,253.000,0.000
+All dates,United Arab Emirates,Positive merchandise,462,10273.23000000000000100,10273.230,-0.00000000000000100
+All dates,United Arab Emirates,Postage and carriage,3,67.5,67.500,0.000
+All dates,United Kingdom,Cancellation-coded merchandise,15356,-635213.059999999997142386,-635213.060,-0.000000000002857614
+All dates,United Kingdom,Discount,163,-10508.86999999999992020,-10508.870,-0.00000000000007980
+All dates,United Kingdom,Fees and commission,151,-264951.17899999999829,-264951.179,-0.00000000000171
+All dates,United Kingdom,Manual and accounting adjustments,1240,-213669.68000000000332792,-213669.680,0.00000000000332792
+All dates,United Kingdom,Mirrored worksheet overlap,21347,343982.239999999998811400,343982.240,0.000000000001188600
+All dates,United Kingdom,Positive merchandise,935027,16855161.469999999935151568,16855161.470,0.000000000064848432
+All dates,United Kingdom,Possible catalogue,178,1132.8859999999999990,1132.886,0.0000000000000010
+All dates,United Kingdom,Postage and carriage,1733,310760.83000000000014410,310760.830,-0.00000000000014410
+All dates,United Kingdom,Samples,102,-6000.849999999999913,-6000.850,-0.000000000000087
+All dates,United Kingdom,Test items,17,203.5,203.500,0.000
+All dates,United Kingdom,Unclassified code,1,0,0.000,0.000
+All dates,United Kingdom,Vouchers,101,1686.610000000000018,1686.610,-0.000000000000018
+All dates,United Kingdom,Zero-priced catalogue,5914,0,0.000,0.000
+All dates,Unspecified,Cancellation-coded merchandise,2,-22.00,-22.000,0.000
+All dates,Unspecified,Manual and accounting adjustments,2,-1226.69,-1226.690,0.000
+All dates,Unspecified,Positive merchandise,752,10936.00999999999997000,10936.010,0.00000000000003000
+All dates,West Indies,Positive merchandise,54,536.4099999999999996,536.410,0.0000000000000004
+Dec 2010,All markets,Cancellation-coded merchandise,698,-17607.85999999999982468,-17607.860,-0.00000000000017532
+Dec 2010,All markets,Discount,8,-693.98,-693.980,0.000
+Dec 2010,All markets,Fees and commission,10,-40290.38,-40290.380,0.000
+Dec 2010,All markets,Manual and accounting adjustments,40,-51.3599999999999304,-51.360,-0.0000000000000696
+Dec 2010,All markets,Mirrored worksheet overlap,22523,377488.449999999998427680,377488.450,0.000000000001572320
+Dec 2010,All markets,Positive merchandise,41310,777865.639999999997213440,777865.640,0.000000000002786560
+Dec 2010,All markets,Possible catalogue,5,66.1299999999999996,66.130,0.0000000000000004
+Dec 2010,All markets,Postage and carriage,133,29657.19000000000003,29657.190,-0.00000000000003
+Dec 2010,All markets,Samples,2,-64.95,-64.950,0.000
+Dec 2010,All markets,Vouchers,2,76.59,76.590,0.000
+Dec 2010,All markets,Zero-priced catalogue,273,0,0.000,0.000
+Dec 2010,Australia,Cancellation-coded merchandise,3,-27.7499999999999993,-27.750,-0.0000000000000007
+Dec 2010,Australia,Mirrored worksheet overlap,22,617.15,617.150,0.000
+Dec 2010,Australia,Positive merchandise,32,1032.85,1032.850,0.000
+Dec 2010,Austria,Cancellation-coded merchandise,1,-20.16,-20.160,0.000
+Dec 2010,Austria,Positive merchandise,7,157.20,157.200,0.000
+Dec 2010,Austria,Postage and carriage,1,120,120.000,0.000
+Dec 2010,Bahrain,Positive merchandise,1,205.74,205.740,0.000
+Dec 2010,Belgium,Mirrored worksheet overlap,12,346.10000000000000340,346.100,-0.00000000000000340
+Dec 2010,Belgium,Positive merchandise,90,1599.91000000000000284,1599.910,-0.00000000000000284
+Dec 2010,Belgium,Postage and carriage,5,210,210.000,0.000
+Dec 2010,Channel Islands,Mirrored worksheet overlap,17,363.5299999999999962,363.530,0.0000000000000038
+Dec 2010,Channel Islands,Positive merchandise,16,313.5299999999999962,313.530,0.0000000000000038
+Dec 2010,Channel Islands,Postage and carriage,1,50,50.000,0.000
+Dec 2010,Cyprus,Positive merchandise,83,1590.8199999999999740,1590.820,0.0000000000000260
+Dec 2010,Denmark,Mirrored worksheet overlap,20,1281.50,1281.500,0.000
+Dec 2010,Denmark,Positive merchandise,19,1137.50,1137.500,0.000
+Dec 2010,Denmark,Postage and carriage,1,144,144.000,0.000
+Dec 2010,EIRE,Cancellation-coded merchandise,29,-1003.3099999999999976,-1003.310,-0.0000000000000024
+Dec 2010,EIRE,Mirrored worksheet overlap,177,5275.27999999999999668,5275.280,0.00000000000000332
+Dec 2010,EIRE,Positive merchandise,366,9683.25999999999998660,9683.260,0.00000000000001340
+Dec 2010,EIRE,Postage and carriage,7,350,350.000,0.000
+Dec 2010,EIRE,Zero-priced catalogue,1,0,0.000,0.000
+Dec 2010,Finland,Positive merchandise,16,652.80000000000000240,652.800,-0.00000000000000240
+Dec 2010,Finland,Postage and carriage,1,240,240.000,0.000
+Dec 2010,France,Cancellation-coded merchandise,5,-40.9499999999999986,-40.950,-0.0000000000000014
+Dec 2010,France,Mirrored worksheet overlap,271,6263.26999999999996788,6263.270,0.00000000000003212
+Dec 2010,France,Positive merchandise,416,8530.30999999999995108,8530.310,0.00000000000004892
+Dec 2010,France,Postage and carriage,18,1086,1086.000,0.000
+Dec 2010,Germany,Cancellation-coded merchandise,51,-660.2999999999999973,-660.300,-0.0000000000000027
+Dec 2010,Germany,Mirrored worksheet overlap,261,5470.72999999999999438,5470.730,0.00000000000000562
+Dec 2010,Germany,Positive merchandise,486,13279.13999999999997030,13279.140,0.00000000000002970
+Dec 2010,Germany,Postage and carriage,27,1944,1944.000,0.000
+Dec 2010,Germany,Zero-priced catalogue,1,0,0.000,0.000
+Dec 2010,Iceland,Mirrored worksheet overlap,31,711.7900000000000048,711.790,-0.0000000000000048
+Dec 2010,Iceland,Positive merchandise,31,711.7900000000000048,711.790,-0.0000000000000048
+Dec 2010,Israel,Cancellation-coded merchandise,2,-227.44,-227.440,0.000
+Dec 2010,Italy,Cancellation-coded merchandise,1,-17.0,-17.000,0.000
+Dec 2010,Italy,Mirrored worksheet overlap,25,410.8000000000000012,410.800,-0.0000000000000012
+Dec 2010,Italy,Positive merchandise,38,650.49999999999999992,650.500,0.00000000000000008
+Dec 2010,Italy,Postage and carriage,2,161,161.000,0.000
+Dec 2010,Japan,Mirrored worksheet overlap,17,4114.4799999999997000,4114.480,0.0000000000003000
+Dec 2010,Japan,Positive merchandise,65,7705.0699999999997000,7705.070,0.0000000000003000
+Dec 2010,Lithuania,Mirrored worksheet overlap,35,1661.0599999999999832,1661.060,0.0000000000000168
+Dec 2010,Lithuania,Positive merchandise,35,1661.0599999999999832,1661.060,0.0000000000000168
+Dec 2010,Netherlands,Mirrored worksheet overlap,2,192.60,192.600,0.000
+Dec 2010,Netherlands,Positive merchandise,70,8754.47999999999994432,8754.480,0.00000000000005568
+Dec 2010,Netherlands,Postage and carriage,2,30,30.000,0.000
+Dec 2010,Norway,Mirrored worksheet overlap,147,3787.11999999999998944,3787.120,0.00000000000001056
+Dec 2010,Norway,Positive merchandise,147,3787.11999999999998944,3787.120,0.00000000000001056
+Dec 2010,Outside UK,Cancellation-coded merchandise,97,-3244.7599999999999928,-3244.760,-0.0000000000000072
+Dec 2010,Outside UK,Mirrored worksheet overlap,1176,33506.20999999999961628,33506.210,0.00000000000038372
+Dec 2010,Outside UK,Positive merchandise,2184,70512.15999999999950152,70512.160,0.00000000000049848
+Dec 2010,Outside UK,Postage and carriage,73,4947,4947.000,0.000
+Dec 2010,Outside UK,Zero-priced catalogue,2,0,0.000,0.000
+Dec 2010,Poland,Mirrored worksheet overlap,8,248.1599999999999936,248.160,0.0000000000000064
+Dec 2010,Poland,Positive merchandise,8,248.1599999999999936,248.160,0.0000000000000064
+Dec 2010,Portugal,Cancellation-coded merchandise,4,-59.85,-59.850,0.000
+Dec 2010,Portugal,Mirrored worksheet overlap,80,1664.5199999999999878,1664.520,0.0000000000000122
+Dec 2010,Portugal,Positive merchandise,110,2047.9699999999999866,2047.970,0.0000000000000134
+Dec 2010,Portugal,Postage and carriage,6,392,392.000,0.000
+Dec 2010,Spain,Mirrored worksheet overlap,45,794.7199999999999977,794.720,0.0000000000000023
+Dec 2010,Spain,Positive merchandise,74,1703.72999999999998614,1703.730,0.00000000000001386
+Dec 2010,Spain,Postage and carriage,1,140,140.000,0.000
+Dec 2010,Sweden,Cancellation-coded merchandise,1,-1188.00,-1188.000,0.000
+Dec 2010,Sweden,Positive merchandise,26,3834.30000000000003648,3834.300,-0.00000000000003648
+Dec 2010,Switzerland,Mirrored worksheet overlap,6,303.40,303.400,0.000
+Dec 2010,Switzerland,Positive merchandise,48,1224.9199999999999936,1224.920,0.0000000000000064
+Dec 2010,Switzerland,Postage and carriage,1,80,80.000,0.000
+Dec 2010,United Kingdom,Cancellation-coded merchandise,601,-14363.09999999999983188,-14363.100,-0.00000000000016812
+Dec 2010,United Kingdom,Discount,8,-693.98,-693.980,0.000
+Dec 2010,United Kingdom,Fees and commission,10,-40290.38,-40290.380,0.000
+Dec 2010,United Kingdom,Manual and accounting adjustments,40,-51.3599999999999304,-51.360,-0.0000000000000696
+Dec 2010,United Kingdom,Mirrored worksheet overlap,21347,343982.239999999998811400,343982.240,0.000000000001188600
+Dec 2010,United Kingdom,Positive merchandise,39126,707353.479999999997711920,707353.480,0.000000000002288080
+Dec 2010,United Kingdom,Possible catalogue,5,66.1299999999999996,66.130,0.0000000000000004
+Dec 2010,United Kingdom,Postage and carriage,60,24710.19000000000003,24710.190,-0.00000000000003
+Dec 2010,United Kingdom,Samples,2,-64.95,-64.950,0.000
+Dec 2010,United Kingdom,Vouchers,2,76.59,76.590,0.000
+Dec 2010,United Kingdom,Zero-priced catalogue,271,0,0.000,0.000
+Jan–Nov 2010,All markets,Cancellation-coded merchandise,8285,-221370.879999999998634513,-221370.880,-0.000000000001365487
+Jan–Nov 2010,All markets,Discount,89,-7072.90999999999991900,-7072.910,-0.00000000000008100
+Jan–Nov 2010,All markets,Fees and commission,62,-27458.17999999999899,-27458.180,-0.00000000000101
+Jan–Nov 2010,All markets,Manual and accounting adjustments,873,-140401.15000000000330376,-140401.150,0.00000000000330376
+Jan–Nov 2010,All markets,Positive merchandise,443421,8627810.529999999955197046,8627810.530,0.000000000044802954
+Jan–Nov 2010,All markets,Possible catalogue,103,571.2939999999999984,571.294,0.0000000000000016
+Jan–Nov 2010,All markets,Postage and carriage,1563,132148.4000000000002224,132148.400,-0.0000000000002224
+Jan–Nov 2010,All markets,Samples,39,-2951.459999999999919,-2951.460,-0.000000000000081
+Jan–Nov 2010,All markets,Test items,11,90.0,90.000,0.000
+Jan–Nov 2010,All markets,Unclassified code,1,0,0.000,0.000
+Jan–Nov 2010,All markets,Vouchers,59,783.43,783.430,0.000
+Jan–Nov 2010,All markets,Zero-priced catalogue,3204,0,0.000,0.000
+Jan–Nov 2010,Australia,Cancellation-coded merchandise,9,-115.70,-115.700,0.000
+Jan–Nov 2010,Australia,Manual and accounting adjustments,7,75.00,75.000,0.000
+Jan–Nov 2010,Australia,Positive merchandise,589,29425.09999999999976108,29425.100,0.00000000000023892
+Jan–Nov 2010,Austria,Cancellation-coded merchandise,10,-181.04999999999999856,-181.050,-0.00000000000000144
+Jan–Nov 2010,Austria,Manual and accounting adjustments,3,130,130.000,0.000
+Jan–Nov 2010,Austria,Positive merchandise,467,9635.98999999999996464,9635.990,0.00000000000003536
+Jan–Nov 2010,Austria,Postage and carriage,19,1440,1440.000,0.000
+Jan–Nov 2010,Bahrain,Cancellation-coded merchandise,1,-42.50,-42.500,0.000
+Jan–Nov 2010,Bahrain,Positive merchandise,106,2355.6499999999999898,2355.650,0.0000000000000102
+Jan–Nov 2010,Belgium,Cancellation-coded merchandise,13,-129.8999999999999986,-129.900,-0.0000000000000014
+Jan–Nov 2010,Belgium,Manual and accounting adjustments,2,0.00,0.000,0.000
+Jan–Nov 2010,Belgium,Positive merchandise,959,19797.72999999999993384,19797.730,0.00000000000006616
+Jan–Nov 2010,Belgium,Postage and carriage,47,2202,2202.000,0.000
+Jan–Nov 2010,Belgium,Zero-priced catalogue,1,0,0.000,0.000
+Jan–Nov 2010,Bermuda,Positive merchandise,34,1253.1399999999999938,1253.140,0.0000000000000062
+Jan–Nov 2010,Brazil,Positive merchandise,62,268.26999999999999780,268.270,0.00000000000000220
+Jan–Nov 2010,Canada,Positive merchandise,77,1216.65999999999999592,1216.660,0.00000000000000408
+Jan–Nov 2010,Channel Islands,Cancellation-coded merchandise,78,-2073.57000000000000618,-2073.570,0.00000000000000618
+Jan–Nov 2010,Channel Islands,Manual and accounting adjustments,2,-1011.63,-1011.630,0.000
+Jan–Nov 2010,Channel Islands,Positive merchandise,762,23043.60999999999989858,23043.610,0.00000000000010142
+Jan–Nov 2010,Channel Islands,Postage and carriage,4,100,100.000,0.000
+Jan–Nov 2010,Cyprus,Cancellation-coded merchandise,8,-41.40,-41.400,0.000
+Jan–Nov 2010,Cyprus,Positive merchandise,348,7802.76999999999992484,7802.770,0.00000000000007516
+Jan–Nov 2010,Cyprus,Postage and carriage,2,30,30.000,0.000
+Jan–Nov 2010,Denmark,Cancellation-coded merchandise,7,-3880.70,-3880.700,0.000
+Jan–Nov 2010,Denmark,Positive merchandise,382,47845.68999999999991984,47845.690,0.00000000000008016
+Jan–Nov 2010,Denmark,Postage and carriage,8,342,342.000,0.000
+Jan–Nov 2010,EIRE,Cancellation-coded merchandise,162,-8719.35999999999992620,-8719.360,-0.00000000000007380
+Jan–Nov 2010,EIRE,Discount,2,-95.17,-95.170,0.000
+Jan–Nov 2010,EIRE,Fees and commission,1,15,15.000,0.000
+Jan–Nov 2010,EIRE,Manual and accounting adjustments,60,-1286.020000000000003,-1286.020,0.000000000000003
+Jan–Nov 2010,EIRE,Positive merchandise,8584,333685.05999999999814682,333685.060,0.00000000000185318
+Jan–Nov 2010,EIRE,Postage and carriage,87,4240,4240.000,0.000
+Jan–Nov 2010,EIRE,Zero-priced catalogue,1,0,0.000,0.000
+Jan–Nov 2010,Finland,Cancellation-coded merchandise,5,-49.10,-49.100,0.000
+Jan–Nov 2010,Finland,Manual and accounting adjustments,3,-79.41,-79.410,0.000
+Jan–Nov 2010,Finland,Positive merchandise,335,6366.13999999999998356,6366.140,0.00000000000001644
+Jan–Nov 2010,Finland,Postage and carriage,7,401,401.000,0.000
+Jan–Nov 2010,France,Cancellation-coded merchandise,179,-14366.040000000000020268,-14366.040,0.000000000000020268
+Jan–Nov 2010,France,Manual and accounting adjustments,5,4021.68,4021.680,0.000
+Jan–Nov 2010,France,Positive merchandise,4821,120831.949999999999346948,120831.950,0.000000000000653052
+Jan–Nov 2010,France,Postage and carriage,159,8464,8464.000,0.000
+Jan–Nov 2010,Germany,Cancellation-coded merchandise,396,-3639.76999999999998508,-3639.770,-0.00000000000001492
+Jan–Nov 2010,Germany,Manual and accounting adjustments,13,-605.16,-605.160,0.000
+Jan–Nov 2010,Germany,Positive merchandise,6780,169242.92999999999913450,169242.930,0.00000000000086550
+Jan–Nov 2010,Germany,Possible catalogue,1,0.001,0.001,0.000
+Jan–Nov 2010,Germany,Postage and carriage,252,16039.00,16039.000,0.000
+Jan–Nov 2010,Germany,Zero-priced catalogue,6,0,0.000,0.000
+Jan–Nov 2010,Greece,Cancellation-coded merchandise,5,-50.6999999999999993,-50.700,-0.0000000000000007
+Jan–Nov 2010,Greece,Positive merchandise,470,13674.71999999999993778,13674.720,0.00000000000006222
+Jan–Nov 2010,Greece,Postage and carriage,1,50,50.000,0.000
+Jan–Nov 2010,Hong Kong,Manual and accounting adjustments,4,0.00,0.000,0.000
+Jan–Nov 2010,Hong Kong,Positive merchandise,72,3922.25999999999997712,3922.260,0.00000000000002288
+Jan–Nov 2010,Iceland,Positive merchandise,40,611.53000000000000168,611.530,-0.00000000000000168
+Jan–Nov 2010,Israel,Positive merchandise,74,3199.39999999999998416,3199.400,0.00000000000001584
+Jan–Nov 2010,Italy,Cancellation-coded merchandise,12,-142.6499999999999982,-142.650,-0.0000000000000018
+Jan–Nov 2010,Italy,Discount,2,-433.68,-433.680,0.000
+Jan–Nov 2010,Italy,Manual and accounting adjustments,2,-621.19,-621.190,0.000
+Jan–Nov 2010,Italy,Positive merchandise,653,12709.35999999999996690,12709.360,0.00000000000003310
+Jan–Nov 2010,Italy,Postage and carriage,13,1468,1468.000,0.000
+Jan–Nov 2010,Japan,Cancellation-coded merchandise,56,-1071.8099999999999998,-1071.810,-0.0000000000000002
+Jan–Nov 2010,Japan,Manual and accounting adjustments,1,-5.50,-5.500,0.000
+Jan–Nov 2010,Japan,Positive merchandise,147,5607.5399999999999786,5607.540,0.0000000000000214
+Jan–Nov 2010,Korea,Cancellation-coded merchandise,10,-168.6900000000000016,-168.690,0.0000000000000016
+Jan–Nov 2010,Korea,Positive merchandise,53,1118.5099999999999968,1118.510,0.0000000000000032
+Jan–Nov 2010,Lebanon,Positive merchandise,12,211.700000000000003,211.700,-0.000000000000003
+Jan–Nov 2010,Lebanon,Postage and carriage,1,-39.67,-39.670,0.000
+Jan–Nov 2010,Lithuania,Positive merchandise,119,3231.61999999999999736,3231.620,0.00000000000000264
+Jan–Nov 2010,Malta,Manual and accounting adjustments,4,0.00,0.000,0.000
+Jan–Nov 2010,Malta,Positive merchandise,168,2686.7499999999999770,2686.750,0.0000000000000230
+Jan–Nov 2010,Netherlands,Cancellation-coded merchandise,31,-3268.1799999999999742,-3268.180,-0.0000000000000258
+Jan–Nov 2010,Netherlands,Discount,3,-1174.67,-1174.670,0.000
+Jan–Nov 2010,Netherlands,Manual and accounting adjustments,8,-100.06,-100.060,0.000
+Jan–Nov 2010,Netherlands,Positive merchandise,2508,250839.98999999999767674,250839.990,0.00000000000232326
+Jan–Nov 2010,Netherlands,Postage and carriage,61,2169,2169.000,0.000
+Jan–Nov 2010,Netherlands,Zero-priced catalogue,1,0,0.000,0.000
+Jan–Nov 2010,Nigeria,Manual and accounting adjustments,1,27.82,27.820,0.000
+Jan–Nov 2010,Nigeria,Positive merchandise,29,112.56999999999999926,112.570,0.00000000000000074
+Jan–Nov 2010,Norway,Manual and accounting adjustments,6,-5948.27,-5948.270,0.000
+Jan–Nov 2010,Norway,Positive merchandise,195,5755.40999999999996432,5755.410,0.00000000000003568
+Jan–Nov 2010,Outside UK,Cancellation-coded merchandise,1136,-49342.339999999999710828,-49342.340,-0.000000000000289172
+Jan–Nov 2010,Outside UK,Discount,7,-1703.52,-1703.520,0.000
+Jan–Nov 2010,Outside UK,Fees and commission,1,15,15.000,0.000
+Jan–Nov 2010,Outside UK,Manual and accounting adjustments,144,-5781.680000000000013,-5781.680,0.000000000000013
+Jan–Nov 2010,Outside UK,Positive merchandise,33985,1249430.809999999992497708,1249430.810,0.000000000007502292
+Jan–Nov 2010,Outside UK,Possible catalogue,1,0.001,0.001,0.000
+Jan–Nov 2010,Outside UK,Postage and carriage,779,46391.47,46391.470,0.000
+Jan–Nov 2010,Outside UK,Zero-priced catalogue,9,0,0.000,0.000
+Jan–Nov 2010,Poland,Cancellation-coded merchandise,12,-252.8499999999999993,-252.850,-0.0000000000000007
+Jan–Nov 2010,Poland,Positive merchandise,151,2867.82000000000000246,2867.820,-0.00000000000000246
+Jan–Nov 2010,Poland,Postage and carriage,1,80,80.000,0.000
+Jan–Nov 2010,Portugal,Cancellation-coded merchandise,39,-486.63999999999999652,-486.640,-0.00000000000000348
+Jan–Nov 2010,Portugal,Manual and accounting adjustments,2,104.59,104.590,0.000
+Jan–Nov 2010,Portugal,Positive merchandise,860,17626.12999999999990960,17626.130,0.00000000000009040
+Jan–Nov 2010,Portugal,Postage and carriage,22,2039.6,2039.600,0.000
+Jan–Nov 2010,RSA,Manual and accounting adjustments,2,0.00,0.000,0.000
+Jan–Nov 2010,RSA,Positive merchandise,109,2366.71999999999999964,2366.720,0.00000000000000036
+Jan–Nov 2010,Singapore,Positive merchandise,117,4037.7699999999999748,4037.770,0.0000000000000252
+Jan–Nov 2010,Spain,Cancellation-coded merchandise,34,-8991.9299999999998216,-8991.930,-0.0000000000001784
+Jan–Nov 2010,Spain,Manual and accounting adjustments,8,537.49999999999999,537.500,0.00000000000001
+Jan–Nov 2010,Spain,Positive merchandise,918,34338.77999999999964786,34338.780,0.00000000000035214
+Jan–Nov 2010,Spain,Postage and carriage,36,2487.00,2487.000,0.000
+Jan–Nov 2010,Sweden,Cancellation-coded merchandise,7,-286.050000000000003,-286.050,0.000000000000003
+Jan–Nov 2010,Sweden,Manual and accounting adjustments,5,-48.19,-48.190,0.000
+Jan–Nov 2010,Sweden,Positive merchandise,857,49228.40999999999990240,49228.410,0.00000000000009760
+Jan–Nov 2010,Sweden,Postage and carriage,30,2059.54,2059.540,0.000
+Jan–Nov 2010,Switzerland,Cancellation-coded merchandise,15,-523.9799999999999845,-523.980,-0.0000000000000155
+Jan–Nov 2010,Switzerland,Positive merchandise,1127,40489.58999999999970942,40489.590,0.00000000000029058
+Jan–Nov 2010,Switzerland,Postage and carriage,24,2485,2485.000,0.000
+Jan–Nov 2010,Thailand,Positive merchandise,76,3070.5399999999999734,3070.540,0.0000000000000266
+Jan–Nov 2010,USA,Cancellation-coded merchandise,14,-230.85,-230.850,0.000
+Jan–Nov 2010,USA,Manual and accounting adjustments,1,0.85,0.850,0.000
+Jan–Nov 2010,USA,Positive merchandise,225,4339.61999999999998580,4339.620,0.00000000000001420
+Jan–Nov 2010,USA,Postage and carriage,3,305,305.000,0.000
+Jan–Nov 2010,United Arab Emirates,Cancellation-coded merchandise,31,-606.91999999999999792,-606.920,-0.00000000000000208
+Jan–Nov 2010,United Arab Emirates,Manual and accounting adjustments,3,253.0,253.000,0.000
+Jan–Nov 2010,United Arab Emirates,Positive merchandise,339,7890.74999999999999848,7890.750,0.00000000000000152
+Jan–Nov 2010,United Arab Emirates,Postage and carriage,2,30,30.000,0.000
+Jan–Nov 2010,United Kingdom,Cancellation-coded merchandise,7149,-172028.539999999998923685,-172028.540,-0.000000000001076315
+Jan–Nov 2010,United Kingdom,Discount,82,-5369.38999999999991900,-5369.390,-0.00000000000008100
+Jan–Nov 2010,United Kingdom,Fees and commission,61,-27473.17999999999899,-27473.180,-0.00000000000101
+Jan–Nov 2010,United Kingdom,Manual and accounting adjustments,729,-134619.47000000000329076,-134619.470,0.00000000000329076
+Jan–Nov 2010,United Kingdom,Positive merchandise,409436,7378379.719999999962699338,7378379.720,0.000000000037300662
+Jan–Nov 2010,United Kingdom,Possible catalogue,102,571.2929999999999984,571.293,0.0000000000000016
+Jan–Nov 2010,United Kingdom,Postage and carriage,784,85756.9300000000002224,85756.930,-0.0000000000002224
+Jan–Nov 2010,United Kingdom,Samples,39,-2951.459999999999919,-2951.460,-0.000000000000081
+Jan–Nov 2010,United Kingdom,Test items,11,90.0,90.000,0.000
+Jan–Nov 2010,United Kingdom,Unclassified code,1,0,0.000,0.000
+Jan–Nov 2010,United Kingdom,Vouchers,59,783.43,783.430,0.000
+Jan–Nov 2010,United Kingdom,Zero-priced catalogue,3195,0,0.000,0.000
+Jan–Nov 2010,Unspecified,Cancellation-coded merchandise,2,-22.00,-22.000,0.000
+Jan–Nov 2010,Unspecified,Manual and accounting adjustments,2,-1226.69,-1226.690,0.000
+Jan–Nov 2010,Unspecified,Positive merchandise,306,6186.21999999999994156,6186.220,0.00000000000005844
+Jan–Nov 2010,West Indies,Positive merchandise,54,536.4099999999999996,536.410,0.0000000000000004
+Jan–Nov 2011,All markets,Cancellation-coded merchandise,7658,-286989.559999999998239961,-286989.560,-0.000000000001760039
+Jan–Nov 2011,All markets,Discount,68,-4973.5600000000000012,-4973.560,0.0000000000000012
+Jan–Nov 2011,All markets,Fees and commission,73,-165830.7889999999993,-165830.789,-0.0000000000007
+Jan–Nov 2011,All markets,Manual and accounting adjustments,521,-79715.11000000000011196,-79715.110,0.00000000000011196
+Jan–Nov 2011,All markets,Positive merchandise,461385,8877678.989999999977190870,8877678.990,0.000000000022809130
+Jan–Nov 2011,All markets,Possible catalogue,43,329.033,329.033,0.000
+Jan–Nov 2011,All markets,Postage and carriage,1904,227007.45000000000012930,227007.450,-0.00000000000012930
+Jan–Nov 2011,All markets,Samples,61,-2984.439999999999994,-2984.440,-0.000000000000006
+Jan–Nov 2011,All markets,Vouchers,31,600.890000000000018,600.890,-0.000000000000018
+Jan–Nov 2011,All markets,Zero-priced catalogue,2159,0,0.000,0.000
+Jan–Nov 2011,Australia,Cancellation-coded merchandise,70,-1153.55999999999999624,-1153.560,-0.00000000000000376
+Jan–Nov 2011,Australia,Positive merchandise,1149,137138.46000000000007014,137138.460,-0.00000000000007014
+Jan–Nov 2011,Australia,Postage and carriage,2,87.27,87.270,0.000
+Jan–Nov 2011,Australia,Zero-priced catalogue,3,0,0.000,0.000
+Jan–Nov 2011,Austria,Cancellation-coded merchandise,2,-24.20,-24.200,0.000
+Jan–Nov 2011,Austria,Positive merchandise,371,8062.28000000000002336,8062.280,-0.00000000000002336
+Jan–Nov 2011,Austria,Postage and carriage,12,1176,1176.000,0.000
+Jan–Nov 2011,Bahrain,Cancellation-coded merchandise,1,-205.74,-205.740,0.000
+Jan–Nov 2011,Bahrain,Positive merchandise,17,548.3999999999999944,548.400,0.0000000000000056
+Jan–Nov 2011,Belgium,Cancellation-coded merchandise,32,-256.0799999999999984,-256.080,-0.0000000000000016
+Jan–Nov 2011,Belgium,Positive merchandise,1755,34038.70000000000001728,34038.700,-0.00000000000001728
+Jan–Nov 2011,Belgium,Postage and carriage,89,3909,3909.000,0.000
+Jan–Nov 2011,Brazil,Positive merchandise,32,1143.5999999999999856,1143.600,0.0000000000000144
+Jan–Nov 2011,Canada,Positive merchandise,150,3115.43999999999999054,3115.440,0.00000000000000946
+Jan–Nov 2011,Canada,Postage and carriage,1,550.94000000000005,550.940,-0.00000000000005
+Jan–Nov 2011,Channel Islands,Cancellation-coded merchandise,8,-66.8999999999999988,-66.900,-0.0000000000000012
+Jan–Nov 2011,Channel Islands,Manual and accounting adjustments,2,0,0.000,0.000
+Jan–Nov 2011,Channel Islands,Positive merchandise,723,19495.50999999999996510,19495.510,0.00000000000003490
+Jan–Nov 2011,Channel Islands,Postage and carriage,2,100,100.000,0.000
+Jan–Nov 2011,Cyprus,Cancellation-coded merchandise,3,-232.15,-232.150,0.000
+Jan–Nov 2011,Cyprus,Manual and accounting adjustments,2,0.00,0.000,0.000
+Jan–Nov 2011,Cyprus,Positive merchandise,529,11663.86999999999998518,11663.870,0.00000000000001482
+Jan–Nov 2011,Cyprus,Postage and carriage,1,15,15.000,0.000
+Jan–Nov 2011,Czech Republic,Cancellation-coded merchandise,4,-115.02,-115.020,0.000
+Jan–Nov 2011,Czech Republic,Positive merchandise,24,786.73999999999998872,786.740,0.00000000000001128
+Jan–Nov 2011,Czech Republic,Postage and carriage,2,36,36.000,0.000
+Jan–Nov 2011,Denmark,Cancellation-coded merchandise,8,-169.20,-169.200,0.000
+Jan–Nov 2011,Denmark,Positive merchandise,338,16922.94000000000012328,16922.940,-0.00000000000012328
+Jan–Nov 2011,Denmark,Postage and carriage,12,564,564.000,0.000
+Jan–Nov 2011,EIRE,Cancellation-coded merchandise,261,-10479.67999999999984616,-10479.680,-0.00000000000015384
+Jan–Nov 2011,EIRE,Discount,1,-434.51,-434.510,0.000
+Jan–Nov 2011,EIRE,Manual and accounting adjustments,12,-1127.13000000000000,-1127.130,0.00000000000000
+Jan–Nov 2011,EIRE,Positive merchandise,7084,254340.14999999999915010,254340.150,0.00000000000084990
+Jan–Nov 2011,EIRE,Postage and carriage,97,4625,4625.000,0.000
+Jan–Nov 2011,EIRE,Zero-priced catalogue,3,0,0.000,0.000
+Jan–Nov 2011,European Community,Cancellation-coded merchandise,1,-8.50,-8.500,0.000
+Jan–Nov 2011,European Community,Positive merchandise,57,1159.25000000000000432,1159.250,-0.00000000000000432
+Jan–Nov 2011,European Community,Postage and carriage,3,141,141.000,0.000
+Jan–Nov 2011,Finland,Cancellation-coded merchandise,5,-39.26,-39.260,0.000
+Jan–Nov 2011,Finland,Manual and accounting adjustments,1,551.20000000000004,551.200,-0.00000000000004
+Jan–Nov 2011,Finland,Positive merchandise,621,16619.32000000000010888,16619.320,-0.00000000000010888
+Jan–Nov 2011,Finland,Postage and carriage,37,3072,3072.000,0.000
+Jan–Nov 2011,France,Cancellation-coded merchandise,117,-2230.7499999999999959,-2230.750,-0.0000000000000041
+Jan–Nov 2011,France,Manual and accounting adjustments,8,33.9500000000000,33.950,0.0000000000000
+Jan–Nov 2011,France,Positive merchandise,7376,169513.50999999999983956,169513.510,0.00000000000016044
+Jan–Nov 2011,France,Postage and carriage,278,13463,13463.000,0.000
+Jan–Nov 2011,Germany,Cancellation-coded merchandise,363,-3921.71999999999998766,-3921.720,-0.00000000000001234
+Jan–Nov 2011,Germany,Manual and accounting adjustments,16,68.81,68.810,0.000
+Jan–Nov 2011,Germany,Positive merchandise,7872,185266.57999999999988004,185266.580,0.00000000000011996
+Jan–Nov 2011,Germany,Postage and carriage,339,17917,17917.000,0.000
+Jan–Nov 2011,Greece,Positive merchandise,107,3879.52999999999999364,3879.530,0.00000000000000636
+Jan–Nov 2011,Greece,Postage and carriage,3,150,150.000,0.000
+Jan–Nov 2011,Hong Kong,Cancellation-coded merchandise,1,-10.95,-10.950,0.000
+Jan–Nov 2011,Hong Kong,Manual and accounting adjustments,6,0.00000000000000,0.000,0.00000000000000
+Jan–Nov 2011,Hong Kong,Positive merchandise,279,9952.99000000000006074,9952.990,-0.00000000000006074
+Jan–Nov 2011,Hong Kong,Postage and carriage,2,175,175.000,0.000
+Jan–Nov 2011,Iceland,Positive merchandise,140,3373.39000000000001104,3373.390,-0.00000000000001104
+Jan–Nov 2011,Israel,Positive merchandise,295,8135.25999999999998186,8135.260,0.00000000000001814
+Jan–Nov 2011,Italy,Cancellation-coded merchandise,41,-526.8999999999999925,-526.900,-0.0000000000000075
+Jan–Nov 2011,Italy,Discount,1,-26.33,-26.330,0.000
+Jan–Nov 2011,Italy,Manual and accounting adjustments,1,-4.5,-4.500,0.000
+Jan–Nov 2011,Italy,Positive merchandise,695,14969.28999999999995220,14969.290,0.00000000000004780
+Jan–Nov 2011,Italy,Postage and carriage,16,1484,1484.000,0.000
+Jan–Nov 2011,Japan,Cancellation-coded merchandise,26,-1879.6499999999998620,-1879.650,-0.0000000000001380
+Jan–Nov 2011,Japan,Manual and accounting adjustments,3,-79.17,-79.170,0.000
+Jan–Nov 2011,Japan,Positive merchandise,256,29711.29999999999982070,29711.300,0.00000000000017930
+Jan–Nov 2011,Lebanon,Positive merchandise,45,1693.87999999999999536,1693.880,0.00000000000000464
+Jan–Nov 2011,Malta,Cancellation-coded merchandise,9,-59.3099999999999979,-59.310,-0.0000000000000021
+Jan–Nov 2011,Malta,Positive merchandise,109,2070.58999999999998216,2070.590,0.00000000000001784
+Jan–Nov 2011,Malta,Postage and carriage,4,525,525.000,0.000
+Jan–Nov 2011,Netherlands,Cancellation-coded merchandise,4,-409.80,-409.800,0.000
+Jan–Nov 2011,Netherlands,Discount,1,-206.4,-206.400,0.000
+Jan–Nov 2011,Netherlands,Manual and accounting adjustments,1,-105.60,-105.600,0.000
+Jan–Nov 2011,Netherlands,Positive merchandise,2166,263406.83999999999883430,263406.840,0.00000000000116570
+Jan–Nov 2011,Netherlands,Postage and carriage,37,1464,1464.000,0.000
+Jan–Nov 2011,Netherlands,Zero-priced catalogue,4,0,0.000,0.000
+Jan–Nov 2011,Norway,Cancellation-coded merchandise,11,-161.68,-161.680,0.000
+Jan–Nov 2011,Norway,Manual and accounting adjustments,6,0.00,0.000,0.000
+Jan–Nov 2011,Norway,Positive merchandise,829,25921.81999999999998224,25921.820,0.00000000000001776
+Jan–Nov 2011,Norway,Postage and carriage,19,2830.5,2830.500,0.000
+Jan–Nov 2011,Norway,Zero-priced catalogue,1,0,0.000,0.000
+Jan–Nov 2011,Outside UK,Cancellation-coded merchandise,1165,-28478.46999999999967532,-28478.470,-0.00000000000032468
+Jan–Nov 2011,Outside UK,Discount,3,-667.24,-667.240,0.000
+Jan–Nov 2011,Outside UK,Manual and accounting adjustments,91,-3487.55999999999996,-3487.560,-0.00000000000004
+Jan–Nov 2011,Outside UK,Positive merchandise,40106,1410148.64999999999781060,1410148.650,0.00000000000218940
+Jan–Nov 2011,Outside UK,Postage and carriage,1098,65279.21000000000005,65279.210,-0.00000000000005
+Jan–Nov 2011,Outside UK,Zero-priced catalogue,13,0,0.000,0.000
+Jan–Nov 2011,Poland,Cancellation-coded merchandise,11,-121.5099999999999965,-121.510,-0.0000000000000035
+Jan–Nov 2011,Poland,Positive merchandise,317,6726.48999999999997846,6726.490,0.00000000000002154
+Jan–Nov 2011,Poland,Postage and carriage,5,360,360.000,0.000
+Jan–Nov 2011,Portugal,Cancellation-coded merchandise,6,-77.55,-77.550,0.000
+Jan–Nov 2011,Portugal,Manual and accounting adjustments,14,-12.50,-12.500,0.000
+Jan–Nov 2011,Portugal,Positive merchandise,1257,22550.99999999999996670,22551.000,0.00000000000003330
+Jan–Nov 2011,Portugal,Postage and carriage,20,1724,1724.000,0.000
+Jan–Nov 2011,RSA,Manual and accounting adjustments,1,0,0.000,0.000
+Jan–Nov 2011,RSA,Positive merchandise,57,1002.3100000000000048,1002.310,-0.0000000000000048
+Jan–Nov 2011,Saudi Arabia,Cancellation-coded merchandise,1,-14.75,-14.750,0.000
+Jan–Nov 2011,Saudi Arabia,Positive merchandise,9,145.92,145.920,0.000
+Jan–Nov 2011,Singapore,Manual and accounting adjustments,14,0.0000000000000,0.000,0.0000000000000
+Jan–Nov 2011,Singapore,Positive merchandise,215,9120.39000000000001952,9120.390,-0.00000000000001952
+Jan–Nov 2011,Spain,Cancellation-coded merchandise,39,-3915.1299999999999954,-3915.130,-0.0000000000000046
+Jan–Nov 2011,Spain,Manual and accounting adjustments,3,-2842.62,-2842.620,0.000
+Jan–Nov 2011,Spain,Positive merchandise,2284,53733.16999999999989770,53733.170,0.00000000000010230
+Jan–Nov 2011,Spain,Postage and carriage,60,5684,5684.000,0.000
+Jan–Nov 2011,Spain,Zero-priced catalogue,1,0,0.000,0.000
+Jan–Nov 2011,Sweden,Cancellation-coded merchandise,7,-236.42,-236.420,0.000
+Jan–Nov 2011,Sweden,Manual and accounting adjustments,1,30,30.000,0.000
+Jan–Nov 2011,Sweden,Positive merchandise,401,32767.03000000000010214,32767.030,-0.00000000000010214
+Jan–Nov 2011,Sweden,Postage and carriage,24,1389,1389.000,0.000
+Jan–Nov 2011,Switzerland,Cancellation-coded merchandise,33,-582.5499999999999985,-582.550,-0.0000000000000015
+Jan–Nov 2011,Switzerland,Positive merchandise,1887,51862.98000000000006886,51862.980,-0.00000000000006886
+Jan–Nov 2011,Switzerland,Postage and carriage,32,3800,3800.000,0.000
+Jan–Nov 2011,Switzerland,Zero-priced catalogue,1,0,0.000,0.000
+Jan–Nov 2011,USA,Cancellation-coded merchandise,101,-1579.51000000000000936,-1579.510,0.00000000000000936
+Jan–Nov 2011,USA,Positive merchandise,147,2695.15000000000000516,2695.150,-0.00000000000000516
+Jan–Nov 2011,United Arab Emirates,Positive merchandise,67,1864.77999999999999808,1864.780,0.00000000000000192
+Jan–Nov 2011,United Arab Emirates,Postage and carriage,1,37.5,37.500,0.000
+Jan–Nov 2011,United Kingdom,Cancellation-coded merchandise,6493,-258511.089999999998564641,-258511.090,-0.000000000001435359
+Jan–Nov 2011,United Kingdom,Discount,65,-4306.3200000000000012,-4306.320,0.0000000000000012
+Jan–Nov 2011,United Kingdom,Fees and commission,73,-165830.7889999999993,-165830.789,-0.0000000000007
+Jan–Nov 2011,United Kingdom,Manual and accounting adjustments,430,-76227.55000000000015196,-76227.550,0.00000000000015196
+Jan–Nov 2011,United Kingdom,Positive merchandise,421279,7467530.339999999979380270,7467530.340,0.000000000020619730
+Jan–Nov 2011,United Kingdom,Possible catalogue,43,329.033,329.033,0.000
+Jan–Nov 2011,United Kingdom,Postage and carriage,806,161728.24000000000007930,161728.240,-0.00000000000007930
+Jan–Nov 2011,United Kingdom,Samples,61,-2984.439999999999994,-2984.440,-0.000000000000006
+Jan–Nov 2011,United Kingdom,Vouchers,31,600.890000000000018,600.890,-0.000000000000018
+Jan–Nov 2011,United Kingdom,Zero-priced catalogue,2146,0,0.000,0.000
+Jan–Nov 2011,Unspecified,Positive merchandise,446,4749.79000000000002844,4749.790,-0.00000000000002844
+Partial Dec 2011,All markets,Cancellation-coded merchandise,348,-174126.75999999999993882,-174126.760,-0.00000000000006118
+Partial Dec 2011,All markets,Discount,1,-28.68,-28.680,0.000
+Partial Dec 2011,All markets,Fees and commission,4,-30508.40,-30508.400,0.000
+Partial Dec 2011,All markets,Manual and accounting adjustments,14,32.77000000000000382,32.770,-0.00000000000000382
+Partial Dec 2011,All markets,Positive merchandise,25030,615489.97999999999878820,615489.980,0.00000000000121180
+Partial Dec 2011,All markets,Possible catalogue,1,3.29,3.290,0.000
+Partial Dec 2011,All markets,Postage and carriage,74,22815.4799999999998,22815.480,0.0000000000002
+Partial Dec 2011,All markets,Vouchers,1,8.33,8.330,0.000
+Partial Dec 2011,All markets,Zero-priced catalogue,53,0,0.000,0.000
+Partial Dec 2011,Austria,Positive merchandise,6,523.20,523.200,0.000
+Partial Dec 2011,Austria,Postage and carriage,1,160,160.000,0.000
+Partial Dec 2011,Belgium,Cancellation-coded merchandise,4,-8.30,-8.300,0.000
+Partial Dec 2011,Belgium,Positive merchandise,90,1288.7300000000000162,1288.730,-0.0000000000000162
+Partial Dec 2011,Belgium,Postage and carriage,4,129,129.000,0.000
+Partial Dec 2011,Channel Islands,Cancellation-coded merchandise,1,-4.25,-4.250,0.000
+Partial Dec 2011,Channel Islands,Positive merchandise,5,198.40,198.400,0.000
+Partial Dec 2011,Cyprus,Cancellation-coded merchandise,4,-91.25,-91.250,0.000
+Partial Dec 2011,Denmark,Positive merchandise,10,150.90,150.900,0.000
+Partial Dec 2011,Denmark,Postage and carriage,1,18,18.000,0.000
+Partial Dec 2011,EIRE,Cancellation-coded merchandise,2,-17.8499999999999998,-17.850,-0.0000000000000002
+Partial Dec 2011,EIRE,Positive merchandise,329,7140.88999999999996260,7140.890,0.00000000000003740
+Partial Dec 2011,EIRE,Postage and carriage,4,200,200.000,0.000
+Partial Dec 2011,Finland,Cancellation-coded merchandise,1,-2.08,-2.080,0.000
+Partial Dec 2011,Finland,Positive merchandise,10,1072.76,1072.760,0.000
+Partial Dec 2011,Finland,Postage and carriage,3,160,160.000,0.000
+Partial Dec 2011,France,Cancellation-coded merchandise,12,-147.6500000000000002,-147.650,0.0000000000000002
+Partial Dec 2011,France,Manual and accounting adjustments,2,-44.43999999999999688,-44.440,-0.00000000000000312
+Partial Dec 2011,France,Positive merchandise,308,6538.92000000000000192,6538.920,-0.00000000000000192
+Partial Dec 2011,France,Postage and carriage,18,720,720.000,0.000
+Partial Dec 2011,Germany,Cancellation-coded merchandise,23,-179.4700000000000002,-179.470,0.0000000000000002
+Partial Dec 2011,Germany,Positive merchandise,300,7024.17000000000003746,7024.170,-0.00000000000003746
+Partial Dec 2011,Germany,Postage and carriage,17,960,960.000,0.000
+Partial Dec 2011,Greece,Positive merchandise,35,545.9900000000000052,545.990,-0.0000000000000052
+Partial Dec 2011,Greece,Postage and carriage,1,135,135.000,0.000
+Partial Dec 2011,Iceland,Positive merchandise,11,224.82,224.820,0.000
+Partial Dec 2011,Italy,Positive merchandise,8,200.45,200.450,0.000
+Partial Dec 2011,Japan,Cancellation-coded merchandise,8,-116.9299999999999994,-116.930,-0.0000000000000006
+Partial Dec 2011,Malta,Cancellation-coded merchandise,5,-30.8099999999999986,-30.810,-0.0000000000000014
+Partial Dec 2011,Netherlands,Positive merchandise,86,11728.0200000000000280,11728.020,-0.0000000000000280
+Partial Dec 2011,Norway,Positive merchandise,72,2745.69999999999999500,2745.700,0.00000000000000500
+Partial Dec 2011,Norway,Postage and carriage,1,40,40.000,0.000
+Partial Dec 2011,Outside UK,Cancellation-coded merchandise,79,-1157.5699999999999975,-1157.570,-0.0000000000000025
+Partial Dec 2011,Outside UK,Manual and accounting adjustments,2,-44.43999999999999688,-44.440,-0.00000000000000312
+Partial Dec 2011,Outside UK,Positive merchandise,1464,43210.59000000000006458,43210.590,-0.00000000000006458
+Partial Dec 2011,Outside UK,Postage and carriage,55,2942,2942.000,0.000
+Partial Dec 2011,Portugal,Cancellation-coded merchandise,1,-6.24,-6.240,0.000
+Partial Dec 2011,Portugal,Positive merchandise,97,2416.19000000000000480,2416.190,-0.00000000000000480
+Partial Dec 2011,Portugal,Postage and carriage,4,392,392.000,0.000
+Partial Dec 2011,Spain,Cancellation-coded merchandise,6,-44.7799999999999993,-44.780,-0.0000000000000007
+Partial Dec 2011,Spain,Positive merchandise,64,288.2100000000000006,288.210,-0.0000000000000006
+Partial Dec 2011,Spain,Postage and carriage,1,28,28.000,0.000
+Partial Dec 2011,Sweden,Cancellation-coded merchandise,1,-238.00,-238.000,0.000
+Partial Dec 2011,Sweden,Positive merchandise,1,238.00,238.000,0.000
+Partial Dec 2011,USA,Cancellation-coded merchandise,11,-269.96,-269.960,0.000
+Partial Dec 2011,USA,Positive merchandise,32,885.2400000000000128,885.240,-0.0000000000000128
+Partial Dec 2011,United Kingdom,Cancellation-coded merchandise,269,-172969.18999999999994132,-172969.190,-0.00000000000005868
+Partial Dec 2011,United Kingdom,Discount,1,-28.68,-28.680,0.000
+Partial Dec 2011,United Kingdom,Fees and commission,4,-30508.40,-30508.400,0.000
+Partial Dec 2011,United Kingdom,Manual and accounting adjustments,12,77.2100000000000007,77.210,-0.0000000000000007
+Partial Dec 2011,United Kingdom,Positive merchandise,23566,572279.38999999999872362,572279.390,0.00000000000127638
+Partial Dec 2011,United Kingdom,Possible catalogue,1,3.29,3.290,0.000
+Partial Dec 2011,United Kingdom,Postage and carriage,19,19873.4799999999998,19873.480,0.0000000000002
+Partial Dec 2011,United Kingdom,Vouchers,1,8.33,8.330,0.000
+Partial Dec 2011,United Kingdom,Zero-priced catalogue,53,0,0.000,0.000

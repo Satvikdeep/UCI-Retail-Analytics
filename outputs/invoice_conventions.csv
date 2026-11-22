@@ -1,0 +1,8 @@
+invoice_type,quantity_sign,price_sign,lines,signed_value
+Cancellation code,-1,1,19493,-1527041.430
+Cancellation code,1,1,1,373.570
+Other invoice code,1,-1,5,-158676.140
+Other invoice code,1,1,1,11062.060
+Standard invoice,-1,0,3457,0.000
+Standard invoice,1,0,2745,0.000
+Standard invoice,1,1,1041669,20961532.508

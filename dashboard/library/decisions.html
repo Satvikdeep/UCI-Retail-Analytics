@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Decision log | Retail II</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../library.css">
+</head>
+<body class="library">
+  <a class="skip" href="#main">Skip to document</a>
+  <header class="masthead">
+    <div class="frame masthead-inner">
+      <a href="../index.html" class="wordmark" aria-label="Retail II home">Retail<span>II</span></a>
+      <nav class="utility-nav" aria-label="Project">
+        <a href="../index.html">Dashboard</a>
+        <a href="../report.html" aria-label="Executive report"><span class="full-label">Executive report</span><span class="short-label" aria-hidden="true">Report</span></a>
+        <a href="index.html" aria-label="Documentation" aria-current="page"><span class="full-label">Documentation</span><span class="short-label" aria-hidden="true">Docs</span></a>
+      </nav>
+    </div>
+  </header>
+  <div class="frame library-layout">
+    <aside class="library-index">
+      <nav aria-label="Documents">
+        <h2>Project documents</h2>
+        <div><a href="index.html">Project guide</a><a href="findings.html">Findings register</a><a href="technical.html">Technical appendix</a><a href="source.html">Source and licence</a><a href="validation.html">Validation</a><a href="decisions.html" aria-current="page">Decision log</a><a href="interview.html">Interview and learning</a><a href="progress.html">Progress and continuation</a><a href="raw.html">Raw workbook</a></div>
+      </nav>
+    </aside>
+    <main id="main" tabindex="-1">
+      <header class="doc-heading">
+        <a href="../../docs/DECISIONS.md">View Markdown</a>
+        <h1>Decision log</h1>
+      </header>
+      <article class="doc-content">
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Decision</th>
+<th>Evidence and alternatives</th>
+<th>Rationale and validation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PostgreSQL with an isolated project cluster</td>
+<td>PostgreSQL 14.19 tools were already installed. Considered an existing service or DuckDB.</td>
+<td>Preserved PostgreSQL implementation and used an owner-only Unix socket with TCP disabled. The rebuild starts and stops only the project cluster when needed.</td>
+</tr>
+<tr>
+<td>Pin the original workbook and extract standard-library OOXML</td>
+<td>The UCI 502 archive contains the expected two-sheet workbook. General spreadsheet readers may coerce identifiers and Excel prices to floats.</td>
+<td>Stream the original XML, keep the date serial and decimal price, verify headers, dates, file hash and 1,067,371 rows. No Python dependency installation is needed for rebuild.</td>
+</tr>
+<tr>
+<td>Correct the initial retain-all baseline for a verified mirrored block</td>
+<td>Initial profiling retained all rows, then found the same daily totals and 1,088 invoice IDs across the sheets. Exact full-field multiset comparison matched all 22,523 overlap rows. Within-sheet repeats remain ambiguous.</td>
+<td>Keep the later sheet’s entire overlap. Retain 11,812 other exact-looking excess rows in baseline. The corrected positive total is £19,699,784.97 versus £20,108,995.40 with mirrored merchandise included. Jan–Nov comparisons are outside the overlap. SQL and Python verified multiplicity.</td>
+</tr>
+<tr>
+<td>Separate catalogue and special-code classes</td>
+<td>Descriptions identify postage, fees and adjustments. Some nonnumeric codes resemble real products. A simple sign or invoice-prefix filter includes material fees.</td>
+<td>Main analysis uses a conservative catalogue code pattern plus observed exclusions, with possible catalogue visible. Compare broader product codes, all priced codes, collapsed repeats and extreme-line removal.</td>
+</tr>
+<tr>
+<td>Preserve raw value and normalize analytical price to 0.001 GBP</td>
+<td>Some source prices contain floating-point serialization residue. Eighteen source records have three meaningful decimal places.</td>
+<td>Store original and normalized numeric amounts. Validate unit normalization against tolerance; disclose the aggregate precision bridge. Use a different calculation in Python with integer millipounds.</td>
+</tr>
+<tr>
+<td>Use invoice ID with earliest timestamp at invoice grain</td>
+<td>Invoice IDs recur by product and some have multiple times. The consistency profile finds zero cross-date, cross-customer or cross-country IDs.</td>
+<td>Aggregate invoice values once. Use line time for cancellation matching. The population and amounts reconcile at every exported period and market key.</td>
+</tr>
+<tr>
+<td>Compare Jan–Nov and require volume plus ID coverage for named-market comparisons</td>
+<td>The workbook ends on December 9, 2011. Small markets can have very high percentage changes.</td>
+<td>Compare equal calendar months. Retain every country in the selector, show UK separately and require pooled £100k, 30 invoices and 80% ID coverage in each period for the named benchmark.</td>
+</tr>
+<tr>
+<td>Decompose change into invoice volume and average invoice value</td>
+<td>Known order counts and invoice value can explain the arithmetic change. Separating price from product and buyer mix would require stronger assumptions.</td>
+<td>Use a symmetric two-factor bridge, then isolate anonymous activity and changes outside a fixed top-five account set. Verify both bridges and retain the near-flat UK result.</td>
+</tr>
+<tr>
+<td>Use exact-key latest-first allocation and two windows</td>
+<td>Source fields contain no original-order reference. Candidate purchases can repeat and observed order quantities are finite. Considered simple nearest-row joins and omitting linkage.</td>
+<td>Use only strictly earlier sales, cap consumption and report ambiguity and unmatched balances. Show 90-day baseline and 365-day sensitivity. Sales reconciliation is independent of the inferred allocations.</td>
+</tr>
+<tr>
+<td>Focus customer risk on observed repeat and concentration</td>
+<td>Identification is incomplete and the dataset ends on a fixed day. RFM would add segmentation assumptions without a distinct management action.</td>
+<td>Show top shares alongside coverage, equal-age repeat cohorts and small denominators. Use first observed, no churn or lifetime-value label.</td>
+</tr>
+<tr>
+<td>Use a static local report and dashboard</td>
+<td>The SQL produces ready-to-use aggregate CSVs. A service or live database connection would add dependencies for reviewers.</td>
+<td>Generate a payload from the same CSVs, enable browser-only filters with documented scope and keep data read-only. The optional browser QA uses the installed Chrome and a project-scoped Playwright package.</td>
+</tr>
+</tbody>
+</table></div>
+
+      </article>
+      <footer class="page-footer">
+        <span>Retail II · UCI Online Retail II</span>
+        <a href="source.html">Source and licence</a>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

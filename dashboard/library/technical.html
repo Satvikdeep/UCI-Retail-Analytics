@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technical appendix | Retail II</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../library.css">
+</head>
+<body class="library">
+  <a class="skip" href="#main">Skip to document</a>
+  <header class="masthead">
+    <div class="frame masthead-inner">
+      <a href="../index.html" class="wordmark" aria-label="Retail II home">Retail<span>II</span></a>
+      <nav class="utility-nav" aria-label="Project">
+        <a href="../index.html">Dashboard</a>
+        <a href="../report.html" aria-label="Executive report"><span class="full-label">Executive report</span><span class="short-label" aria-hidden="true">Report</span></a>
+        <a href="index.html" aria-label="Documentation" aria-current="page"><span class="full-label">Documentation</span><span class="short-label" aria-hidden="true">Docs</span></a>
+      </nav>
+    </div>
+  </header>
+  <div class="frame library-layout">
+    <aside class="library-index">
+      <nav aria-label="Documents">
+        <h2>Project documents</h2>
+        <div><a href="index.html">Project guide</a><a href="findings.html">Findings register</a><a href="technical.html" aria-current="page">Technical appendix</a><a href="source.html">Source and licence</a><a href="validation.html">Validation</a><a href="decisions.html">Decision log</a><a href="interview.html">Interview and learning</a><a href="progress.html">Progress and continuation</a><a href="raw.html">Raw workbook</a></div>
+      </nav>
+    </aside>
+    <main id="main" tabindex="-1">
+      <header class="doc-heading">
+        <a href="../../docs/TECHNICAL.md">View Markdown</a>
+        <h1>Technical appendix</h1>
+      </header>
+      <nav class="doc-toc" aria-label="On this page"><h2>On this page</h2><div><a href="#model-and-grain">Model and grain</a><a href="#data-dictionary">Data dictionary</a><a href="#metric-dictionary">Metric dictionary</a><a href="#reconciliation-and-exception-profile">Reconciliation and exception profile</a><a href="#market-comparisons">Market comparisons</a><a href="#linkage-and-cohorts">Linkage and cohorts</a></div></nav>
+      <article class="doc-content">
+<h2 id="model-and-grain">Model and grain</h2>
+<figure class="model-flow"><figcaption>Data model</figcaption><div class="model-columns" aria-hidden="true"><span>Input</span><span>Downstream models</span></div><dl><div><dt>Original workbook · 2 worksheets</dt><dd><ul><li>raw_line · sheet + row</li></ul></dd></div><div><dt>raw_line · sheet + row</dt><dd><ul><li>classified_line · sheet + row</li></ul></dd></div><div><dt>classified_line · sheet + row</dt><dd><ul><li>invoice · invoice ID</li><li>reconciliation · period + scope + disposition</li><li>cancellation_event · sheet + row</li><li>sale_candidate · sheet + row</li></ul></dd></div><div><dt>invoice · invoice ID</dt><dd><ul><li>sales totals and monthly market marts</li><li>purchase_invoice · invoice ID with positive sales</li></ul></dd></div><div><dt>purchase_invoice · invoice ID with positive sales</dt><dd><ul><li>customer_first · customer ID</li><li>customer period · period + scope + customer</li></ul></dd></div><div><dt>customer_first · customer ID</dt><dd><ul><li>repeat cohorts · first month + market scope + age</li></ul></dd></div><div><dt>cancellation_event · sheet + row</dt><dd><ul><li>allocation · lookback + cancellation line + sale line</li></ul></dd></div><div><dt>sale_candidate · sheet + row</dt><dd><ul><li>allocation · lookback + cancellation line + sale line</li></ul></dd></div><div><dt>allocation · lookback + cancellation line + sale line</dt><dd><ul><li>link coverage, lag and mature sale cohorts</li></ul></dd></div></dl></figure>
+<p>The raw table is loaded from a checksum-pinned workbook and read by the model. Row lineage is the workbook sheet and physical row number, with the header at row 1. Each rebuild recreates the raw and model schema as a unit. Scope rollups are deliberate and overlapping. Query one scope at a time, or use disjoint country rows. For example, adding All markets, United Kingdom and Outside UK would count sales twice. The two comparison windows are disjoint, while All dates contains both. No dimension table is required.</p>
+<h2 id="data-dictionary">Data dictionary</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Source field</th>
+<th>Raw SQL field and type</th>
+<th>Analytical handling</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Invoice</td>
+<td><code>invoice text</code></td>
+<td><code>invoice_key</code> uppercased and trimmed. Six digits for standard invoices and C plus six digits for cancellation codes. Other prefixes stay visible.</td>
+</tr>
+<tr>
+<td>StockCode</td>
+<td><code>stock_code text</code></td>
+<td><code>product</code> uppercased and trimmed. Standard catalogue heuristic requires five digits with zero to two letters. Special codes are mapped before the heuristic.</td>
+</tr>
+<tr>
+<td>Description</td>
+<td><code>description text</code>, nullable</td>
+<td>Retained as entered. Conflict profiling compares trimmed uppercase nonblank descriptions by normalized stock code.</td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td><code>quantity integer</code></td>
+<td>Signed units. The extractor verifies all source quantities are integral.</td>
+</tr>
+<tr>
+<td>InvoiceDate</td>
+<td><code>invoice_at timestamp</code>, <code>excel_date_serial numeric</code></td>
+<td>Naive timestamp reconstructed to the observed precision. Earliest line time is used at invoice grain, actual line times for linkage.</td>
+</tr>
+<tr>
+<td>Price</td>
+<td><code>source_price numeric</code></td>
+<td>Source XML decimal lexeme loaded exactly. <code>unit_price</code> normalizes Excel artifacts to three decimals.</td>
+</tr>
+<tr>
+<td>Customer ID</td>
+<td><code>customer_id text</code>, nullable</td>
+<td>Trimmed <code>customer</code>; missing IDs remain anonymous.</td>
+</tr>
+<tr>
+<td>Country</td>
+<td><code>country text</code></td>
+<td>Trimmed <code>market</code>. Labels such as EIRE, Unspecified and European Community are retained. Outside UK is all source country labels other than United Kingdom.</td>
+</tr>
+<tr>
+<td>Sheet and row</td>
+<td><code>source_sheet text</code>, <code>source_row integer</code></td>
+<td>Composite primary key. Used for validation, finding unusual rows and linking capacity to source lines.</td>
+</tr>
+</tbody>
+</table></div>
+<p><code>classified_line</code> adds <code>duplicate_rank</code>, <code>code_type</code>, <code>invoice_type</code>, <code>disposition</code>, <code>raw_value</code> and <code>line_value</code>. A row where the cancellation code and transaction signs disagree remains in the category indicated by the stock code or the other catalogue adjustment bucket. Reserved scope names are validated against source countries. A purchase invoice is a distinct <code>invoice_key</code> with eligible positive merchandise. An invoice’s customer key includes the distinction between a known ID and a missing ID. Eighty-three invoice IDs have multiple line timestamps. Zero cross a date, customer or country key, which validates the use of a single invoice key for counts and country assignment.</p>
+<h2 id="metric-dictionary">Metric dictionary</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Formula and qualifying population</th>
+<th>Unit and interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raw signed transaction value</td>
+<td>Sum of signed quantity × original XML price across every workbook line, including mirrored rows and all codes</td>
+<td>GBP. Preserves source signed amounts and Excel serialization.</td>
+</tr>
+<tr>
+<td>Normalized signed value</td>
+<td>Sum of signed quantity × three-decimal unit price</td>
+<td>GBP. <code>precision_bridge = normalized − raw</code>. Aggregates use PostgreSQL numeric, with rounding for display after aggregation.</td>
+</tr>
+<tr>
+<td>Positive merchandise sales</td>
+<td>Sum of normalized amounts on retained standard-catalogue lines with positive price and quantity and a standard invoice ID</td>
+<td>GBP. Includes anonymous customers. Alias <code>gross</code>.</td>
+</tr>
+<tr>
+<td>Cancellation-coded merchandise</td>
+<td>Magnitude of retained standard-catalogue lines with a C invoice ID, negative quantity and positive price</td>
+<td>GBP, positive amount in sales marts and signed negative in the reconciliation ledger.</td>
+</tr>
+<tr>
+<td>Other catalogue adjustment</td>
+<td>Signed value of retained standard-catalogue lines outside eligible sales and cancellations with nonzero unit price</td>
+<td>GBP. Zero value in the baseline because no rows qualify. Zero-priced rows are separately counted.</td>
+</tr>
+<tr>
+<td>Excluded lines and amounts</td>
+<td>Mirrored overlaps, zero-priced catalogue, postage, fees, discounts, manual and accounting adjustments, samples, vouchers, test items, possible catalogue and unknown codes</td>
+<td>Count and signed GBP by disposition. These are explicit bridge components.</td>
+</tr>
+<tr>
+<td>Net recorded merchandise</td>
+<td>Positive merchandise − cancellation magnitude + other catalogue adjustments</td>
+<td>GBP. Recorded invoice-line sales value. Refund settlement and accounting recognition require other records.</td>
+</tr>
+<tr>
+<td>Positive sales invoices</td>
+<td>Distinct invoice IDs with gross greater than zero</td>
+<td>Invoice count. Cancellation-only and adjustment-only invoices do not qualify.</td>
+</tr>
+<tr>
+<td>Average invoice value</td>
+<td>Positive merchandise sales ÷ positive sales invoices</td>
+<td>GBP per sales invoice. Order and product mix can affect the average.</td>
+</tr>
+<tr>
+<td>Period cancellation value ratio</td>
+<td>Recorded cancellation magnitude ÷ positive sales in the same period and scope</td>
+<td>Value ratio. Calendar timing and mix affect it. A sale-cohort outcome requires an earlier-sale link and a defined follow-up window.</td>
+</tr>
+<tr>
+<td>Cancellation concentration</td>
+<td>Bucket cancellation value ÷ total cancellation value in the same period and scope</td>
+<td>Share. Rank by absolute cancellation value; show the bucket’s own gross for its period value ratio. Anonymous is a separate bucket.</td>
+</tr>
+<tr>
+<td>Identified customers</td>
+<td>Distinct nonblank customer IDs with eligible positive sales in scope</td>
+<td>Customer count. Customer IDs can appear in multiple countries, so country counts are nonadditive.</td>
+</tr>
+<tr>
+<td>ID coverage</td>
+<td>Gross on known IDs ÷ all gross</td>
+<td>Value share. Raw missing-ID row share measures a different population.</td>
+</tr>
+<tr>
+<td>Top-account shares</td>
+<td>Sum of the largest one, five or ten identified customer balances ÷ identified gross; top one also shown over all gross</td>
+<td>Value share. A top-five measure in a three-customer market covers all three known IDs. Ties resolve by text ID.</td>
+</tr>
+<tr>
+<td>Repeat purchasing</td>
+<td>A distinct second eligible invoice within the stated days after the first observed purchase, including equal timestamps with distinct invoice IDs</td>
+<td>Distinct identified customers. Attribute by first observed purchase country and allow repeat in any country. Divide the repeaters by the fully observed eligible cohort size.</td>
+</tr>
+<tr>
+<td>Cancellation line coverage</td>
+<td>Cancellation lines with any allocated units ÷ total eligible cancellation lines</td>
+<td>A full or partially covered line contributes one to the numerator.</td>
+</tr>
+<tr>
+<td>Cancellation value coverage</td>
+<td>Sum of allocated units × exact matched normalized unit price ÷ recorded cancellation magnitude</td>
+<td>Value share. Multiple plausible candidates count as inferred coverage. Unallocated value includes partial residuals.</td>
+</tr>
+<tr>
+<td>Inferred cancellation lag</td>
+<td>Actual line timestamp difference for each allocated slice</td>
+<td>Days. Lag charts weight by allocated value. No lag is assigned to unmatched units.</td>
+</tr>
+<tr>
+<td>Mature sale-cohort value ratio</td>
+<td>Within 90 days, inferred attributed cancellation value ÷ eligible identified sales value for sale lines in fully observed calendar months</td>
+<td>An inferred, value-weighted measure for linked-population eligibility. All mature identified eligible sales are in the denominator, including lines without any matched cancellation.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Zero denominators produce missing ratios. Dashboard sterling labels typically round to pence or compact units, and rates to one decimal place. Values in CSVs preserve SQL decimals. The source normalization changes aggregate signed value by less than a billionth of a pound.</p>
+<h2 id="reconciliation-and-exception-profile">Reconciliation and exception profile</h2>
+<p>The complete <a href="../../outputs/reconciliation.csv">ledger</a> assigns every raw row to one disposition. For a period and scope, sum the raw column, add the precision bridge, then remove the retained non-merchandise amount and the mirrored amount to obtain the net merchandise number. All dates and markets show these groups at dashboard reporting precision.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Document table"><table>
+<thead>
+<tr>
+<th>Row disposition</th>
+<th style="text-align:right">Records</th>
+<th style="text-align:right">Normalized signed GBP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Positive merchandise</td>
+<td style="text-align:right">1,014,945</td>
+<td style="text-align:right">19,699,784.970</td>
+</tr>
+<tr>
+<td>Cancellation-coded merchandise</td>
+<td style="text-align:right">17,973</td>
+<td style="text-align:right">−719,656.340</td>
+</tr>
+<tr>
+<td>All other retained dispositions</td>
+<td style="text-align:right">11,930</td>
+<td style="text-align:right">−70,366.512</td>
+</tr>
+<tr>
+<td>Mirrored worksheet overlap</td>
+<td style="text-align:right">22,523</td>
+<td style="text-align:right">377,488.450</td>
+</tr>
+<tr>
+<td>Total</td>
+<td style="text-align:right">1,067,371</td>
+<td style="text-align:right">19,287,250.568</td>
+</tr>
+</tbody>
+</table></div>
+<p>Non-merchandise categories use observed descriptions to interpret codes. POST, DOT and C2 are postage or carriage. AMAZONFEE, BANK CHARGES and CRUK are fees or commission. D is discount. M, B, ADJUST and ADJUST2 are manual or accounting entries. S represents samples, and the GIFT and TEST code families are kept separately. DCGS codes, PADS and SP1002 are possible catalogue items. Product-level contradictions, test entries and a zero-valued unclassified line remain traceable through the <a href="../../outputs/code_profile.csv">code profile</a>. The rule does not infer the commercial purpose of every line.</p>
+<p>The <a href="../../outputs/quality_checks.csv">quality profile</a> is on raw workbook lines unless the grain says otherwise. It contains overlapping diagnostics, including 243,007 missing customer IDs, 4,382 missing descriptions with zero signed value, 1,183 catalogue codes with multiple normalized descriptions, 6,202 lines with zero unit prices and five with negative prices. There are 22,950 negative-quantity lines and zero with zero quantity. One C-coded positive-quantity line is a discount worth £373.57. The 38 raw lines with absolute value at least £10,000 include sizeable manual and fee entries as well as merchandise. <a href="../../outputs/duplicate_profile.csv">Duplicates</a> · <a href="../../outputs/invoice_conventions.csv">Invoice signs</a> · <a href="../../outputs/extreme_lines.csv">Extreme line audit</a>.</p>
+<p>The raw grouping has 34,335 excess exact rows. The 22,523 mirrored rows come from 1,088 common invoice IDs. The comparison uses all eight source fields, including the original price and serial, and retains the later sheet’s entire multiplicity. The retained 11,812 exact-looking excess rows could include repeated legitimate order lines. The collapse sensitivity removes them one signature at a time. <a href="../../outputs/overlap_fingerprint.csv">Overlap fingerprint</a> · <a href="../../outputs/sheet_overlap.csv">Sheet-by-day comparison</a>.</p>
+<h2 id="market-comparisons">Market comparisons</h2>
+<p>Use January through November in both years. December 2009 begins on its first day. December 2010 is represented across both worksheets and deduplicated by multiset. December 2011 ends on the ninth and is marked partial. Across all markets, November peaks at £1.44m in 2010 and £1.46m in 2011. Outside UK, October 2011 exceeds November 2011. These are observed seasonal patterns over two cycles. <a href="../../outputs/monthly_sales.csv">Monthly sales</a>.</p>
+<p>Material international markets are named countries with at least £100,000 of combined Jan–Nov positive sales and, in each comparison period, 30 positive sales invoices and at least 80% ID coverage by sales value. EIRE, Netherlands, Germany, France and Australia pass. UK and Outside UK are always shown. Unspecified and European Community contribute to Outside UK totals. <a href="../../outputs/material_markets.csv">Market thresholds</a>.</p>
+<p>Let N be invoice count and A be average invoice value. The volume effect is (N₁ − N₀) × (A₀ + A₁) ÷ 2. The average value effect is (A₁ − A₀) × (N₀ + N₁) ÷ 2. The SQL uses the residual for the second effect to preserve exact additivity after numeric division. The approach splits the interaction symmetrically. It does not infer price effects, since composition can change across products and buyers. <code>growth_mix</code> measures sales from IDs observed before the period, IDs first observed during it, and anonymous purchases. It also splits sales by first invoice versus subsequent orders from IDs first observed in-period. Fixed top accounts are ranked on pooled Jan–Nov sales within scope and removed from both years. <a href="../../outputs/market_growth.csv">Growth</a> · <a href="../../outputs/growth_mix.csv">Mix</a> · <a href="../../outputs/growth_sensitivity.csv">Sensitivity</a>.</p>
+<h2 id="linkage-and-cohorts">Linkage and cohorts</h2>
+<p>The allocation processes retained cancellation lines from earliest to latest, breaking ties by sheet and row. Eligible sale candidates have the same identified customer, normalized stock code and unit price, precede the cancellation strictly and fall within a 90- or 365-day calendar lookback inclusive at the lower bound. It consumes the latest available earlier sale line first, breaking timestamp ties by invoice, sheet and row. Quantity can be split across candidates. Sale capacity is tracked independently per lookback. Several lines on one invoice count as one candidate invoice. Different country labels on the same customer ID are allowed and separately measured in the lag export. None of the allocated value in the overall snapshot crosses a country. <a href="../../sql/06_linkage.sql">Linkage SQL</a> · <a href="../../outputs/linkage_lag.csv">Lag output</a>.</p>
+<p>Each event has both an evidence class and a completion status. A single candidate invoice has one eligible observed invoice before capacity is consumed. Multiple candidates remain ambiguous even if prior cancellations exhaust some capacity. Zero allocation separates missing IDs, absent candidates and exhausted capacity. A lookback that crosses the first observed timestamp is flagged for pre-window risk. Prices, product corrections and account identity changes can prevent a genuine link. Two cancellation events with equal timestamps receive deterministic processing order. A sale at the same timestamp is outside eligibility. These inference rules apply to linkage only. The baseline sales bridge uses posted cancellation codes and amounts directly.</p>
+<p>Purchase cohorts use each customer ID’s first observed positive purchase and second distinct eligible invoice. A cohort percentage is displayed only where the whole cohort has attained the selected age. The denominator table retains immature cohorts with maturity status. For the Jan–May year comparison, the SQL sums repeaters and eligible members before dividing. Earlier cohorts have less observed purchase history before first appearance. Cohort comparisons address repeat purchasing among identifiable customers. Acquisition timing, channel and customer churn would require more evidence. There are no tests of representativeness across retailers. <a href="../../outputs/cohort_repeat.csv">Cohort measures</a> · <a href="../../outputs/repeat_comparison.csv">Equal-age comparison</a>.</p>
+
+      </article>
+      <footer class="page-footer">
+        <span>Retail II · UCI Online Retail II</span>
+        <a href="source.html">Source and licence</a>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

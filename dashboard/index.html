@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore international sales, cancellations and customer concentration in UCI Online Retail II.">
+  <title>International Sales, Cancellations &amp; Customer Risk Analytics</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="ui.js"></script>
+  <script defer src="dashboard.js"></script>
+</head>
+<body class="dashboard">
+  <a class="skip" href="#main">Skip to analysis</a>
+  <header class="masthead">
+    <div class="frame masthead-inner">
+      <a href="index.html" class="wordmark" aria-label="Retail II home">Retail<span>II</span></a>
+      <nav class="utility-nav" aria-label="Project">
+        <a href="index.html" aria-current="page">Dashboard</a>
+        <a href="report.html" aria-label="Executive report"><span class="full-label">Executive report</span><span class="short-label" aria-hidden="true">Report</span></a>
+        <a href="library/index.html" aria-label="Documentation"><span class="full-label">Documentation</span><span class="short-label" aria-hidden="true">Docs</span></a>
+      </nav>
+    </div>
+  </header>
+  <main class="frame" id="main" tabindex="-1">
+    <header class="overview-heading">
+      <div>
+        <p class="project-name">International Sales, Cancellations &amp; Customer Risk Analytics</p>
+        <h1 id="view-title">Sales overview</h1>
+        <p id="view-intro" class="intro"></p>
+      </div>
+      <dl class="coverage">
+        <div><dt>Coverage</dt><dd>Dec 2009 – Dec 2011</dd></div>
+        <div><dt>Source</dt><dd>UCI Online Retail II</dd></div>
+      </dl>
+    </header>
+    <nav class="view-nav" aria-label="Dashboard views">
+      <a href="#sales" class="nav-link">Sales overview</a>
+      <a href="#reconciliation" class="nav-link">Reconciliation</a>
+      <a href="#customers" class="nav-link">Customer risk</a>
+      <a href="#linkage" class="nav-link">Linkage &amp; quality</a>
+    </nav>
+    <form id="filters" class="filters">
+      <label>Customer market<select id="scope"></select></label>
+      <label>Period<select id="period"></select></label>
+      <label id="age-field" hidden>Follow-up age<select id="age"></select></label>
+      <label id="lookback-field" hidden>Linkage lookback<select id="lookback"></select></label>
+      <span id="filter-note" class="filter-note"></span>
+    </form>
+    <p class="sr-only" role="status" id="filter-status"></p>
+    <div id="view"></div>
+    <footer class="page-footer">
+      <span>One UK retailer · GBP throughout</span>
+      <a href="library/source.html">Source and licence</a>
+    </footer>
+  </main>
+</body>
+</html>
